@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Lucas Rosendahl | Porfolio",
+    "short_name": "Lucas Rosendahl | Porfolio",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -8,12 +8,13 @@
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-256x256.png",
-            "sizes": "256x256",
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
-    "theme_color": "#ce2f4b",
-    "background_color": "#ce2f4b",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "start_url": "https://lucasrosendahl.com",
     "display": "standalone"
 }

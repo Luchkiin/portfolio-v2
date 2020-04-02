@@ -134,7 +134,7 @@ li {
 }
 
 hr {
-	height: 2px;
+	height: 1px;
 	color: #fcfcfc;
 	background-color: #fcfcfc;
 	border: none;
@@ -171,12 +171,12 @@ p, ul, form {
 ::-webkit-scrollbar-thumb {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    border-radius: 10px;
-    background-color: #bbbbbb;
+	border-radius: 10px;
+	background-color: #bbbbbb;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #aaaaaa;
+	background-color: #aaaaaa;
 }
 
 /* Header Section
@@ -311,6 +311,12 @@ p, ul, form {
 	letter-spacing: 2.5px;
 }
 
+.divide-border {
+	width: 100%;
+	height: 1px;
+	background-color: #fcfcfc;
+}
+
 .title h2 {
 	color: #fcfcfc;
 	font-size: 1.8rem;
@@ -423,8 +429,9 @@ p, ul, form {
 	background-color: #256265;
 	opacity: 1;
 	top: 0px;
-	height: 58%;
+	height: 100%;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding-bottom: 0;
 }
 
 nav {
@@ -533,6 +540,12 @@ nav ul a {
 .open-nav .menu-bar:nth-child(3) {
 	-webkit-transform: translateY(-10px) rotate(-45deg);
 	transform: translateY(-10px) rotate(-45deg);
+}
+
+.hr-nav {
+	margin-top: .5em;
+	color: #256265;
+	display: none;
 }
 
 /* Global Section Styles
@@ -1551,7 +1564,7 @@ span.icon-github.footer:hover {
 		flex: none;
 	}
 	.nav-container ul li:first-child {
-		padding-top: 1em;
+		padding-top: 1.5em;
 	}
 	.nav-container ul li {
 		padding-bottom: 1.5em;
@@ -1571,6 +1584,10 @@ span.icon-github.footer:hover {
 		-webkit-box-pack: center;
 		justify-content: center;
 		margin: 0;
+	}
+	.nav-list-container {
+		border-top: 1px solid #fcfcfc;
+		margin-top: 2em;
 	}
 }
 
@@ -1618,6 +1635,20 @@ span.icon-github.footer:hover {
 		right: 0;
 		height: 2.5rem;
 		width: 4rem !important;
+	}
+	.top-nav-list {
+		list-style: none;
+		width: 100%;
+		height: 100%;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical !important;
+		-webkit-box-direction: normal;
+		flex-direction: column !important;
+		-webkit-box-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		align-items: center;
 	}
 	.top-nav-list li {
 		margin: 2em 0;
@@ -1840,6 +1871,22 @@ span.icon-github.footer:hover {
 }
 
 /* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	/* Navigation
+**************************/
+	/*Top Navigation*/
+	.top-nav-list {
+		-webkit-box-orient: horizontal !important;
+		-webkit-box-direction: normal !important;
+		flex-direction: row !important;
+	}
+}
+
+/* 
 	##Device = Low Resolution Tablets, Mobiles (Landscape)
 	##Screen = B/w 481px to 767px
   */
@@ -1879,6 +1926,9 @@ span.icon-github.footer:hover {
 	/* Navigation
 **********************************************************************/
 	/*Top Navigation*/
+	.sticky {
+		height: 25%;
+	}
 	.top-menu-toggle {
 		right: 0;
 		height: 2rem;
@@ -1890,18 +1940,9 @@ span.icon-github.footer:hover {
 		margin: .7rem auto;
 	}
 	.top-nav-list {
-		list-style: none;
-		width: 100%;
-		height: 100%;
-		display: -webkit-box;
-		display: flex;
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		flex-direction: row;
-		-webkit-box-pack: center;
-		justify-content: center;
-		-webkit-box-align: center;
-		align-items: center;
 	}
 	.top-nav-list li {
 		margin: 0 1em;
@@ -2149,7 +2190,7 @@ span.icon-github.footer:hover {
 	##Screen = B/w 320px to 479px
   */
 
-@media (min-width: 300px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 	/* Global Styles
 **************************/
 	/*Typography*/
@@ -2427,7 +2468,7 @@ span.icon-github.footer:hover {
 	}
 }
 
-	/* Media Print
+/* Media Print
 ********************************************************************* */
 
 @media print {}
