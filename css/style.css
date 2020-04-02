@@ -2354,7 +2354,7 @@ span.icon-github.footer:hover {
 	.work-grid {
 		grid-template-columns: repeat(1, 1fr);
 	}
-	.work-ul {
+	.work-ul ul {
 		padding-left: 2.5em !important;
 	}
 	/* Experience Section
