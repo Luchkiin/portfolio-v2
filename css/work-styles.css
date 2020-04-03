@@ -48,7 +48,7 @@ h3 {
 /*Main Navigation*/
 
 .sticky {
-    height: 53% !important;
+    height: 48% !important;
 }
 
 .nav-list-container.work {
@@ -199,6 +199,7 @@ h3 {
 @media (max-width: 1280px) {
     .nav-container.work ul li {
         padding-bottom: 1.5em;
+        font-size: 1.8rem !important; 
         margin: 0 !important;
     }
 }

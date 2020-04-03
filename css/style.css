@@ -668,42 +668,11 @@ nav ul a {
 	margin-right: 2em;
 }
 
-object {
-	height: 100%;
-	width: 100%;
-}
-
-.object-fallback-text {
-	padding: 0 2em;
-	height: 100%;
-	width: 100%;
-	display: -webkit-box;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	flex-direction: column;
-	-webkit-box-align: center;
-	align-items: center;
-	-webkit-box-pack: center;
-	justify-content: center;
-	text-align: center;
-}
-
-.object-fallback-text a {
-	text-decoration: underline;
-	color: #256265;
-}
-
 .icon-btns {
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-align: center;
 	align-items: center;
-}
-
-.icon-btns.hover {
-	width: 130px;
-	border: 2px solid #256265;
 }
 
 .icon-btn-container {
@@ -764,7 +733,7 @@ object {
 
 .contact-icon span {
 	position: absolute;
-	bottom: .65em;
+	bottom: .68em;
 	left: .75em;
 }
 

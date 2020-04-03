@@ -18,6 +18,8 @@
     <link rel="manifest" href="images/favicons/site.webmanifest">
     <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#222222">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="stylesheet" href="css/icomoon/style.css">
     <title>Lucas Rosendahl | Résumé</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154166578-1"></script>
@@ -33,13 +35,56 @@
 </head>
 
 <body>
-    <object data="resume_lucas_rosendahl.pdf" type="application/pdf">
+    <object type="application/pdf">
+        <header id="header-work">
+            <div class="main_nav work sticky">
+                <div class="container">
+                    <div class="mobile-toggle">
+                        <div class="menu-bar"></div>
+                        <div class="menu-bar"></div>
+                        <div class="menu-bar"></div>
+                    </div>
+                    <nav class="nav-container work">
+                        <div class="logo-nav">
+                            <a href="../">
+                                <img src="../images/logos/logo-header.svg" alt="Logo Image" class="logo-img-nav">
+                            </a>
+                        </div>
+                        <div class="nav-list-container work">
+                            <ul class="nav-list">
+                                <li>
+                                    <a class="nav-link" href="../">Home</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link" href="resume_lucas_rosendahl.pdf">Résumé</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <nav class="breadcrumb-container">
+                <ol class="breadcrumb-list">
+                    <li class="breadcrumb-item"><a href="../">Home</a></li>
+                    <li class="breadcrumb-item active">Résumé</li>
+                </ol>
+            </nav>
+        </div>
         <div class="object-fallback-text">
-            <p>Oh no! Looks like the browser your using doesn't support displaying PDFs!</p>
-            <p>Download my résumé <a href="resume_lucas_rosendahl.pdf"> here</a> instead</p>
+            <div class="container">
+                <p>Oh no! Looks like the browser your using doesn't support displaying PDFs.</p>
+                <p>Download my résumé <a href="resume_lucas_rosendahl.pdf"> here</a> instead</p>
+            </div>
         </div>
     </object>
 
+    <!-- JavaScript Imports
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
