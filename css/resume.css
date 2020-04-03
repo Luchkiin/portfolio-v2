@@ -148,6 +148,17 @@ object {
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+    .sticky {
+        height: 50% !important;
+    }
+    .nav-container ul li:first-child {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-container ul li {
+        padding: 2em 1em !important;
+        font-size: 1rem;
+    }
     li {
         font-size: 1.5rem !important;
     }

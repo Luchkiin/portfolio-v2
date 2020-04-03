@@ -1628,7 +1628,7 @@ span.icon-github.footer:hover {
 		align-items: center;
 	}
 	.top-nav-list li {
-		margin: 2em 0;
+		margin: 0 1em;
 	}
 	.top-nav-link {
 		font-size: 1.8rem;
@@ -1904,7 +1904,7 @@ span.icon-github.footer:hover {
 **********************************************************************/
 	/*Top Navigation*/
 	.sticky {
-		height: 25%;
+		height: 50%;
 	}
 	.top-menu-toggle {
 		right: 0;
@@ -1962,7 +1962,7 @@ span.icon-github.footer:hover {
 	.nav-list {
 		-webkit-box-orient: horizontal !important;
 		-webkit-box-direction: normal !important;
-		flex-direction: row;
+		flex-direction: row !important;
 		-webkit-box-align: center;
 		align-items: flex-end;
 		-webkit-box-pack: center;
