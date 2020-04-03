@@ -1,10 +1,12 @@
 /* Color Palette
 Black: #222222;
 White: #FCFCFC;
-Red: #ED213A;
+Green: #256265;
+Dark Green: #357f82;
 Light Grey: #F5F5F5;
 Grey: #E1E1E1;
-**************************/
+Dark Grey: #888888;
+*/
 
 /* Font Import
 **************************/
@@ -172,7 +174,7 @@ p, ul, form {
 	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 	box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
 	border-radius: 10px;
-	background-color: #bbbbbb;
+	background-color: #cccccc;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -477,6 +479,7 @@ nav ul a {
 	align-items: center;
 	-webkit-box-pack: start;
 	justify-content: start;
+	margin: 0;
 }
 
 .nav-list li {

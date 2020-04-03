@@ -1,3 +1,13 @@
+/* Color Palette
+Black: #222222;
+White: #FCFCFC;
+Green: #256265;
+Dark Green: #357f82;
+Light Grey: #F5F5F5;
+Grey: #E1E1E1;
+Dark Grey: #888888;
+*/
+
 /* Global Styles
 **************************/
 
@@ -24,13 +34,57 @@ h3 {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ED213A', endColorstr='#93291E', GradientType=1);
 }
 
+/* Navigation
+**********************************************************************/
+
 /*Main Navigation*/
+
+.sticky {
+    height: 53% !important;
+}
 
 .nav-list-container.work {
     display: -webkit-box;
     display: flex;
     -webkit-box-flex: 9;
     flex: 9;
+}
+
+/*Breadcrumb*/
+
+.breadcrumb-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 1rem 0 1rem 0;
+    list-style: none;
+}
+
+.breadcrumb-item a {
+    color: #888;
+}
+
+.breadcrumb-item a:hover {
+    color: #256265;
+}
+
+.breadcrumb-item.active {
+    color: #256265;
+}
+
+.breadcrumb-item:first-child::before {
+    content: none;
+    display: inline-block;
+    padding: 0 0.5rem;
+    color: #888;
+}
+
+.breadcrumb-item::before {
+    content: '/';
+    display: inline-block;
+    padding: 0 1rem;
+    color: #888;
 }
 
 /* Project Overview Section
@@ -136,7 +190,7 @@ h3 {
 
 @media (max-width: 1280px) {
     .nav-container.work ul li {
-        padding-bottom: 2.25em;
+        padding-bottom: 1.5em;
         margin: 0 !important;
     }
 }
