@@ -6,7 +6,6 @@ Dark Green: #357f82;
 Light Grey: #F5F5F5;
 Grey: #E1E1E1;
 Dark Grey: #888888;
-*/
 
 /* Global Styles
 **************************/
@@ -17,6 +16,15 @@ h3 {
 
 .work-ul {
     padding-left: 4em;
+	border: none !important;
+	border-bottom-right-radius: 0 !important;
+	border-top-right-radius: 0 !important;
+	background-color: none !important;
+	margin: 0 !important;
+	position: relative;
+	padding: 0 0 0 4rem !important;
+	list-style: circle !important;
+	text-align: left;
 }
 
 /* Header Styles
