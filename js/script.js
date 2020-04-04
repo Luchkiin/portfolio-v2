@@ -157,19 +157,3 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
-
-/*----------------------------------------------------*/
-/* Mobile Hover Effect
------------------------------------------------------- */
-
-$('icon-btns').on("touchstart", function (e) {
-    var link = $(this);
-    if (link.hasClass('hover')) {
-      return true;
-    } else {
-      link.addClass("hover");
-      $('icon-btns').not(this).removeClass("hover");
-      e.preventDefault();
-      return false;
-    }
-  });
