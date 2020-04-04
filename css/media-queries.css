@@ -1838,17 +1838,32 @@
 
 /* Galaxy S4, S5 and Note 3 */
 
+/* Portrait */
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+    .main_nav.resume.sticky {
+        height: 35% !important;
+    }
+}
+
 /* Landscape */
 
-@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+    .top-nav-list li {
+        margin: 0 .75em;
+    }
+    .sticky {
+        height: 50% !important;
+    }
+    .main_nav.work.sticky {
+        height: 50% !important;
+    }
+    .main_nav.resume.sticky {
+        height: 50% !important;
+    }
+}
 
-/* Galaxy S6  */
-
-/* Landscape */
-
-@media screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
-
-/* Galaxy S9/S9+  */
+/* Galaxy S8/S8+ & S9/S9+  */
 
 /* Portrait */
 
