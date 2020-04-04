@@ -47,7 +47,6 @@
         background-color: unset;
         border-radius: unset;
     }
-    
     .top-menu-toggle.open-top-nav:hover {
         background-color: unset;
         border-radius: unset;
@@ -205,7 +204,6 @@
         -webkit-transform: translateY(-12px) rotate(-45deg);
         transform: translateY(-12px) rotate(-45deg);
     }
-
     .sticky.work {
         height: 33% !important;
     }
@@ -485,7 +483,7 @@
     }
     .nav-list.resume {
         -webkit-box-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
     .nav-link.resume {
         padding: 0 2em;
@@ -1437,7 +1435,7 @@
     }
     .nav-list.resume {
         -webkit-box-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
     .nav-link.resume {
         padding: 0 2em;
@@ -1515,7 +1513,7 @@
         height: 48% !important;
     }
     .main_nav.resume.sticky {
-        height: 28% !important;
+        height: 25% !important;
     }
 }
 
@@ -1627,7 +1625,7 @@
     }
     .nav-list.resume {
         -webkit-box-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
     .nav-link.resume {
         padding: 0 2em;
@@ -1830,12 +1828,6 @@
 /* Samsung Galaxy Devices
 ********************************************************************* */
 
-/* Galaxy S3 */
-
-/* Landscape */
-
-@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
-
 /* Galaxy S4, S5 and Note 3 */
 
 /* Portrait */
@@ -1863,7 +1855,7 @@
     }
 }
 
-/* Galaxy S8/S8+ & S9/S9+  */
+/* Galaxy S9/S9+  */
 
 /* Portrait */
 
@@ -1890,6 +1882,59 @@
     }
     .nav-container ul li {
         padding: 3em 0 !important;
+    }
+    .nav-link.resume {
+        padding: 0 2em;
+    }
+    .nav-list-container.work ul li {
+        padding: 2em 0 !important;
+    }
+    .nav-list-container.resume ul li {
+        padding: 2em 0 !important;
+    }
+}
+
+/* Custom Galaxy S8/S8+  */
+
+/* Portrait */
+
+@media only screen and (min-device-width: 412px) and (max-device-width: 846px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    .main_nav.work.sticky {
+        height: 47% !important;
+    }
+    .main_nav.resume.sticky {
+        height: 27% !important;
+    }
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 412px) and (max-device-height: 846px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .top-nav-list li {
+        margin: 0 1em !important;
+    }
+    /*Title Section*/
+    .logo-img {
+        width: 60px;
+        height: 60px;
+    }
+    .title h1 {
+        font-size: 4rem !important;
+    }
+    .title h2 {
+        font-size: 1.5rem;
+    }
+    .sticky {
+        height: 45% !important;
+    }
+    .main_nav.work.sticky {
+        height: 45% !important;
+    }
+    .main_nav.resume.sticky {
+        height: 45% !important;
+    }
+    .nav-container ul li {
+        padding: 2em 0 !important;
     }
     .nav-link.resume {
         padding: 0 2em;
