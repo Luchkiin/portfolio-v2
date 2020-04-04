@@ -1,3 +1,95 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    /* Experience Section
+********************************************************************* */
+    .timeline ul {
+        margin-right: 0 auto;
+        width: 70%;
+    }
+}
+
+/* 
+	##Device = Laptops, Desktops
+	##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /*Top Navigation*/
+    .container-nav {
+        width: 86% !important;
+    }
+    .top-menu-toggle {
+        right: 0;
+    }
+    .open-top-nav .top-menu-bar:nth-child(1) {
+        -webkit-transform: translateY(10px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
+    }
+    .open-top-nav .top-menu-bar:nth-child(3) {
+        -webkit-transform: translateY(-12px) rotate(-45deg);
+        transform: translateY(-12px) rotate(-45deg);
+    }
+    /*Mobile Navigation*/
+    .mobile-toggle {
+        display: block !important;
+        right: 1.5rem;
+        width: 4.5rem;
+        top: 1.4rem;
+        height: 2.5rem;
+    }
+    .menu-bar {
+        margin: .9em 0;
+    }
+    .open-nav .menu-bar:nth-child(1) {
+        -webkit-transform: translateY(11px) rotate(45deg);
+        transform: translateY(11px) rotate(45deg);
+    }
+    .open-nav .menu-bar:nth-child(3) {
+        -webkit-transform: translateY(-11px) rotate(-45deg);
+        transform: translateY(-11px) rotate(-45deg);
+    }
+    /* Services Section
+********************************************************************* */
+    .service-grid-container-2 {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+    }
+    .tools-knowledge-wrapper {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+    }
+    .tools-wrapper {
+        margin-right: 4em;
+    }
+    .tools-knowledge-heading {
+        font-size: 2rem !important;
+    }
+    .tools-knowledge-ul li {
+        font-size: 1.5rem;
+    }
+    /* Work Section
+********************************************************************* */
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Experience Section
+********************************************************************* */
+    .timeline ul {
+        padding: 2rem;
+        width: 70%;
+        margin-right: 0;
+    }
+}
+
 @media only screen and (max-width: 1280px) {
     .logo-nav {
         -webkit-box-flex: 0;
@@ -91,10 +183,309 @@
         align-items: center;
     }
     .top-nav-list li {
-        margin: 0 1em;
+        margin: 2em 0;
     }
     .top-nav-link {
         font-size: 1.8rem;
+    }
+    .open-top-nav .top-menu-bar:nth-child(1) {
+        -webkit-transform: translateY(10px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
+    }
+    .open-top-nav .top-menu-bar:nth-child(3) {
+        -webkit-transform: translateY(-12px) rotate(-45deg);
+        transform: translateY(-12px) rotate(-45deg);
+    }
+
+    .sticky.work {
+        height: 33% !important;
+    }
+    /*Mobile Navigation*/
+    .mobile-toggle {
+        display: block !important;
+        right: -.5em;
+        width: 4.5rem;
+        top: 1.4rem;
+        height: 2.5rem;
+    }
+    .menu-bar {
+        margin: .9em 0;
+    }
+    .open-nav .menu-bar:nth-child(1) {
+        -webkit-transform: translateY(11px) rotate(45deg);
+        transform: translateY(11px) rotate(45deg);
+    }
+    .open-nav .menu-bar:nth-child(3) {
+        -webkit-transform: translateY(-11px) rotate(-45deg);
+        transform: translateY(-11px) rotate(-45deg);
+    }
+    /* Global Section Styles
+********************************************************************* */
+    .section-heading {
+        font-size: 5rem;
+    }
+    .border-heading {
+        width: 75px;
+    }
+    #back-to-top-btn {
+        right: 1rem;
+        font-size: 1.5rem;
+        width: 4rem;
+        height: 4rem;
+    }
+    /* About Section
+********************************************************************* */
+    .about-grid-container {
+        grid-template-columns: 1fr;
+        grid-gap: 5em;
+        grid-template-areas: 'profile-img' 'about-text';
+    }
+    .profile-img {
+        width: 250px;
+        height: 250px;
+        grid-area: profile-img;
+    }
+    .about-text-item {
+        grid-area: about-text;
+    }
+    .icon-text span {
+        font-size: 1.5rem;
+    }
+    /* Services Section
+********************************************************************* */
+    .service-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 0;
+    }
+    .skill-icon-container {
+        width: 10rem;
+        height: 10rem;
+    }
+    .skill-icon-container i {
+        font-size: 3rem;
+    }
+    .service-grid-container-2 {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2em;
+    }
+    .tools-knowledge-wrapper {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+    }
+    .tools-wrapper {
+        margin-right: 4em;
+    }
+    .tools-knowledge-heading {
+        font-size: 2rem !important;
+    }
+    .tools-knowledge-ul li {
+        font-size: 1.5rem;
+    }
+    /* Work Section
+********************************************************************* */
+    .work-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .work-ul {
+        padding-left: 2.5em !important;
+    }
+    /* Experience Section
+********************************************************************* */
+    .timeline ul {
+        padding: 2rem;
+        width: 70%;
+        margin-right: 0;
+    }
+    .timeline h3 {
+        font-size: 2rem !important;
+    }
+    .timeline h4 {
+        font-size: 1.5rem !important;
+    }
+    .timeline .date {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        position: relative;
+    }
+    .timeline .date::before {
+        left: -16.8rem;
+        text-align: right;
+        min-width: 12rem;
+        height: .5rem;
+        font-size: 1.2rem;
+    }
+    .timeline .date::after {
+        content: '';
+        background-color: #fcfcfc;
+        border-radius: 100%;
+        left: -2.7rem;
+        height: 1rem;
+        width: 1rem;
+    }
+    .experience-info p {
+        margin-bottom: .5em;
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .experience-list {
+        font-size: 1.2rem;
+        padding-left: 2.5em !important;
+    }
+    .experience-list li {
+        font-size: 1.2rem;
+    }
+    /* Contact Section
+********************************************************************* */
+    .contact-grid-container-1 {
+        grid-template-columns: 1fr;
+        grid-row-gap: 1.5em;
+    }
+    .contact-label {
+        font-size: 1.5rem;
+    }
+    .contact-grid-container-1 {
+        margin-bottom: 1.5em;
+    }
+    .contact-grid-container-2 {
+        margin-bottom: 1.5em;
+    }
+    input[type="email"], input[type="text"], button[type="submit"], textarea {
+        font-size: 1.5rem;
+    }
+    textarea {
+        min-height: 200px;
+        margin-bottom: 0;
+    }
+    .icon-paper-plane {
+        font-size: 1.2rem;
+        top: 1.38rem;
+        left: 1.25rem;
+    }
+    /* Footer 
+********************************************************************* */
+    footer p {
+        color: #fcfcfc;
+        font-size: 1.2rem;
+        margin: auto 0;
+    }
+    .footer-container {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+    }
+    .social-media-icons {
+        -webkit-box-ordinal-group: 3;
+        order: 2;
+    }
+    .social-media-icons li {
+        margin: .5em;
+        list-style: none;
+        margin-bottom: 0;
+    }
+    .social-media-icons a {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .social-media-icons span {
+        font-size: 1.2rem;
+    }
+    .copyright {
+        -webkit-box-ordinal-group: 3;
+        order: 2;
+        margin-top: .75em;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Global Styles
+**************************/
+    /*Typography*/
+    p {
+        font-size: 1.8rem;
+        margin-bottom: 2.5rem;
+    }
+    /*Links*/
+    /*Lists*/
+    /* Grid*/
+    .container {
+        width: 85% !important;
+        padding: 0;
+    }
+    .container-nav {
+        width: 85% !important;
+        padding: 0;
+    }
+    /* Header Section
+**********************************************************************/
+    /*Title Section*/
+    .logo-img {
+        width: 75px;
+        height: 75px;
+    }
+    .title h1 {
+        font-size: 6rem;
+    }
+    .title h2 {
+        font-size: 2rem;
+    }
+    /* Navigation
+**************************/
+    /*Top Navigation*/
+    .top-menu-toggle {
+        right: 0;
+        height: 2.5rem;
+        width: 4rem !important;
+    }
+    .top-nav-list {
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal;
+        flex-direction: row !important;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .top-nav-list li {
+        margin: 0 1.5em;
+    }
+    .top-nav-link {
+        font-size: 1.8rem;
+    }
+    .sticky {
+        height: 22%;
+    }
+    .work.sticky {
+        height: 22% !important;
+    }
+    .nav-list.resume {
+        justify-content: center;
+    }
+    .nav-link.resume {
+        padding: 0 2em;
+    }
+    .nav-container ul li {
+        padding: 1.5em 0;
+        margin: 0 !important;
     }
     .open-top-nav .top-menu-bar:nth-child(1) {
         -webkit-transform: translateY(10px) rotate(45deg);
@@ -114,6 +505,16 @@
     }
     .menu-bar {
         margin: .9em 0;
+    }
+    .nav-list {
+        -webkit-box-orient: horizontal !important;
+        -webkit-box-direction: normal !important;
+        flex-direction: row;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: space-between;
+        margin: 0;
     }
     .open-nav .menu-bar:nth-child(1) {
         -webkit-transform: translateY(11px) rotate(45deg);
@@ -904,54 +1305,6 @@
     }
 }
 
-/* Samsung Galaxy Devices
-********************************************************************* */
-
-/* Galaxy S3 */
-
-/* Landscape */
-
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
-
-/* Galaxy S4, S5 and Note 3 */
-
-/* Landscape */
-
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
-
-/* Galaxy S6  */
-
-/* Landscape */
-
-@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
-
-/* Galaxy S9/S9+  */
-
-/* Portrait */
-
-@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
-    .main_nav.resume.sticky {
-        height: 31% !important;
-    }
-    .main_nav.work.sticky {
-        height: 45% !important;
-    }
-}
-
-/* Landscape */
-
-@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
-    .main_nav.sticky {
-        height: 20% !important;
-    }
-    .nav-container ul li {
-        padding: 2em 0 !important;
-    }
-    .nav-link.resume {
-        padding: 0 2em;
-    }
-}
-
 /* iPhone Devices
 ********************************************************************* */
 
@@ -1462,5 +1815,53 @@
         -webkit-box-ordinal-group: 3;
         order: 2;
         margin-top: .75em;
+    }
+}
+
+/* Samsung Galaxy Devices
+********************************************************************* */
+
+/* Galaxy S3 */
+
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+/* Galaxy S4, S5 and Note 3 */
+
+/* Landscape */
+
+@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+/* Galaxy S6  */
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
+
+/* Galaxy S9/S9+  */
+
+/* Portrait */
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+    .main_nav.resume.sticky {
+        height: 31% !important;
+    }
+    .main_nav.work.sticky {
+        height: 45% !important;
+    }
+}
+
+/* Landscape */
+
+@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .main_nav.sticky {
+        height: 20% !important;
+    }
+    .nav-container ul li {
+        padding: 2em 0 !important;
+    }
+    .nav-link.resume {
+        padding: 0 2em;
     }
 }

@@ -246,15 +246,26 @@ p, ul, form {
 .top-menu-toggle {
 	position: absolute;
 	right: 5rem;
-	width: 4rem;
+	width: 6rem;
 	top: 2rem;
-	height: 2.5rem;
+	height: 6rem;
 	cursor: pointer;
 	z-index: 1500;
 	-webkit-transition: -webkit-transform 650ms ease-out;
 	transition: -webkit-transform 650ms ease-out;
 	transition: transform 650ms ease-out;
 	transition: transform 650ms ease-out, -webkit-transform 650ms ease-out;
+	padding-top: .75em;
+}
+
+.top-menu-toggle:hover {
+	background-color: rgba(31, 80, 83, .6);
+	border-radius: 100%;
+}
+
+.top-menu-toggle.open-top-nav:hover {
+	background-color: rgba(37, 98, 101, .6);
+	border-radius: 100%;
 }
 
 .top-menu-bar {
@@ -1444,100 +1455,6 @@ span.icon-github.footer:hover {
 	transition: all 250ms ease-out;
 }
 
-/* Media Queries
-********************************************************************* */
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-	/* Experience Section
-********************************************************************* */
-	.timeline ul {
-		margin-right: 0 auto;
-		width: 70%;
-	}
-}
-
-/* 
-	##Device = Laptops, Desktops
-	##Screen = B/w 1025px to 1280px
-  */
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-	/*Top Navigation*/
-	.container-nav {
-		width: 86% !important;
-	}
-	.top-menu-toggle {
-		right: 0;
-	}
-	.open-top-nav .top-menu-bar:nth-child(1) {
-		-webkit-transform: translateY(10px) rotate(45deg);
-		transform: translateY(10px) rotate(45deg);
-	}
-	.open-top-nav .top-menu-bar:nth-child(3) {
-		-webkit-transform: translateY(-12px) rotate(-45deg);
-		transform: translateY(-12px) rotate(-45deg);
-	}
-	/*Mobile Navigation*/
-	.mobile-toggle {
-		display: block !important;
-		right: 1.5rem;
-		width: 4.5rem;
-		top: 1.4rem;
-		height: 2.5rem;
-	}
-	.menu-bar {
-		margin: .9em 0;
-	}
-	.open-nav .menu-bar:nth-child(1) {
-		-webkit-transform: translateY(11px) rotate(45deg);
-		transform: translateY(11px) rotate(45deg);
-	}
-	.open-nav .menu-bar:nth-child(3) {
-		-webkit-transform: translateY(-11px) rotate(-45deg);
-		transform: translateY(-11px) rotate(-45deg);
-	}
-	/* Services Section
-********************************************************************* */
-	.service-grid-container-2 {
-		width: 100%;
-		grid-template-columns: 1fr 1fr;
-		grid-gap: 5em;
-	}
-	.tools-knowledge-wrapper {
-		display: -webkit-box;
-		display: flex;
-		-webkit-box-align: center;
-		align-items: center;
-		-webkit-box-pack: center;
-		justify-content: center;
-	}
-	.tools-wrapper {
-		margin-right: 4em;
-	}
-	.tools-knowledge-heading {
-		font-size: 2rem !important;
-	}
-	.tools-knowledge-ul li {
-		font-size: 1.5rem;
-	}
-	/* Work Section
-********************************************************************* */
-	.work-grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-	/* Experience Section
-********************************************************************* */
-	.timeline ul {
-		padding: 2rem;
-		width: 70%;
-		margin-right: 0;
-	}
-}
 
 /* Media Print
 ********************************************************************* */
