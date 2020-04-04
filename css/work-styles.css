@@ -54,8 +54,8 @@ h3 {
 .nav-list-container.work {
     display: -webkit-box;
     display: flex;
-    -webkit-box-flex: 9;
-    flex: 9;
+    -webkit-box-flex: 4;
+    flex: 4;
 }
 
 /*Breadcrumb*/

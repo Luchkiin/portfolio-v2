@@ -17,7 +17,7 @@ object {
 /*Main Navigation*/
 
 .sticky {
-    height: 30%;
+    height: 21%;
 }
 
 .nav-container {
@@ -62,7 +62,7 @@ object {
     display: block !important;
     right: 1.5rem;
     width: 4.5rem;
-    top: 1.4rem;
+    top: 1.6rem;
     height: 2.5rem;
 }
 

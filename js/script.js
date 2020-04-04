@@ -21,7 +21,7 @@ $('.top-nav li a').click(function () {
 
 $(window).scroll(function () {
 
-    if ($(window).scrollTop() > 500) {
+    if ($(window).scrollTop() > 250) {
         $('.main_nav').addClass('sticky');
     } else {
         $('.main_nav').removeClass('sticky');
