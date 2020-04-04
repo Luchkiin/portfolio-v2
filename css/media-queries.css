@@ -275,10 +275,7 @@
         -webkit-box-align: start;
         align-items: flex-start;
         -webkit-box-pack: start;
-        justify-content: flex-start;
-    }
-    .tools-wrapper {
-        margin-right: 4em;
+        justify-content: space-evenly;
     }
     .tools-knowledge-heading {
         font-size: 2rem !important;
@@ -571,16 +568,16 @@
     }
     .service-grid-container-2 {
         width: 100%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 2em;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 5em;
     }
     .tools-knowledge-wrapper {
         display: -webkit-box;
         display: flex;
         -webkit-box-align: start;
         align-items: flex-start;
-        -webkit-box-pack: start;
-        justify-content: flex-start;
+        -webkit-box-pack: center;
+        justify-content: center;
     }
     .tools-wrapper {
         margin-right: 4em;
