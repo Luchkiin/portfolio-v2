@@ -3,7 +3,7 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media screen and (min-width: 1281px) {
     /* Experience Section
 ********************************************************************* */
     .timeline ul {
@@ -12,12 +12,54 @@
     }
 }
 
+@media screen and (max-width: 1280px) {
+    .logo-nav {
+        -webkit-box-flex: 0;
+        flex: none;
+    }
+    .nav-container ul li:first-child {
+        padding-top: 1.5em;
+    }
+    .nav-container ul li {
+        padding-bottom: 1.5em;
+        margin: 0 !important;
+    }
+    .nav-container {
+        display: grid;
+        grid-template-rows: 1fr;
+        width: 100%;
+    }
+    .nav-list {
+        -webkit-box-orient: vertical !important;
+        -webkit-box-direction: normal !important;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin: 0;
+    }
+    .nav-list-container {
+        border-top: 1px solid #fcfcfc;
+        margin-top: 2em;
+    }
+    .top-menu-toggle:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+    
+    .top-menu-toggle.open-top-nav:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+}
+
 /* 
 	##Device = Laptops, Desktops
 	##Screen = B/w 1025px to 1280px
   */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
     /*Top Navigation*/
     .container-nav {
         width: 86% !important;
@@ -90,54 +132,12 @@
     }
 }
 
-@media only screen and (max-width: 1280px) {
-    .logo-nav {
-        -webkit-box-flex: 0;
-        flex: none;
-    }
-    .nav-container ul li:first-child {
-        padding-top: 1.5em;
-    }
-    .nav-container ul li {
-        padding-bottom: 1.5em;
-        margin: 0 !important;
-    }
-    .nav-container {
-        display: grid;
-        grid-template-rows: 1fr;
-        width: 100%;
-    }
-    .nav-list {
-        -webkit-box-orient: vertical !important;
-        -webkit-box-direction: normal !important;
-        flex-direction: column;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        margin: 0;
-    }
-    .nav-list-container {
-        border-top: 1px solid #fcfcfc;
-        margin-top: 2em;
-    }
-    .top-menu-toggle:hover {
-        background-color: unset;
-        border-radius: unset;
-    }
-    
-    .top-menu-toggle.open-top-nav:hover {
-        background-color: unset;
-        border-radius: unset;
-    }
-}
-
 /* 
 	##Device = Tablets, Ipads 
 	##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
     /* Global Styles
 **************************/
     /*Typography*/
@@ -417,7 +417,7 @@
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     /* Global Styles
 **************************/
     /*Typography*/
@@ -484,7 +484,8 @@
         height: 22% !important;
     }
     .nav-list.resume {
-        justify-content: center;
+        -webkit-box-pack: center;
+                justify-content: center;
     }
     .nav-link.resume {
         padding: 0 2em;
@@ -722,7 +723,7 @@
 	##Screen = B/w 481px to 767px
   */
 
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
     /* Global Styles
 **************************/
     /*Typography*/
@@ -1435,7 +1436,8 @@
         padding: 1.5em 0 !important;
     }
     .nav-list.resume {
-        justify-content: center;
+        -webkit-box-pack: center;
+                justify-content: center;
     }
     .nav-link.resume {
         padding: 0 2em;
@@ -1510,7 +1512,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .main_nav.work.sticky {
-        height: 41% !important;
+        height: 48% !important;
     }
     .main_nav.resume.sticky {
         height: 28% !important;
@@ -1624,7 +1626,8 @@
         margin: 0;
     }
     .nav-list.resume {
-        justify-content: center;
+        -webkit-box-pack: center;
+                justify-content: center;
     }
     .nav-link.resume {
         padding: 0 2em;
@@ -1831,43 +1834,55 @@
 
 /* Landscape */
 
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape) {}
 
 /* Galaxy S4, S5 and Note 3 */
 
 /* Landscape */
 
-@media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
 
 /* Galaxy S6  */
 
 /* Landscape */
 
-@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {}
 
 /* Galaxy S9/S9+  */
 
 /* Portrait */
 
-@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
+@media screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
     .main_nav.resume.sticky {
         height: 31% !important;
     }
     .main_nav.work.sticky {
-        height: 45% !important;
+        height: 52% !important;
     }
 }
 
 /* Landscape */
 
-@media screen and (device-width: 360px) and (device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
-    .main_nav.sticky {
-        height: 20% !important;
+@media screen and (min-device-width: 360px) and (max-device-height: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: landscape) {
+    .sticky {
+        height: 48% !important;
+    }
+    .main_nav.work.sticky {
+        height: 50% !important;
+    }
+    .main_nav.resume.sticky {
+        height: 50% !important;
     }
     .nav-container ul li {
-        padding: 2em 0 !important;
+        padding: 3em 0 !important;
     }
     .nav-link.resume {
         padding: 0 2em;
+    }
+    .nav-list-container.work ul li {
+        padding: 2em 0 !important;
+    }
+    .nav-list-container.resume ul li {
+        padding: 2em 0 !important;
     }
 }
