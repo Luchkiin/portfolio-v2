@@ -121,6 +121,15 @@
         border-top: 1px solid #fcfcfc;
         margin-top: 2em;
     }
+    .top-menu-toggle:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+    
+    .top-menu-toggle.open-top-nav:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
 }
 
 /* 
