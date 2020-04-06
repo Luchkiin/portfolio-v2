@@ -153,12 +153,6 @@ p, ul, form {
 	margin-bottom: 2.5rem;
 }
 
-/*Utilities*/
-
-.u-full-width {
-	width: 100%;
-}
-
 /*Scroll Bar Styles*/
 
 ::-webkit-scrollbar {
@@ -585,28 +579,45 @@ nav ul a {
 }
 
 #back-to-top-btn {
-	display: none;
+	display: inline-block;
 	position: fixed;
 	bottom: 12rem;
 	right: 5rem;
-	z-index: 99;
-	border: none;
+	z-index: 1000;
 	outline: none;
-	background: #357f82;
+	background-color: #357f82;
 	color: #fcfcfc;
-	font-size: 2rem;
-	cursor: pointer;
 	width: 5rem;
 	height: 5rem;
 	border-radius: 100%;
+	cursor: pointer;
+	transition: background-color .5s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
 	-webkit-animation: pulse 2s infinite;
 	animation: pulse 2s infinite;
+}
+
+#back-to-top-btn span {
+	position: absolute;
+	top: .8rem;
+	left: 1.5rem;
+	font-size: 3rem;
 }
 
 #back-to-top-btn:hover {
 	background: #256265;
 	-webkit-transition: all 250ms ease-out;
 	transition: all 250ms ease-out;
+}
+
+#back-to-top-btn:active {
+	background: #256265;
+}
+
+#back-to-top-btn.show {
+	opacity: 1;
+	visibility: visible;
 }
 
 @-webkit-keyframes pulse {
@@ -1248,7 +1259,7 @@ span.icon-github:hover {
 	justify-self: start;
 }
 
-input[type="email"], input[type="text"], button[type="submit"], textarea {
+input[type="email"], input[type="text"], textarea {
 	height: 38px;
 	padding: 6px 10px;
 	background-color: #fcfcfc;
@@ -1258,6 +1269,7 @@ input[type="email"], input[type="text"], button[type="submit"], textarea {
 	outline: none;
 	font-size: 1.8rem;
 	margin-bottom: 0 !important;
+	width: 100%;
 }
 
 .contact-label {
@@ -1267,6 +1279,8 @@ input[type="email"], input[type="text"], button[type="submit"], textarea {
 
 .input-border {
 	position: relative;
+	border-radius: 4px;
+	overflow: hidden;
 }
 
 .input-effect~.focus-border:before, .input-effect~.focus-border:after {
@@ -1296,7 +1310,6 @@ input[type="email"], input[type="text"], button[type="submit"], textarea {
 	width: 2px;
 	height: 0;
 	background-color: #357f82;
-	border-radius: 4px;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
 }
@@ -1336,7 +1349,6 @@ textarea {
 
 .send-btn {
 	background: #357f82;
-	width: 20px;
 	display: inline;
 }
 
@@ -1345,6 +1357,7 @@ button[type="submit"] {
 	height: 40px;
 	padding: .5em;
 	width: 120px;
+	font-size: 1.8rem;
 	color: #fcfcfc;
 	text-align: center;
 	margin: 0 auto;

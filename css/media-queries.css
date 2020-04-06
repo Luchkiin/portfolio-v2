@@ -240,6 +240,13 @@
         width: 4rem;
         height: 4rem;
     }
+    
+    #back-to-top-btn span {
+        position: absolute;
+        top: .6rem;
+        left: 1.2rem;
+        font-size: 2.5rem;
+    }
     /* About Section
 ********************************************************************* */
     .about-grid-container {
@@ -543,6 +550,13 @@
         width: 4rem;
         height: 4rem;
     }
+    
+    #back-to-top-btn span {
+        position: absolute;
+        top: .6rem;
+        left: 1.2rem;
+        font-size: 2.5rem;
+    }
     /* About Section
 ********************************************************************* */
     .about-grid-container {
@@ -843,6 +857,13 @@
         width: 4rem;
         height: 4rem;
     }
+    
+    #back-to-top-btn span {
+        position: absolute;
+        top: .6rem;
+        left: 1.2rem;
+        font-size: 2.5rem;
+    }
     /* About Section
 ********************************************************************* */
     .about-grid-container {
@@ -1132,12 +1153,21 @@
     .border-heading {
         width: 65px;
     }
+
     #back-to-top-btn {
         right: 1rem;
         font-size: 1.5rem;
         width: 4rem;
         height: 4rem;
     }
+    
+    #back-to-top-btn span {
+        position: absolute;
+        top: .6rem;
+        left: 1.2rem;
+        font-size: 2.5rem;
+    }
+
     /* About Section
 ********************************************************************* */
     .about-grid-container {
