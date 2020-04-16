@@ -308,6 +308,9 @@
     .work-ul {
         padding-left: 2.5em !important;
     }
+    .icon-text span {
+        font-size: 1.8rem;
+    }
     /* Experience Section
 ********************************************************************* */
     .timeline ul {
@@ -624,6 +627,9 @@
     .work-ul {
         padding-left: 2.5em !important;
     }
+    .icon-text span {
+        font-size: 1.8rem;
+    }
     /* Experience Section
 ********************************************************************* */
     .timeline ul {
@@ -894,6 +900,13 @@
     .icon-text span {
         font-size: 1.5rem;
     }
+    .icon-btn-container.resume:hover {
+        width: 120px;
+    }
+    
+    .icon-btn-container.contact:hover {
+        width: 145px;
+    }
     /* Services Section
 ********************************************************************* */
     .service-grid-container {
@@ -927,7 +940,7 @@
         font-size: 1.8rem !important;
     }
     .tools-knowledge-ul li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     /* Work Section
 ********************************************************************* */
@@ -936,6 +949,15 @@
     }
     .work-ul ul {
         padding-left: 2.5em !important;
+    }
+    .icon-btn-container.github:hover {
+        width: 110px;
+        border: 2px solid #256265;
+    }
+    
+    .icon-btn-container.demo:hover {
+        width: 138px;
+        border: 2px solid #256265;
     }
     /* Experience Section
 ********************************************************************* */
@@ -948,7 +970,7 @@
         font-size: 1.8rem !important;
     }
     .timeline h4 {
-        font-size: 1.4rem !important;
+        font-size: 1.5rem !important;
     }
     .timeline .date {
         margin-bottom: 1rem;
@@ -1204,6 +1226,13 @@
     .icon-text span {
         font-size: 1.5rem;
     }
+    .icon-btn-container.resume:hover {
+        width: 120px;
+    }
+    
+    .icon-btn-container.contact:hover {
+        width: 145px;
+    }
     /* Services Section
 ********************************************************************* */
     .service-grid-container {
@@ -1237,7 +1266,7 @@
         font-size: 1.8rem !important;
     }
     .tools-knowledge-ul li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     /* Work Section
 ********************************************************************* */
@@ -1246,6 +1275,15 @@
     }
     .work-ul ul {
         padding-left: 2.5em !important;
+    }
+    .icon-btn-container.github:hover {
+        width: 110px;
+        border: 2px solid #256265;
+    }
+    
+    .icon-btn-container.demo:hover {
+        width: 138px;
+        border: 2px solid #256265;
     }
     /* Experience Section
 ********************************************************************* */
@@ -1258,7 +1296,7 @@
         font-size: 1.8rem !important;
     }
     .timeline h4 {
-        font-size: 1.4rem !important;
+        font-size: 1.5rem !important;
     }
     .timeline .date {
         margin-bottom: 1rem;
@@ -1752,7 +1790,7 @@
         font-size: 1.8rem !important;
     }
     .tools-knowledge-ul li {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     /* Work Section
 ********************************************************************* */
@@ -1773,7 +1811,7 @@
         font-size: 1.8rem !important;
     }
     .timeline h4 {
-        font-size: 1.4rem !important;
+        font-size: 1.5rem !important;
     }
     .timeline .date {
         margin-bottom: 1rem;
