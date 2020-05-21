@@ -43,6 +43,11 @@
         border-top: 1px solid #fcfcfc;
         margin-top: 2em;
     }
+    .top-menu-toggle {
+        padding-top: .75em;
+        width: 6rem;
+        height: 6rem;
+    }
     .top-menu-toggle:hover {
         background-color: unset;
         border-radius: unset;
@@ -64,7 +69,7 @@
         width: 86% !important;
     }
     .top-menu-toggle {
-        right: 0;
+        right: -1.5rem;
     }
     .open-top-nav .top-menu-bar:nth-child(1) {
         -webkit-transform: translateY(10px) rotate(45deg);

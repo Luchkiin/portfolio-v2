@@ -78,12 +78,14 @@ h1, h2 {
 h1 {
 	font-size: 7.5rem;
 	line-height: 1.2;
+	font-family: 'Arimo', sans-serif;
 }
 
 h2 {
 	font-size: 3.6rem;
 	line-height: 1.25;
 	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
 }
 
 h3 {
@@ -92,6 +94,7 @@ h3 {
 	line-height: 1.25;
 	letter-spacing: 1.5px;
 	color: var(--black-color);
+	font-family: 'Arimo', sans-serif;
 }
 
 h4 {
@@ -99,6 +102,7 @@ h4 {
 	font-weight: 700;
 	line-height: 1.25;
 	color: var(--black-color);
+	font-family: 'Arimo', sans-serif;
 }
 
 p {
