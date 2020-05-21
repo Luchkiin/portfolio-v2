@@ -303,8 +303,8 @@ p, ul, form {
 /*Title Section*/
 
 .logo-img {
-	width: 75px;
-	height: 75px;
+	width: 150px;
+	height: 150px;
 }
 
 .title {
@@ -426,7 +426,7 @@ p, ul, form {
 .main_nav {
 	position: fixed;
 	top: 0px;
-	max-height: 75px;
+	max-height: 85px;
 	z-index: 999;
 	width: 100%;
 	padding: .75rem 0;
@@ -469,8 +469,8 @@ nav {
 }
 
 .logo-img-nav {
-	width: 50px;
-	height: 50px;
+	width: 60px;
+	height: 60px;
 }
 
 nav ul a {
