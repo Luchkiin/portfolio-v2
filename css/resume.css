@@ -127,6 +127,11 @@ object {
 	background-color: #fcfcfc;
 }
 
+.broken-file-icon {
+    width: 12.5%;
+    margin-bottom: 2rem;
+}
+
 .object-fallback-text a {
 	text-decoration: underline;
 	color: #357f82;
@@ -145,6 +150,9 @@ object {
         font-size: 1.8rem !important; 
         margin: 0 !important;
     }
+    .broken-file-icon {
+        width: 20%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -162,10 +170,16 @@ object {
     li {
         font-size: 1.5rem !important;
     }
+    .broken-file-icon {
+        width: 30%;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     li {
         font-size: 1.5rem !important;
+    }
+    .broken-file-icon {
+        width: 30%;
     }
 }
