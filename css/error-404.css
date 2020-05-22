@@ -1,0 +1,106 @@
+:root {
+	--black-color: #222222;
+	--white-color: #FCFCFC;
+	--green-color: #256265;
+	--dark-green-color: #357f82;
+	--menu-green-color: #1f5053;
+	--grey-color: #E1E1E1;
+	--light-grey-color: #F5F5F5;
+	--dark-grey-color: #888888;
+	--scroll-grey-color: #cccccc;
+	--scroll-dark-grey-color: #aaaaaa;
+	--top-menu-color: rgba(31, 80, 83, .6);
+	--top-menu-color-alt: rgba(37, 98, 101, .6);
+}
+
+.error-404-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.error-404-icon {
+    width: 12.5%;
+    margin-bottom: 2rem;
+}
+
+.error-404-title {
+    color: #222222;
+    padding-right: 1.5rem;
+    animation: type .5s alternate infinite;
+    font-size: 7.5rem;
+    margin-bottom: 2rem;
+}
+
+.error-404-container p {
+    text-align: center;
+}
+
+@keyframes type{
+    from{box-shadow: inset -3px 0px 0px #222222;}
+    to{box-shadow: inset -3px 0px 0px transparent;}
+}
+
+.home-btn-404 {
+    background-color: var(--green-color);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    font-size: 1.8rem;
+}
+
+.home-btn-404 i {
+    padding-right: .25rem;
+}
+
+.home-btn-404:hover {
+	background: var(--dark-green-color);
+	text-decoration: none;
+	-webkit-transition: background-color 250ms ease-out;
+    transition: background-color 250ms ease-out;
+    color: var(--white-color);
+}
+
+/* Media Queries
+**********************************************************************/
+@media (max-width: 1280px) {
+    .error-404-icon {
+        width: 20%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    .error-404-icon {
+        width: 20%;
+    }
+    .error-404-title {
+        font-size: 6rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .error-404-icon {
+        width: 30%;
+    }
+    .error-404-title {
+        font-size: 4rem;
+    }
+    .home-btn-404 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .error-404-icon {
+        width: 30%;
+    }
+    .error-404-title {
+        font-size: 4rem;
+    }
+    .home-btn-404 {
+        font-size: 1.5rem;
+    }
+}
