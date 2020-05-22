@@ -1,11 +1,17 @@
-/* Color Palette
-Black: #222222;
-White: #FCFCFC;
-Green: #256265;
-Dark Green: #357f82;
-Light Grey: #F5F5F5;
-Grey: #E1E1E1;
-Dark Grey: #888888;
+:root {
+	--black-color: #222222;
+	--white-color: #FCFCFC;
+	--green-color: #256265;
+	--dark-green-color: #357f82;
+	--menu-green-color: #1f5053;
+	--grey-color: #E1E1E1;
+	--light-grey-color: #F5F5F5;
+	--dark-grey-color: #888888;
+	--scroll-grey-color: #cccccc;
+	--scroll-dark-grey-color: #aaaaaa;
+	--top-menu-color: rgba(31, 80, 83, .6);
+	--top-menu-color-alt: rgba(37, 98, 101, .6);
+}
 
 /* Global Styles
 **************************/
@@ -96,6 +102,10 @@ h3 {
 .project-page-img {
     border-radius: 4px;
     margin-bottom: 2em;
+}
+
+.link-to-page {
+    text-decoration: underline;
 }
 
 /* Design Goals Section
