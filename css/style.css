@@ -1148,6 +1148,10 @@ span.icon-github:hover {
 /* Experience Section
 ********************************************************************* */
 
+.error-404 {
+	color: red;
+}
+
 #experience {
 	background-color: #F5F5F5;
 }
