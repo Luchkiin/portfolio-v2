@@ -1886,7 +1886,7 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
     .main_nav.resume.sticky {
-        height: 35% !important;
+        height: 30% !important;
     }
 }
 

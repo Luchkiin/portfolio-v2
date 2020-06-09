@@ -64,6 +64,10 @@
     color: var(--white-color);
 }
 
+.sticky {
+    height: 19% !important;
+} 
+
 /* Media Queries
 **********************************************************************/
 @media (max-width: 1280px) {
