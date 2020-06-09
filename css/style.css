@@ -524,7 +524,7 @@ nav ul a {
 
 .nav-link i:hover, .nav-link i:focus {
 	text-decoration: line-through;
-    color: var(--white-color);
+	color: var(--white-color);
 }
 
 /*Mobile Navigation*/
@@ -1295,7 +1295,7 @@ span.icon-github:hover {
 }
 
 input[type="email"], input[type="text"], textarea {
-	height: 38px;
+	height: 50px;
 	padding: 10px;
 	background-color: var(--white-color);
 	border: 1px solid #E1E1E1;
@@ -1312,6 +1312,7 @@ input[type="email"], input[type="text"], textarea {
 	line-height: 27px;
 }
 
+/*
 .input-border {
 	position: relative;
 	border-radius: 4px;
@@ -1366,6 +1367,79 @@ input[type="email"], input[type="text"], textarea {
 	height: 100%;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
+}
+*/
+
+input:focus {
+	outline: 0;
+	border-color: var(--dark-green-color);
+}
+
+textarea:focus {
+	outline: 0;
+	border-color: var(--dark-green-color);
+}
+
+input:focus+.input-icon i {
+	color: var(--dark-green-color);
+}
+
+input:focus+.input-icon:after {
+	border-right-color: var(--dark-green-color);
+}
+
+.input-group {
+	margin-bottom: 1em;
+	zoom: 1;
+}
+
+.input-group:before, .input-group:after {
+	content: "";
+	display: table;
+}
+
+.input-group:after {
+	clear: both;
+}
+
+.input-group-icon {
+	position: relative;
+}
+
+.input-group-icon input {
+	padding-left: 3.25em;
+}
+
+.input-group-icon .input-icon {
+	position: absolute;
+	top: .8em;
+	left: .5em;
+	width: 4em;
+	height: 3.4em;
+	line-height: 3.4em;
+	text-align: center;
+	pointer-events: none;
+}
+
+.input-group-icon .input-icon i {
+	font-size: 1.8em;
+	padding-top: .4em;
+	color: var(--dark-grey-color);
+}
+
+.input-group-icon .input-icon:after {
+	position: absolute;
+	top: 0.2em;
+	bottom: 0.2em;
+	left: 4.25em;
+	display: block;
+	border-right: 1px solid #e5e5e5;
+	content: "";
+	-webkit-transition: 0.35s ease-in-out;
+	-moz-transition: 0.35s ease-in-out;
+	-o-transition: 0.35s ease-in-out;
+	transition: 0.35s ease-in-out;
+	transition: all 0.35s ease-in-out;
 }
 
 .contact-grid-container-1 {

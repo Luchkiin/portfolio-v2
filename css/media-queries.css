@@ -388,6 +388,13 @@
         top: 1.65rem;
         left: 1.5rem;
     }
+    .input-group-icon .input-icon i{
+        font-size: 1.5em;
+        padding-top: .6em;
+    }
+    .input-group-icon input {
+        padding-left: 4em;
+    }
     
     /* Footer 
 ********************************************************************* */
@@ -699,6 +706,13 @@
         font-size: 1.2rem;
         top: 1.65rem;
         left: 1.5rem;
+    }
+    .input-group-icon .input-icon i{
+        font-size: 1.5em;
+        padding-top: .6em;
+    }
+    .input-group-icon input {
+        padding-left: 4em;
     }
     /* Footer 
 ********************************************************************* */
@@ -1021,6 +1035,13 @@
         top: 1.65rem;
         left: 1.5rem;
     }
+    .input-group-icon .input-icon i{
+        font-size: 1.5em;
+        padding-top: .6em;
+    }
+    .input-group-icon input {
+        padding-left: 4em;
+    }
     /* Footer
 ********************************************************************* */
     .footer-container {
@@ -1338,6 +1359,13 @@
         font-size: 1.2rem;
         top: 1.65rem;
         left: 1.5rem;
+    }
+    .input-group-icon .input-icon i{
+        font-size: 1.5em;
+        padding-top: .6em;
+    }
+    .input-group-icon input {
+        padding-left: 4em;
     }
     /* Footer
 ********************************************************************* */
@@ -1845,6 +1873,13 @@
         font-size: 1.2rem;
         top: 1.65rem;
         left: 1.5rem;
+    }
+    .input-group-icon .input-icon i{
+        font-size: 1.5em;
+        padding-top: .6em;
+    }
+    .input-group-icon input {
+        padding-left: 4em;
     }
     /* Footer 
 ********************************************************************* */
