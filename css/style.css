@@ -241,6 +241,11 @@ p, ul, form {
 	color: var(--white-color);
 }
 
+.top-nav-link i:hover, .top-nav-link i:focus {
+	text-decoration: line-through;
+	color: var(--white-color);
+}
+
 .top-nav.open-top-nav {
 	top: 0;
 	opacity: 1;
@@ -515,6 +520,11 @@ nav ul a {
 .nav-link:hover, .nav-link:focus {
 	text-decoration: line-through;
 	color: var(--white-color);
+}
+
+.nav-link i:hover, .nav-link i:focus {
+	text-decoration: line-through;
+    color: var(--white-color);
 }
 
 /*Mobile Navigation*/
@@ -1286,7 +1296,7 @@ span.icon-github:hover {
 
 input[type="email"], input[type="text"], textarea {
 	height: 38px;
-	padding: 6px 10px;
+	padding: 10px;
 	background-color: var(--white-color);
 	border: 1px solid #E1E1E1;
 	border-radius: 4px;

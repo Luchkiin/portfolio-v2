@@ -103,6 +103,14 @@ object {
 
 .breadcrumb-item a:hover {
     color: #256265;
+    transition: all 250ms ease-out;
+    text-decoration: line-through;
+}
+
+.breadcrumb-item i:hover {
+    color: #256265;
+    transition: all 250ms ease-out;
+    text-decoration: line-through;
 }
 
 .breadcrumb-item.active {
@@ -119,9 +127,11 @@ object {
 .breadcrumb-item::before {
     content: '/';
     display: inline-block;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     color: #888;
+
 }
+
 
 /* Object Fallback Text
 **********************************************************************/
@@ -187,7 +197,7 @@ object {
 }
 
 .resume-btn i {
-    padding-right: .25rem;
+    padding-right: .5rem;
 }
 
 .resume-btn:hover {
