@@ -580,30 +580,50 @@
       <form action="https://formspree.io/mqkdzqkb" method="POST">
         <div class="contact-grid-container-1">
           <div class="contact-grid-item-1">
-            <label for="name-input" class="contact-label">Name *</label>
+            <div class="contact-label-wrapper">
+              <label for="name-input" class="contact-label">Name *</label>
+            </div>
             <div class="status-name"></div>
             <div class="input-group input-group-icon">
-                <input class="input-effect name-input" id="name-input" placeholder="Name" name="name" type="text"
-                  autocomplete="off" placeholder="">
+              <input class="input-effect name-input" id="name-input" placeholder="Name" name="name" type="text"
+                autocomplete="off">
               <div class="input-icon"><i class="fa fa-user"></i></div>
             </div>
           </div>
           <div class="contact-grid-item-1">
-            <label for="email" class="contact-label">Email *</label>
+            <div class="contact-label-wrapper">
+              <label for="email" class="contact-label">Email *</label>
+            </div>
             <div class="status-email" id="status-email"></div>
             <div class="input-group input-group-icon">
-                <input class="input-effect email-input" id="email" name="email" placeholder="Email" type="email"
-                  required autocomplete="off" placeholder="">
+              <input class="input-effect email-input" id="email" name="email" placeholder="Email" type="email" required
+                autocomplete="off">
               <div class="input-icon"><i class="fas fa-envelope"></i></div>
             </div>
           </div>
         </div>
         <div class="contact-grid-container-2">
+          <div class="contact-grid-item-1">
+            <div class="contact-label-wrapper">
+              <label for="contact-concern" class="contact-label">What is your concern? *</label>
+            </div>
+            <select id="contact-concern" name="contact[customer concern]" class="select-option">
+              <option>Web Design</option>
+              <option>Web Development</option>
+              <option>Mobile Development</option>
+              <option>Partnership and marketing</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="contact-grid-container-2">
           <div class="contact-grid-item-2 input-effect">
-            <label for="message-input" class="contact-label">Message *</label>
+            <div class="contact-label-wrapper">
+              <label for="message-input" class="contact-label">Message *</label>
+            </div>
             <div class="status-message"></div>
-              <textarea class="input-effect message-input" id="message-input" placeholder="Message..." name="message"
-                autocomplete="off"></textarea>
+            <textarea class="input-effect message-input" id="message-input" placeholder="Message..." name="message"
+              autocomplete="off"></textarea>
           </div>
         </div>
         <div class="contact-grid-container-3">

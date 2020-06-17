@@ -1294,7 +1294,7 @@ span.icon-github:hover {
 	justify-self: start;
 }
 
-input[type="email"], input[type="text"], textarea {
+input[type="email"], input[type="text"], textarea, select {
 	height: 50px;
 	padding: 10px;
 	background-color: var(--white-color);
@@ -1305,6 +1305,29 @@ input[type="email"], input[type="text"], textarea {
 	font-size: 1.8rem;
 	margin-bottom: 0 !important;
 	width: 100%;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background-position: right center;
+	background-image: url(//cdn.shopify.com/s/files/1/0267/6640/9779/t/1/assets/ico-select.svg?v=4099852412562495854);
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	line-height: 1.2;
+	padding-right: 28px;
+	text-indent: 0.01px;
+	text-overflow: '';
+	cursor: pointer;
+	padding-top: 8px;
+	padding-left: 15px;
+	padding-bottom: 8px;
+	border-radius: 4px;
+}
+
+.contact-label-wrapper {
+	margin-bottom: 1em;
 }
 
 .contact-label {

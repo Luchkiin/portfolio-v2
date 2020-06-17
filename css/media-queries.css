@@ -366,17 +366,18 @@
     .contact-grid-container-1 {
         grid-template-columns: 1fr;
         grid-row-gap: 1.5em;
+        margin-bottom: 1.5em;
     }
     .contact-label {
         font-size: 1.5rem;
     }
-    .contact-grid-container-1 {
-        margin-bottom: 1.5em;
+    .input-group {
+        margin-bottom: 0;
     }
     .contact-grid-container-2 {
         margin-bottom: 1.5em;
     }
-    input[type="email"], input[type="text"], button[type="submit"], textarea {
+    input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.5rem;
     }
     textarea {
@@ -685,17 +686,18 @@
     .contact-grid-container-1 {
         grid-template-columns: 1fr;
         grid-row-gap: 1.5em;
+        margin-bottom: 1.5em;
     }
     .contact-label {
         font-size: 1.5rem;
     }
-    .contact-grid-container-1 {
-        margin-bottom: 1.5em;
+    .input-group {
+        margin-bottom: 0;
     }
     .contact-grid-container-2 {
         margin-bottom: 1.5em;
     }
-    input[type="email"], input[type="text"], button[type="submit"], textarea {
+    input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.5rem;
     }
     textarea {
@@ -1013,17 +1015,18 @@
     .contact-grid-container-1 {
         grid-template-columns: 1fr;
         grid-row-gap: 1.5em;
+        margin-bottom: 1.5em;
     }
     .contact-label {
         font-size: 1.5rem;
     }
-    .contact-grid-container-1 {
-        margin-bottom: 1.5em;
+    .input-group {
+        margin-bottom: 0;
     }
     .contact-grid-container-2 {
         margin-bottom: 1.5em;
     }
-    input[type="email"], input[type="text"], button[type="submit"], textarea {
+    input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.5rem;
     }
     textarea {
@@ -1338,17 +1341,18 @@
     .contact-grid-container-1 {
         grid-template-columns: 1fr;
         grid-row-gap: 1.5em;
+        margin-bottom: 1.5em;
     }
     .contact-label {
         font-size: 1.5rem;
     }
-    .contact-grid-container-1 {
-        margin-bottom: 1.5em;
+    .input-group {
+        margin-bottom: 0;
     }
     .contact-grid-container-2 {
         margin-bottom: 1.5em;
     }
-    input[type="email"], input[type="text"], button[type="submit"], textarea {
+    input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.5rem;
     }
     textarea {
@@ -1852,17 +1856,18 @@
     .contact-grid-container-1 {
         grid-template-columns: 1fr;
         grid-row-gap: 1.5em;
+        margin-bottom: 1.5em;
     }
     .contact-label {
         font-size: 1.5rem;
     }
-    .contact-grid-container-1 {
-        margin-bottom: 1.5em;
+    .input-group {
+        margin-bottom: 0;
     }
     .contact-grid-container-2 {
         margin-bottom: 1.5em;
     }
-    input[type="email"], input[type="text"], button[type="submit"], textarea {
+    input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.5rem;
     }
     textarea {
