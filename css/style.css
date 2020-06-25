@@ -1498,7 +1498,7 @@ button[type="submit"] {
 	text-decoration: none;
 	white-space: nowrap;
 	background: var(--green-color);
-	border-radius: 50px;
+	border-radius: 4px;
 	border: 0;
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif !important;
