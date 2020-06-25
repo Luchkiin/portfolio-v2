@@ -761,6 +761,9 @@
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
     }
+    .fonts-used-paragraph {
+        margin-top: 1.5rem;
+    }
     /* Grid*/
     .container {
         width: 85% !important;
@@ -1088,6 +1091,9 @@
     p {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+    .fonts-used-paragraph {
+        margin-top: 1.5rem;
     }
     /* Grid*/
     .container {
@@ -1618,6 +1624,9 @@
     p {
         font-size: 1.5rem;
         margin-bottom: 1.5rem;
+    }
+    .fonts-used-paragraph {
+        margin-top: 1.5rem;
     }
     /* Grid*/
     .container {
