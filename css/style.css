@@ -369,18 +369,11 @@ p, ul, form {
 	align-items: center;
 }
 
-.arrow span {
-	display: block;
-	width: 1.5rem;
-	height: 1.5rem;
-	border: 2px solid transparent;
-	border-right-color: var(--white-color);
-	border-bottom-color: var(--white-color);
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
+.arrow i {
 	-webkit-animation: arrow-down 1s alternate infinite;
 	animation: arrow-down 1s alternate infinite;
-	margin: auto;
+	color: var(--white-color);
+	font-size: 2em;
 }
 
 @-webkit-keyframes arrow-down {
@@ -1325,6 +1318,7 @@ select {
 	padding-left: 15px;
 	padding-bottom: 8px;
 	border-radius: 4px;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 .contact-label-wrapper {
