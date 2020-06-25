@@ -340,8 +340,8 @@ p, ul, form {
 
 .divide-border {
 	width: 100%;
-	height: 2px;
-	background-color: var(--white-color);
+	height: 1px;
+	background-color: var(--top-menu-color);
 }
 
 .title h2 {
