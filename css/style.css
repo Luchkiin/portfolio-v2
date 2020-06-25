@@ -459,6 +459,7 @@ p, ul, form {
 	height: 100%;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	padding-bottom: 0;
+	min-height: 87.5px;
 }
 
 nav {
