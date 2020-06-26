@@ -69,7 +69,7 @@ body.lb-disable-scrolling {
     width: 32px;
     height: 32px;
     margin: 0 auto;
-    background: url(../images/projects/lightbox/loading.gif) no-repeat;
+    background: url(../images/work/lightbox/loading.gif) no-repeat;
 }
 
 .lb-nav {
@@ -101,7 +101,7 @@ body.lb-disable-scrolling {
     left: 0;
     margin-left: 1em;
     float: left;
-    background: url(../images/projects/lightbox/prev.svg) left 48% no-repeat;
+    background: url(../images/work/lightbox/prev.svg) left 48% no-repeat;
     filter: alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity .6s;
@@ -118,7 +118,7 @@ body.lb-disable-scrolling {
     right: 0;
     margin-right: 1em;
     float: right;
-    background: url(../images/projects/lightbox/next.svg) right 48% no-repeat;
+    background: url(../images/work/lightbox/next.svg) right 48% no-repeat;
     filter: alpha(Opacity=0);
     opacity: 0;
     -webkit-transition: opacity .6s;
@@ -179,7 +179,7 @@ body.lb-disable-scrolling {
     float: right;
     width: 30px;
     height: 30px;
-    background: url(../images/projects/lightbox/close.svg) top right no-repeat;
+    background: url(../images/work/lightbox/close.svg) top right no-repeat;
     text-align: right;
     outline: 0;
     filter: alpha(Opacity=70);
