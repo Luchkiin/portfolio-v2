@@ -191,13 +191,13 @@ object {
     background-color: var(--green-color);
     color: var(--white-color) !important;
     padding: 1rem 2rem;
-    border-radius: 50px;
+    border-radius: 4px;
     font-size: 1.8rem;
     text-decoration: none !important;
 }
 
 .resume-btn i {
-    padding-right: .5rem;
+    padding-right: .75rem;
 }
 
 .resume-btn:hover {
