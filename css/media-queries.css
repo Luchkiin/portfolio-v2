@@ -245,7 +245,6 @@
         width: 4rem;
         height: 4rem;
     }
-    
     #back-to-top-btn span {
         position: absolute;
         top: .6rem;
@@ -361,6 +360,13 @@
     .experience-list li {
         font-size: 1.2rem;
     }
+    /*Lightbox Styles*/
+    .lb-data .lb-caption {
+        font-size: 1.5rem;
+    }
+    .lb-data .lb-number {
+        font-size: 1.2rem;
+    }
     /* Contact Section
 ********************************************************************* */
     .contact-grid-container-1 {
@@ -389,14 +395,13 @@
         top: 1.65rem;
         left: 1.5rem;
     }
-    .input-group-icon .input-icon i{
+    .input-group-icon .input-icon i {
         font-size: 1.5em;
         padding-top: .6em;
     }
     .input-group-icon input {
         padding-left: 4em;
     }
-    
     /* Footer 
 ********************************************************************* */
     .footer-container {
@@ -562,7 +567,6 @@
         width: 4rem;
         height: 4rem;
     }
-    
     #back-to-top-btn span {
         position: absolute;
         top: .6rem;
@@ -635,6 +639,13 @@
     }
     .icon-text span {
         font-size: 1.8rem;
+    }
+    /*Lightbox Styles*/
+    .lb-data .lb-caption {
+        font-size: 1.5rem;
+    }
+    .lb-data .lb-number {
+        font-size: 1.2rem;
     }
     /* Experience Section
 ********************************************************************* */
@@ -709,7 +720,7 @@
         top: 1.65rem;
         left: 1.5rem;
     }
-    .input-group-icon .input-icon i{
+    .input-group-icon .input-icon i {
         font-size: 1.5em;
         padding-top: .6em;
     }
@@ -878,7 +889,6 @@
         width: 4rem;
         height: 4rem;
     }
-    
     #back-to-top-btn span {
         position: absolute;
         top: .6rem;
@@ -912,7 +922,6 @@
     .icon-btn-container.resume:hover {
         width: 120px;
     }
-    
     .icon-btn-container.contact:hover {
         width: 145px;
     }
@@ -963,10 +972,16 @@
         width: 110px;
         border: 2px solid #256265;
     }
-    
     .icon-btn-container.demo:hover {
         width: 138px;
         border: 2px solid #256265;
+    }
+    /*Lightbox Styles*/
+    .lb-data .lb-caption {
+        font-size: 1.5rem;
+    }
+    .lb-data .lb-number {
+        font-size: 1.2rem;
     }
     /* Experience Section
 ********************************************************************* */
@@ -1041,7 +1056,7 @@
         top: 1.65rem;
         left: 1.5rem;
     }
-    .input-group-icon .input-icon i{
+    .input-group-icon .input-icon i {
         font-size: 1.5em;
         padding-top: .6em;
     }
@@ -1199,21 +1214,18 @@
     .border-heading {
         width: 65px;
     }
-
     #back-to-top-btn {
         right: 1rem;
         font-size: 1.5rem;
         width: 4rem;
         height: 4rem;
     }
-    
     #back-to-top-btn span {
         position: absolute;
         top: .6rem;
         left: 1.2rem;
         font-size: 2.5rem;
     }
-
     /* About Section
 ********************************************************************* */
     .about-grid-container {
@@ -1241,7 +1253,6 @@
     .icon-btn-container.resume:hover {
         width: 120px;
     }
-    
     .icon-btn-container.contact:hover {
         width: 145px;
     }
@@ -1292,10 +1303,16 @@
         width: 110px;
         border: 2px solid #256265;
     }
-    
     .icon-btn-container.demo:hover {
         width: 138px;
         border: 2px solid #256265;
+    }
+    /*Lightbox Styles*/
+    .lb-data .lb-caption {
+        font-size: 1.5rem;
+    }
+    .lb-data .lb-number {
+        font-size: 1.2rem;
     }
     /* Experience Section
 ********************************************************************* */
@@ -1370,7 +1387,7 @@
         top: 1.65rem;
         left: 1.5rem;
     }
-    .input-group-icon .input-icon i{
+    .input-group-icon .input-icon i {
         font-size: 1.5em;
         padding-top: .6em;
     }
@@ -1815,6 +1832,13 @@
     .work-ul {
         padding-left: 2.5em !important;
     }
+    /*Lightbox Styles*/
+    .lb-data .lb-caption {
+        font-size: 1.5rem;
+    }
+    .lb-data .lb-number {
+        font-size: 1.2rem;
+    }
     /* Experience Section
 ********************************************************************* */
     .timeline ul {
@@ -1888,7 +1912,7 @@
         top: 1.65rem;
         left: 1.5rem;
     }
-    .input-group-icon .input-icon i{
+    .input-group-icon .input-icon i {
         font-size: 1.5em;
         padding-top: .6em;
     }
