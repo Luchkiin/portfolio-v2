@@ -15,6 +15,10 @@ $('.top-nav li a').click(function () {
     }
 });
 
+document.querySelector('.top-menu-toggle').addEventListener('click', function() {
+    this.classList.toggle('active');
+});
+
 // Sticky Navigation Landing Page
 $(window).scroll(function () {
 
