@@ -45,16 +45,8 @@
     }
     .top-menu-toggle {
         padding-top: .75em;
-        width: 6rem;
-        height: 6rem;
-    }
-    .top-menu-toggle:hover {
-        background-color: unset;
-        border-radius: unset;
-    }
-    .top-menu-toggle.open-top-nav:hover {
-        background-color: unset;
-        border-radius: unset;
+        width: 8rem;
+        height: 8rem;
     }
 }
 
@@ -176,11 +168,67 @@
     /* Navigation
 **************************/
     /*Top Navigation*/
+    .top-menu-toggle:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+    .top-menu-toggle.open-top-nav:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
     .top-menu-toggle {
         right: -2.1em;
         height: 2.5rem;
         width: 4rem !important;
     }
+    .top-menu-toggle:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0);
+                transform: translate(32px, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0, 32px);
+                transform: translate(0, 32px);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(2) {
+        -webkit-transform: translate(8px, 8px);
+                transform: translate(8px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0px);
+                transform: translate(32px, 0px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(4) {
+        -webkit-transform: translate(8px, 24px);
+                transform: translate(8px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(6) {
+        -webkit-transform: translate(24px, 8px);
+                transform: translate(24px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0px, 32px);
+                transform: translate(0px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(8) {
+        -webkit-transform: translate(24px, 24px);
+                transform: translate(24px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
     .top-nav-list {
         list-style: none;
         width: 100%;
@@ -474,11 +522,67 @@
     /* Navigation
 **************************/
     /*Top Navigation*/
+    .top-menu-toggle:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+    .top-menu-toggle.open-top-nav:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
     .top-menu-toggle {
         right: -2.1em;
         height: 2.5rem;
         width: 4rem !important;
     }
+    .top-menu-toggle:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0);
+                transform: translate(32px, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0, 32px);
+                transform: translate(0, 32px);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(2) {
+        -webkit-transform: translate(8px, 8px);
+                transform: translate(8px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0px);
+                transform: translate(32px, 0px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(4) {
+        -webkit-transform: translate(8px, 24px);
+                transform: translate(8px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(6) {
+        -webkit-transform: translate(24px, 8px);
+                transform: translate(24px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0px, 32px);
+                transform: translate(0px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(8) {
+        -webkit-transform: translate(24px, 24px);
+                transform: translate(24px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
     .top-nav-list {
         list-style: none;
         width: 100%;
@@ -800,12 +904,68 @@
     /* Navigation
 **************************/
     /*Top Navigation*/
+    .top-menu-toggle:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+    .top-menu-toggle.open-top-nav:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
     .top-menu-toggle {
         right: -2.2em;
         height: 2rem;
         width: 3.5rem;
         top: 1em;
     }
+    .top-menu-toggle:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0);
+                transform: translate(32px, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0, 32px);
+                transform: translate(0, 32px);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(2) {
+        -webkit-transform: translate(8px, 8px);
+                transform: translate(8px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0px);
+                transform: translate(32px, 0px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(4) {
+        -webkit-transform: translate(8px, 24px);
+                transform: translate(8px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(6) {
+        -webkit-transform: translate(24px, 8px);
+                transform: translate(24px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0px, 32px);
+                transform: translate(0px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(8) {
+        -webkit-transform: translate(24px, 24px);
+                transform: translate(24px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
     .top-menu-bar {
         width: 35px;
         height: 2px;
@@ -1136,12 +1296,68 @@
     /* Navigation
 **************************/
     /*Top Navigation*/
+    .top-menu-toggle:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
+    .top-menu-toggle.open-top-nav:hover {
+        background-color: unset;
+        border-radius: unset;
+    }
     .top-menu-toggle {
         right: -2em;
         height: 2rem;
         width: 3.5rem;
         top: .5em;
     }
+    .top-menu-toggle:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0);
+                transform: translate(32px, 0);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0, 32px);
+                transform: translate(0, 32px);
+      }
+      .top-menu-toggle:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(1) {
+        -webkit-transform: translate(0, 0);
+                transform: translate(0, 0);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(2) {
+        -webkit-transform: translate(8px, 8px);
+                transform: translate(8px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(3) {
+        -webkit-transform: translate(32px, 0px);
+                transform: translate(32px, 0px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(4) {
+        -webkit-transform: translate(8px, 24px);
+                transform: translate(8px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(6) {
+        -webkit-transform: translate(24px, 8px);
+                transform: translate(24px, 8px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(7) {
+        -webkit-transform: translate(0px, 32px);
+                transform: translate(0px, 32px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(8) {
+        -webkit-transform: translate(24px, 24px);
+                transform: translate(24px, 24px);
+      }
+      .top-menu-toggle.active:hover .pix:nth-of-type(9) {
+        -webkit-transform: translate(32px, 32px);
+                transform: translate(32px, 32px);
+      }
     .top-menu-bar {
         width: 35px;
         height: 2px;
