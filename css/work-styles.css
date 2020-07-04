@@ -1,16 +1,16 @@
 :root {
-	--black-color: #222222;
-	--white-color: #FCFCFC;
-	--green-color: #256265;
-	--dark-green-color: #357f82;
-	--menu-green-color: #1f5053;
-	--grey-color: #E1E1E1;
-	--light-grey-color: #F5F5F5;
-	--dark-grey-color: #888888;
-	--scroll-grey-color: #cccccc;
-	--scroll-dark-grey-color: #aaaaaa;
-	--top-menu-color: rgba(31, 80, 83, .6);
-	--top-menu-color-alt: rgba(37, 98, 101, .6);
+    --black-color: #222222;
+    --white-color: #FCFCFC;
+    --green-color: #256265;
+    --dark-green-color: #357f82;
+    --menu-green-color: #1f5053;
+    --grey-color: #E1E1E1;
+    --light-grey-color: #F5F5F5;
+    --dark-grey-color: #888888;
+    --scroll-grey-color: #cccccc;
+    --scroll-dark-grey-color: #aaaaaa;
+    --top-menu-color: rgba(31, 80, 83, .6);
+    --top-menu-color-alt: rgba(37, 98, 101, .6);
 }
 
 /* Global Styles
@@ -56,7 +56,7 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     -webkit-box-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
     padding: 0;
     margin: 1rem 0 1rem 0;
     list-style: none;
@@ -132,6 +132,19 @@ h3 {
 
 #built-with {
     background-color: #FCFCFC;
+}
+
+.project-paragraph-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project-paragraph-img {
+    width: 50%;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    padding: 1em;
 }
 
 /* Wireframes Section
@@ -218,11 +231,18 @@ h3 {
 
 @media (min-width: 481px) and (max-width: 767px) {
     .sticky {
-        height: 50% !important; 
+        height: 50% !important;
     }
     .nav-container ul li {
         padding: 1.75em 1em;
         font-size: 1rem;
+    }
+    /* Built With Section
+**********************************************************************/
+    .project-paragraph-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 2.5em;
     }
     /* Wireframes Section
 **********************************************************************/
@@ -238,6 +258,13 @@ h3 {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+        /* Built With Section
+**********************************************************************/
+.project-paragraph-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 5em;
+}
     /* Wireframes Section
 **********************************************************************/
     .gallery {

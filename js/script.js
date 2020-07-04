@@ -15,8 +15,12 @@ $('.top-nav li a').click(function () {
     }
 });
 
-document.querySelector('.top-menu-toggle').addEventListener('click', function() {
-    this.classList.toggle('active');
+$('.top-menu-toggle').click(function () {
+    if ($('.top-menu-toggle').hasClass('open-top-nav')) {
+        $('.top-menu-toggle').addClass('active');
+    } else {
+        $('.top-menu-toggle').removeClass('active');
+    }
 });
 
 // Sticky Navigation Landing Page
@@ -142,16 +146,15 @@ $(document).ready(function () {
 
 var btn = $('#back-to-top-btn');
 
-$(window).scroll(function() {
-  if ($(window).scrollTop() > 500) {
-    btn.addClass('show');
-  } else {
-    btn.removeClass('show');
-  }
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 500) {
+        btn.addClass('show');
+    } else {
+        btn.removeClass('show');
+    }
 });
 
-btn.on('click', function(e) {
-  e.preventDefault();
-  $('html, body').animate({scrollTop:0}, '300');
+btn.on('click', function (e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: 0 }, '300');
 });
-
