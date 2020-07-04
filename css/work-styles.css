@@ -139,12 +139,18 @@ h3 {
     grid-template-columns: 1fr 1fr;
 }
 
+.work-ul-grid {
+    align-self: self-start;
+}
+
 .project-paragraph-img {
-    width: 50%;
-    margin: auto;
+    width: 55%;
     justify-self: center;
     align-self: center;
-    padding: 1em;
+}
+
+.apis-heading {
+    margin-top: 1em;
 }
 
 /* Wireframes Section
@@ -244,6 +250,9 @@ h3 {
         grid-template-columns: 1fr;
         grid-row-gap: 2.5em;
     }
+    .project-paragraph-img {
+        display: none;
+    }
     /* Wireframes Section
 **********************************************************************/
     .gallery {
@@ -258,13 +267,16 @@ h3 {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-        /* Built With Section
+    /* Built With Section
 **********************************************************************/
-.project-paragraph-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-row-gap: 5em;
-}
+    .project-paragraph-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 5em;
+    }
+    .project-paragraph-img {
+        display: none;
+    }
     /* Wireframes Section
 **********************************************************************/
     .gallery {
