@@ -1144,6 +1144,12 @@
     .experience-list li {
         font-size: 1.2rem;
     }
+    .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
+        transform: translate3d(0, 0, 0);
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
+        transform: translate3d(0, 0, 0);
+    }
     /* Contact Section
 ********************************************************************* */
     .contact-grid-container-1 {
@@ -1509,6 +1515,12 @@
     }
     .experience-list li {
         font-size: 1.2rem;
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
+        transform: translate3d(0, 0, 0);
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
+        transform: translate3d(0, 0, 0);
     }
     /* Contact Section
 ********************************************************************* */
