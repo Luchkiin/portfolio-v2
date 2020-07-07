@@ -1425,29 +1425,29 @@ span.icon-github:hover {
 
 /*Timeline effects*/
 
-.timeline ul li::after {
+.timeline .timeline-ul .timeline-li::after {
 	transition: background .5s ease-in-out;
 }
 
-.timeline ul li.in-view::after {
+.timeline .timeline-ul .timeline-li.in-view::after {
 	background: var(--green-color);
 }
 
-.timeline ul li div {
+.timeline .timeline-ul .timeline-li .timeline-li-container {
 	visibility: hidden;
 	opacity: 0;
 	transition: all .5s ease-in-out;
 }
 
-.timeline ul li:nth-child(odd) div {
+.timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
 	transform: translate3d(200px, 0, 0);
 }
 
-.timeline ul li:nth-child(even) div {
+.timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
 	transform: translate3d(-200px, 0, 0);
 }
 
-.timeline ul li.in-view div {
+.timeline .timeline-ul .timeline-li.in-view .timeline-li-container {
 	transform: none;
 	visibility: visible;
 	opacity: 1;

@@ -815,7 +815,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+  @media screen and (max-width: 650px) {
 	.timeline .timeline-ul .timeline-li {
 	  margin-left: 12px;
 	}
