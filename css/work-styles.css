@@ -147,6 +147,15 @@ h3 {
     width: 55%;
     justify-self: center;
     align-self: center;
+	visibility: hidden;
+	opacity: 0;
+    transition: all .75s ease-in-out;
+}
+
+.project-paragraph-img.in-view {
+	transform: none;
+	visibility: visible;
+	opacity: 1;
 }
 
 .apis-heading {

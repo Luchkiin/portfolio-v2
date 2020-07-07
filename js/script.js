@@ -94,7 +94,7 @@ TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 0.1 }, 0.5);
 
     'use strict';
 
-    var items = document.querySelectorAll(".timeline li");
+    var items = document.querySelectorAll(".timeline li,  .project-paragraph-img, .profile-img");
 
     // check if an element is in viewport
     // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
