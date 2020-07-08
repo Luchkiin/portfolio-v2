@@ -1099,29 +1099,19 @@ span.icon-profile:hover {
 }
 
 .javascript-icon {
-	width: 26%;
-}
-
-.progressBarValue.java {
-	background: #73a1fb;
-}
-
-.java-icon {
 	width: 30%;
-	margin-bottom: .2em;
 }
 
-.progressBarValue.c-sharp {
-	background: #9a4993;
+.progressBarValue.ux-ui {
+	background: #764B72;
 }
 
-.c-sharp-icon {
-	width: 26%;
-	margin-bottom: .1em;
+.ux-ui-icon {
+	width: 60%;
 }
 
 .progressBarValue.wireframing {
-	background: var(--black-color);
+	background: #222222;
 }
 
 .figma-icon {
