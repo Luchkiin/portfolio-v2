@@ -67,7 +67,7 @@
 }
 
 .sticky {
-    height: 19% !important;
+    height: 23% !important;
 } 
 
 /* Media Queries
@@ -78,12 +78,21 @@
     }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
     .error-404-icon {
         width: 20%;
     }
     .error-404-title {
         font-size: 6rem;
+    }
+    .sticky {
+        height: 17% !important;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) { 
+    .sticky {
+        height: 20%;
     }
 }
 
@@ -96,6 +105,9 @@
     }
     .home-btn-404 {
         font-size: 1.5rem;
+    }
+    .sticky {
+        height: 17% !important;
     }
 }
 

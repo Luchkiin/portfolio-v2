@@ -32,7 +32,7 @@ object {
 /*Main Navigation*/
 
 .sticky {
-    height: 25%;
+    height: 20%;
 }
 
 .nav-container {
@@ -42,7 +42,7 @@ object {
 }
 
 .nav-list-container {
-    border-top: 1px solid #fcfcfc;
+    border-top: 1px solid var(--top-menu-color);
     margin-top: 2em;
 }
 
@@ -219,20 +219,32 @@ object {
     .broken-file-icon {
         width: 20%;
     }
+    .sticky {
+        height: 23%;
+    }
 }
 
-@media screen and (min-width: 767px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
     .broken-file-icon {
         width: 20%;
     }
     .broken-file-title {
         font-size: 6rem;
     }
+    .sticky {
+        height: 18%;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) { 
+    .sticky {
+        height: 17%;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .sticky {
-        height: 50% !important;
+        height: 23% !important;
     }
     .nav-container ul li:first-child {
         padding-top: 0;

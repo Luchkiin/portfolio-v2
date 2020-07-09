@@ -256,7 +256,7 @@
         transform: translateY(-12px) rotate(-45deg);
     }
     .sticky.work {
-        height: 33% !important;
+        height: 34% !important;
     }
     /*Mobile Navigation*/
     .mobile-toggle {
@@ -596,10 +596,10 @@
         font-size: 1.8rem;
     }
     .sticky {
-        height: 22%;
+        height: 23%;
     }
     .work.sticky {
-        height: 22% !important;
+        height: 23% !important;
     }
     .nav-list.resume {
         -webkit-box-pack: center;
@@ -1013,8 +1013,12 @@
         transform: translateY(-8px) rotate(-45deg);
     }
     .nav-container ul li {
-        padding: 1.75em 0 !important;
+        padding-bottom: 1.5em!important;
         font-size: 1rem;
+        margin: 0!important;
+    }
+    .main_nav.work.sticky {
+        height: 42% !important;
     }
     /* Global Section Styles
 ********************************************************************* */
@@ -1774,7 +1778,7 @@
         height: 45% !important;
     }
     .main_nav.resume.sticky {
-        height: 30% !important;
+        height: 22% !important;
     }
 }
 
@@ -1830,7 +1834,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
     .main_nav.work.sticky {
-        height: 48% !important;
+        height: 42% !important;
     }
     .main_nav.resume.sticky {
         height: 25% !important;
@@ -1873,13 +1877,13 @@
         font-size: 1.5rem;
     }
     .main_nav.work.sticky {
-        height: 45% !important;
+        height: 48% !important;
     }
     .sticky {
-        height: 45%;
+        height: 48%;
     }
     .main_nav.resume.sticky {
-        height: 45% !important;
+        height: 48% !important;
     }
     /*Top Navigation*/
     .top-menu-toggle {
@@ -2164,7 +2168,7 @@
 
 @media screen and (min-device-width: 320px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
     .main_nav.resume.sticky {
-        height: 30% !important;
+        height: 22% !important;
     }
 }
 
@@ -2191,10 +2195,10 @@
 
 @media screen and (min-device-width: 360px) and (max-device-width: 740px) and (-webkit-device-pixel-ratio: 4) and (orientation: portrait) {
     .main_nav.resume.sticky {
-        height: 31% !important;
+        height: 25% !important;
     }
     .main_nav.work.sticky {
-        height: 52% !important;
+        height: 47% !important;
     }
 }
 
@@ -2208,7 +2212,7 @@
         height: 50% !important;
     }
     .main_nav.resume.sticky {
-        height: 50% !important;
+        height: 55% !important;
     }
     .nav-container ul li {
         padding: 3em 0 !important;
@@ -2261,7 +2265,7 @@
         height: 45% !important;
     }
     .main_nav.resume.sticky {
-        height: 45% !important;
+        height: 53% !important;
     }
     .nav-container ul li {
         padding: 2em 0 !important;
