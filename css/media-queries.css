@@ -31,7 +31,7 @@
         margin: 0;
     }
     .nav-list-container {
-        border-top: 1px solid #fcfcfc;
+        border-top: 1px solid var(--top-menu-color);
         margin-top: 2em;
     }
     .top-menu-toggle {
