@@ -26,7 +26,7 @@ $('.top-menu-toggle').click(function () {
 // Sticky Navigation Landing Page
 $(window).scroll(function () {
 
-    if ($(window).scrollTop() > 250) {
+    if ($(window).scrollTop() > 750) {
         $('.main_nav').addClass('sticky');
     } else {
         $('.main_nav').removeClass('sticky');
