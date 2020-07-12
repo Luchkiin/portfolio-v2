@@ -43,8 +43,9 @@ $(window).scroll(function () {
     }
 });
 
-$('.nav-list li a').click(function(e) {
-    $('a').removeClass('active-nav');
+// Adds class active-nav on clicked nav link
+$('.nav-list li a, .back-to-top-btn').click(function(e) {
+    $('a, .back-to-top-btn').removeClass('active-nav');
     $(this).addClass('active-nav');
 });
 
