@@ -671,6 +671,7 @@ nav ul a {
 
 .nav-list li {
 	margin: 0 auto;
+	transition: all 0.2s ease-in-out 0s;
 }
 
 .nav-list li:first-child {
@@ -681,13 +682,22 @@ nav ul a {
 	margin-right: 0;
 }
 
+.nav-list li:hover {
+	transform: translateY(-2px);
+	color: var(--white-color);
+}
+
 .nav-link {
 	font-size: 1.5rem;
 	color: var(--white-color);
 	letter-spacing: 1.5px;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover {
+	color: var(--white-color);
+}
+
+.active-nav, .nav-link:focus {
 	text-decoration: line-through;
 	color: var(--white-color);
 }

@@ -43,6 +43,12 @@ $(window).scroll(function () {
     }
 });
 
+$('.nav-list li a').click(function(e) {
+    $('a').removeClass('active-nav');
+    $(this).addClass('active-nav');
+});
+
+
 // Mobile Navigation
 $('.mobile-toggle').click(function () {
     if ($('.main_nav').hasClass('open-nav')) {
