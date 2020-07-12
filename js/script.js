@@ -8,18 +8,18 @@ $('.top-menu-toggle').on('click', function () {
     $('.top-nav').toggleClass('open-top-nav');
 });
 
-$('.top-nav li a').click(function () {
-    if ($('.top-nav').hasClass('open-top-nav')) {
-        $('.top-nav').removeClass('open-top-nav');
-        $('.top-menu-toggle').removeClass('open-top-nav');
-    }
-});
-
 $('.top-menu-toggle').click(function () {
     if ($('.top-menu-toggle').hasClass('open-top-nav')) {
         $('.top-menu-toggle').addClass('active');
     } else {
         $('.top-menu-toggle').removeClass('active');
+    }
+});
+
+$('.top-nav li a').click(function () {
+    if ($('.top-nav').hasClass('open-top-nav')) {
+        $('.top-nav').removeClass('open-top-nav');
+        $('.top-menu-toggle').removeClass('open-top-nav active');
     }
 });
 
