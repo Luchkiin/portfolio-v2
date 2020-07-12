@@ -201,3 +201,8 @@ btn.on('click', function (e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, '300');
 });
+
+//Removes the ID # from URL when Nav link is being clicked
+$(window).on('hashchange', function(e){
+    history.replaceState ("", document.title, e.originalEvent.oldURL);
+});
