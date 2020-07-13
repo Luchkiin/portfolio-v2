@@ -103,7 +103,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.5rem !important;
+	font-size: 1.8rem !important;
 	font-weight: 700;
 	line-height: 1.25;
 	color: var(--black-color);
@@ -1076,12 +1076,11 @@ span.icon-profile:hover {
 }
 
 .progressBar {
-	margin-bottom: 26px;
 	margin-bottom: 1.66em;
 }
 
 .progressBar h4 {
-	font-size: 16px;
+	font-size: 1.5rem !important;
 	text-transform: none;
 }
 
@@ -1257,9 +1256,8 @@ span.icon-profile:hover {
 	height: 100%;
 	opacity: 0;
 	border-radius: 4px;
-	-webkit-transition: .5s ease;
-	transition: .5s ease;
-	background-color: rgba(34, 34, 34, .75);
+	transition: opacity .5s;
+	background-color: rgba(34, 34, 34, .6);
 }
 
 .work-container:hover .work-overlay {
