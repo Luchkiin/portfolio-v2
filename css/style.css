@@ -81,7 +81,7 @@ h1, h2 {
 }
 
 h1 {
-	font-size: 7.5rem;
+	font-size: 7.4rem;
 	line-height: 1.2;
 	font-family: 'Arimo', sans-serif;
 }
@@ -94,10 +94,9 @@ h2 {
 }
 
 h3 {
-	font-size: 2.5rem !important;
+	font-size: 2.4rem !important;
 	font-weight: 700 !important;
 	line-height: 1.25;
-	letter-spacing: 1.5px;
 	color: var(--black-color);
 	font-family: 'Arimo', sans-serif;
 }
@@ -111,7 +110,7 @@ h4 {
 }
 
 p {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	text-align: justify;
 	margin-top: 0;
@@ -146,7 +145,7 @@ ul {
 li {
 	margin-bottom: 1rem;
 	font-weight: 400;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	color: var(--black-color);
 }
 
@@ -236,7 +235,7 @@ p, ul, form {
 }
 
 .top-nav-link {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	color: var(--white-color);
 	letter-spacing: 1.5px;
 }
@@ -688,7 +687,7 @@ nav ul a {
 }
 
 .nav-link {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	color: var(--white-color);
 	letter-spacing: 1.5px;
 }
@@ -912,7 +911,10 @@ nav ul a {
 	display: flex;
 	-webkit-box-align: center;
 	align-items: center;
-	margin-top: 2.5em;
+}
+
+.about-btns {
+	margin-top: 2.5rem;
 }
 
 .icon-btn-container {
@@ -1016,6 +1018,13 @@ span.icon-profile:hover {
 	width: 100%;
 }
 
+.service-grid-item {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #E1E1E1;
+	border-radius: 4px;
+}
+
 .skill-container {
 	display: -webkit-box;
 	display: flex;
@@ -1026,7 +1035,8 @@ span.icon-profile:hover {
 	justify-content: center;
 	-webkit-box-align: center;
 	align-items: center;
-	padding: 2rem;
+	padding: 4rem;
+	background-color: #e6e6e6;
 }
 
 .skill-icon-container {
@@ -1046,7 +1056,21 @@ span.icon-profile:hover {
 
 .skill-heading {
 	letter-spacing: 1.5px;
-	margin-top: 2rem;
+	padding: 1.6rem 0;
+}
+
+.skill-heading h3 {
+	font-size: 2rem !important;
+}
+
+.skill-content {
+	padding: 0 16px;
+}
+
+.skill-content p {
+	font-size: 1.6rem;
+	margin-bottom: 0;
+	padding-bottom: 16px;
 }
 
 .service-grid-container-2 {
@@ -1054,7 +1078,7 @@ span.icon-profile:hover {
 	grid-template-columns: 1.5fr 1fr;
 	grid-gap: 5em;
 	width: 100%;
-	margin-top: 2.5em;
+	margin-top: 5em;
 }
 
 .service-heading-container {
@@ -1076,11 +1100,11 @@ span.icon-profile:hover {
 }
 
 .progressBar {
-	margin-bottom: 1.66em;
+	margin-bottom: 2em;
 }
 
 .progressBar h4 {
-	font-size: 1.5rem !important;
+	font-size: 1.6rem !important;
 	text-transform: none;
 }
 
@@ -1226,6 +1250,10 @@ span.icon-profile:hover {
 	background-color: var(--white-color);
 }
 
+.work-sub-heading {
+	margin-bottom: .5em;
+}
+
 .work-grid {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -1269,7 +1297,6 @@ span.icon-profile:hover {
 
 .overlay-icon {
 	color: var(--white-color);
-	;
 	font-size: 4rem;
 	position: absolute;
 	top: 50%;
@@ -1290,6 +1317,10 @@ span.icon-profile:hover {
 
 .work-paragraph-2 {
 	margin-bottom: 1em;
+}
+
+.work-info h3 {
+	padding-bottom: .5rem;
 }
 
 .live-icon span {
@@ -1364,24 +1395,50 @@ span.icon-github:hover {
 	background: var(--green-color);
 }
 
+.timeline-li-heading {
+	display: flex;
+	justify-content: center;
+	padding: 4rem;
+	background: #e6e6e6;
+}
+
+.experience-icon-container {
+	width: 10rem;
+	height: 10rem;
+	border: var(--dark-green-color) 3px solid;
+	border-radius: 100%;
+	display: -webkit-box;
+	display: flex;
+}
+
+.experience-icon-container i {
+	color: var(--green-color);
+	font-size: 3rem;
+	margin: auto;
+}
+
+.timeline-li-content {
+	padding: 1.6rem;
+}
+
 .timeline h3 {
-	font-size: 2.5rem;
+	font-size: 2rem !important;
 	font-weight: 400;
 	margin-top: 0;
 	margin-bottom: .1em;
 }
 
-.timeline h4 {
-	font-size: 2rem !important;
+.timeline-h4 {
+	font-size: 1.6rem !important;
 	font-weight: 400;
-	margin-bottom: .25rem;
+	margin-bottom: .5rem;
 	color: #357f82;
 }
 
 .timeline-date {
 	display: block;
 	font-size: 1.2rem;
-	padding-bottom: 1.5em;
+	padding-bottom: 1.6em;
 }
 
 .experience-list {
@@ -1399,6 +1456,7 @@ span.icon-github:hover {
 
 .timeline-info p {
 	font-size: 1.6rem;
+	margin-bottom: 0;
 }
 
 .experience-list li {
@@ -1409,9 +1467,10 @@ span.icon-github:hover {
 	position: relative;
 	bottom: 0;
 	width: 400px;
-	padding: 1.5em;
-	background: #e6e6e6;
-	border-radius: 5px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #E1E1E1;
+	border-radius: 4px;
 }
 
 .timeline .timeline-ul .timeline-li .timeline-li-container::before {
@@ -1428,7 +1487,7 @@ span.icon-github:hover {
 }
 
 .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container::before {
-	left: -15px;
+	left: -16px;
 	border-width: 8px 16px 8px 0;
 	border-color: transparent var(--green-color) transparent transparent;
 }
@@ -1438,7 +1497,7 @@ span.icon-github:hover {
 }
 
 .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {
-	right: -15px;
+	right: -16px;
 	border-width: 8px 0 8px 16px;
 	border-color: transparent transparent transparent var(--green-color);
 }
@@ -1516,7 +1575,7 @@ input[type="email"], input[type="text"], textarea, select {
 	border-radius: 4px;
 	box-shadow: none;
 	outline: none;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	margin-bottom: 0 !important;
 	width: 100%;
 }
@@ -1539,12 +1598,11 @@ select {
 }
 
 .contact-label {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	line-height: 27px;
 }
 
-input, 
-select:focus {
+input, select:focus {
 	outline: 0;
 	border-color: var(--dark-green-color);
 }
@@ -1581,7 +1639,7 @@ input:focus+.input-icon:after {
 }
 
 .input-group-icon input {
-	padding-left: 3.25em;
+	padding-left: 3.8em;
 }
 
 .input-group-icon .input-icon {
@@ -1596,8 +1654,8 @@ input:focus+.input-icon:after {
 }
 
 .input-group-icon .input-icon i {
-	font-size: 1.8em;
-	padding-top: .4em;
+	font-size: 1.6em;
+	padding-top: .55em;
 	color: var(--dark-grey-color);
 }
 
@@ -1627,7 +1685,8 @@ input:focus+.input-icon:after {
 textarea {
 	min-height: 250px;
 	margin-bottom: 0;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
+	padding: 16px;
 }
 
 .send-btn {
@@ -1639,7 +1698,7 @@ button[type="submit"] {
 	height: 45px;
 	padding: .5em;
 	width: 125px;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	color: var(--white-color);
 	text-align: center;
 	margin: 0 auto;
@@ -1760,4 +1819,3 @@ span.icon-github.footer:hover {
 ********************************************************************* */
 
 @media print {}
-  

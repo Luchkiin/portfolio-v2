@@ -127,6 +127,141 @@ h3 {
     margin-top: 2.5rem;
 }
 
+.design-goals-first-paragraph {
+    margin-bottom: .5em;
+}
+
+/*Color Swatches*/
+
+.color-swatch-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.5em;
+}
+
+.color-swatch-grid-item {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E1E1E1;
+    border-radius: 4px;
+}
+
+.color-swatch {
+    padding: 4em;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+/*SCANA Color Palette*/
+
+.color-88ADA1 {
+    background-color: #88ADA1;
+}
+
+.color-222222 {
+    background-color: #222222;
+}
+
+.color-FFFFFF {
+    background-color: #ffffff;
+}
+
+.color-EEEEEE {
+    background-color: #eeeeee;
+}
+
+/*Techflake Color Palette*/
+
+.color-1FBD67 {
+    background-color: #1fbd67
+}
+
+/*Listd Color Palette*/
+
+.color-FD746C {
+    background-color: #FD746C;
+}
+
+.color-FE8E66 {
+    background-color: #FE8E66;
+}
+
+.color-333333 {
+    background-color: #333333;
+}
+
+.color-fcfcfc {
+    background-color: #FCFCFC;
+}
+
+.color-F3F3F3 {
+    background-color: #F3F3F3;
+}
+
+/*ICA Stores Locator*/
+
+.color-ED4334 {
+    background-color: #ED4334;
+}
+
+.color-999EA3 {
+    background-color: #999EA3;
+}
+
+/*Geosty*/
+
+.color-356C80 {
+    background-color: #356C80;
+}
+
+.color-39BBE7 {
+    background-color: #39BBE7;
+}
+
+.color-636867 {
+    background-color: #636867;
+}
+
+.color-636867 {
+    background-color: #636867;
+}
+
+/*BEVERA*/
+
+.color-BAAC78 {
+    background-color: #BAAC78;
+}
+
+.color-F2F2F2 {
+    background-color: #F2F2F2;
+}
+
+.design-goals-h3 {
+    margin: 1.5em 0 .5em 0;
+}
+
+.color-details {
+    padding: 16px;
+}
+
+.color-details h4 {
+    margin-bottom: 16px;
+}
+
+.color-details ul {
+    list-style: none !important;
+    margin-bottom: 0;
+}
+
+.color-details li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.color-details li:last-child {
+    margin-bottom: 0;
+}
+
 /* Built With Section
 **********************************************************************/
 
@@ -147,15 +282,15 @@ h3 {
     width: 55%;
     justify-self: center;
     align-self: center;
-	visibility: hidden;
-	opacity: 0;
+    visibility: hidden;
+    opacity: 0;
     transition: all .75s ease-in-out;
 }
 
 .project-paragraph-img.in-view {
-	transform: none;
-	visibility: visible;
-	opacity: 1;
+    transform: none;
+    visibility: visible;
+    opacity: 1;
 }
 
 .apis-heading {
@@ -193,8 +328,10 @@ h3 {
 }
 
 .gallery a {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #E1E1E1;
     border-radius: 4px;
-    border: 2px solid #E1E1E1;
 }
 
 .gallery a:hover {
@@ -208,6 +345,7 @@ h3 {
     margin: 0;
     color: #222222;
     font-weight: 700;
+    font-size: 1.6rem;
 }
 
 .mockup-overlay {
@@ -244,6 +382,28 @@ h3 {
     }
 }
 
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: portrait) {
+    /* Design Goals Section
+**********************************************************************/
+    .color-swatch-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .color-details li {
+        font-size: 1.4rem !important;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Design Goals Section
+**********************************************************************/
+    .color-swatch-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .color-details li {
+        font-size: 1.4rem !important;
+    }
+}
+
 @media (min-width: 481px) and (max-width: 767px) {
     .sticky {
         height: 50% !important;
@@ -272,6 +432,14 @@ h3 {
     h3 {
         font-size: 2rem !important;
     }
+    /* Design Goals Section
+**********************************************************************/
+    .color-swatch-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .color-details li {
+        font-size: 1.2rem !important;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -291,9 +459,17 @@ h3 {
         grid-template-columns: repeat(1, 1fr);
     }
     li {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
     }
     h3 {
         font-size: 2rem !important;
+    }
+    /* Design Goals Section
+**********************************************************************/
+    .color-swatch-grid-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .color-details li {
+        font-size: 1.2rem !important;
     }
 }

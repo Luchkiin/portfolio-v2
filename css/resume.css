@@ -192,7 +192,7 @@ object {
     color: var(--white-color) !important;
     padding: 1rem 2rem;
     border-radius: 4px;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-decoration: none !important;
 }
 
@@ -255,7 +255,7 @@ object {
         font-size: 1rem;
     }
     li {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
     }
     .broken-file-icon {
         width: 30%;
@@ -264,13 +264,13 @@ object {
         font-size: 4rem;
     }
     .resume-btn {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
     li {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
     }
     .broken-file-icon {
         width: 30%;
@@ -279,6 +279,6 @@ object {
         font-size: 4rem;
     }
     .resume-btn {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 }

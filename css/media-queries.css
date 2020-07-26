@@ -130,7 +130,7 @@
 **************************/
     /*Typography*/
     p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin-bottom: 2.5rem;
     }
     /*Links*/
@@ -350,6 +350,12 @@
     .tools-knowledge-ul li {
         font-size: 1.5rem;
     }
+    .service-grid-item {
+        margin-bottom: 2em;
+    }
+    .service-grid-item:last-child {
+        margin-bottom: 0;
+    }
     /* Work Section
 ********************************************************************* */
     .work-grid {
@@ -478,7 +484,7 @@
 **************************/
     /*Typography*/
     p {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin-bottom: 2.5rem;
     }
     /*Links*/
@@ -725,6 +731,12 @@
     .tools-knowledge-ul li {
         font-size: 1.5rem;
     }
+    .service-grid-item {
+        margin-bottom: 2em;
+    }
+    .service-grid-item:last-child {
+        margin-bottom: 0;
+    }
     /* Work Section
 ********************************************************************* */
     .work-grid {
@@ -833,10 +845,6 @@
     }
 }
 
-  @media screen and (max-width: 650px) {
-
-  }
-
 /* 
 	##Device = Low Resolution Tablets, Mobiles (Landscape)
 	##Screen = B/w 481px to 767px
@@ -847,10 +855,10 @@
 **************************/
     /*Typography*/
     h4 {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
     }
     p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-bottom: 1.5rem;
     }
     .fonts-used-paragraph {
@@ -880,6 +888,9 @@
     }
     /* Navigation
 **************************/
+    .nav-link {
+        font-size: 1.4rem;
+    }
     /*Top Navigation*/
     .hidden-logo-full-width {
         display: block;
@@ -1108,6 +1119,12 @@
     .tools-knowledge-ul li {
         font-size: 1.5rem;
     }
+    .service-grid-item {
+        margin-bottom: 2em;
+    }
+    .service-grid-item:last-child {
+        margin-bottom: 0;
+    }
     /* Work Section
 ********************************************************************* */
     .work-grid {
@@ -1144,6 +1161,13 @@
         font-size: 1.2rem;
         text-align: left;
     }
+    .experience-icon-container {
+        width: 8rem;
+        height: 8rem;
+    }
+    .experience-icon-container i {
+        font-size: 2rem;
+    }
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 350px;
     }
@@ -1173,15 +1197,15 @@
     }
     .timeline .timeline-ul .timeline-li {
         margin-left: 12px;
-      }
-      .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
         left: 45px;
-      }
-      .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {
         left: -15px;
         border-width: 8px 16px 8px 0;
         border-color: transparent var(--green-color) transparent transparent;
-      }
+    }
     /* Contact Section
 ********************************************************************* */
     .contact-grid-container-1 {
@@ -1258,10 +1282,10 @@
 **************************/
     /*Typography*/
     h4 {
-        font-size: 1.5rem !important;
+        font-size: 1.4rem !important;
     }
     p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-bottom: 1.5rem;
     }
     .fonts-used-paragraph {
@@ -1292,6 +1316,9 @@
     /* Navigation
 **************************/
     /*Top Navigation*/
+    .nav-link {
+        font-size: 1.4rem;
+    }
     .hidden-logo-full-width {
         display: block;
     }
@@ -1511,6 +1538,12 @@
     .tools-knowledge-ul li {
         font-size: 1.5rem;
     }
+    .service-grid-item {
+        margin-bottom: 2em;
+    }
+    .service-grid-item:last-child {
+        margin-bottom: 0;
+    }
     /* Work Section
 ********************************************************************* */
     .work-grid {
@@ -1547,9 +1580,16 @@
         font-size: 1.2rem;
         text-align: left;
     }
+    .experience-icon-container {
+        width: 8rem;
+        height: 8rem;
+    }
+    .experience-icon-container i {
+        font-size: 2rem;
+    }
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 250px;
-      }
+    }
     .experience-list {
         font-size: 1.2rem;
         padding-left: 2.5em !important;
@@ -1565,15 +1605,15 @@
     }
     .timeline .timeline-ul .timeline-li {
         margin-left: 12px;
-      }
-      .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
         left: 45px;
-      }
-      .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {
         left: -15px;
         border-width: 8px 16px 8px 0;
         border-color: transparent var(--green-color) transparent transparent;
-      }
+    }
     /* Contact Section
 ********************************************************************* */
     .contact-grid-container-1 {
