@@ -609,7 +609,7 @@ p, ul, form {
 }
 
 .open-nav {
-	max-height: 450px !important;
+	max-height: 410px !important;
 }
 
 .sticky {
@@ -1455,12 +1455,12 @@ span.icon-github:hover {
 }
 
 .timeline-info p {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 	margin-bottom: 0;
 }
 
 .experience-list li {
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 
 .timeline .timeline-ul .timeline-li .timeline-li-container {

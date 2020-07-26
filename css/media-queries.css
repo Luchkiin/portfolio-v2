@@ -105,11 +105,8 @@
     .tools-wrapper {
         margin-right: 4em;
     }
-    .tools-knowledge-heading {
-        font-size: 2rem !important;
-    }
     .tools-knowledge-ul li {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     /* Work Section
 ********************************************************************* */
@@ -344,11 +341,8 @@
         -webkit-box-pack: start;
         justify-content: space-evenly;
     }
-    .tools-knowledge-heading {
-        font-size: 2rem !important;
-    }
     .tools-knowledge-ul li {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .service-grid-item {
         margin-bottom: 2em;
@@ -424,7 +418,7 @@
         margin-bottom: 1.5em;
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     textarea {
         min-height: 200px;
@@ -436,7 +430,7 @@
         left: 1.5rem;
     }
     .input-group-icon .input-icon i {
-        font-size: 1.5em;
+        font-size: 1.6em;
         padding-top: .6em;
     }
     .input-group-icon input {
@@ -725,11 +719,8 @@
     .tools-wrapper {
         margin-right: 4em;
     }
-    .tools-knowledge-heading {
-        font-size: 2rem !important;
-    }
     .tools-knowledge-ul li {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     .service-grid-item {
         margin-bottom: 2em;
@@ -795,7 +786,7 @@
         margin-bottom: 1.5em;
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
     textarea {
         min-height: 200px;
@@ -807,7 +798,7 @@
         left: 1.5rem;
     }
     .input-group-icon .input-icon i {
-        font-size: 1.5em;
+        font-size: 1.6em;
         padding-top: .6em;
     }
     .input-group-icon input {
@@ -855,7 +846,7 @@
 **************************/
     /*Typography*/
     h4 {
-        font-size: 1.4rem !important;
+        font-size: 1.8rem !important;
     }
     p {
         font-size: 1.4rem;
@@ -983,7 +974,7 @@
         margin: 1.5em 0;
     }
     .top-nav-link {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .open-top-nav .top-menu-bar:nth-child(1) {
         -webkit-transform: translateY(10px) rotate(45deg);
@@ -1028,7 +1019,6 @@
     }
     .nav-container ul li {
         padding-bottom: 1.5em!important;
-        font-size: 1rem;
         margin: 0!important;
     }
     .main_nav.work.sticky {
@@ -1117,13 +1107,19 @@
         font-size: 1.8rem !important;
     }
     .tools-knowledge-ul li {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .service-grid-item {
         margin-bottom: 2em;
     }
     .service-grid-item:last-child {
         margin-bottom: 0;
+    }
+    .skill-content p {
+        font-size: 1.4rem;
+    }
+    .progressBar h4 {
+        font-size: 1.4rem !important;
     }
     /* Work Section
 ********************************************************************* */
@@ -1223,7 +1219,7 @@
         margin-bottom: 1.5em;
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     textarea {
         min-height: 200px;
@@ -1235,11 +1231,11 @@
         left: 1.5rem;
     }
     .input-group-icon .input-icon i {
-        font-size: 1.5em;
-        padding-top: .6em;
+        font-size: 1.4em;
+        padding-top: .725em;
     }
     .input-group-icon input {
-        padding-left: 4em;
+        padding-left: 4.5em;
     }
     /* Footer
 ********************************************************************* */
@@ -1282,7 +1278,7 @@
 **************************/
     /*Typography*/
     h4 {
-        font-size: 1.4rem !important;
+        font-size: 1.8rem !important;
     }
     p {
         font-size: 1.4rem;
@@ -1410,7 +1406,7 @@
         margin: 1.5em 0;
     }
     .top-nav-link {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .open-top-nav .top-menu-bar:nth-child(1) {
         -webkit-transform: translateY(10px) rotate(45deg);
@@ -1536,13 +1532,19 @@
         font-size: 1.8rem !important;
     }
     .tools-knowledge-ul li {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     .service-grid-item {
         margin-bottom: 2em;
     }
     .service-grid-item:last-child {
         margin-bottom: 0;
+    }
+    .skill-content p {
+        font-size: 1.4rem;
+    }
+    .progressBar h4 {
+        font-size: 1.4rem !important;
     }
     /* Work Section
 ********************************************************************* */
@@ -1631,7 +1633,7 @@
         margin-bottom: 1.5em;
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     textarea {
         min-height: 200px;
@@ -1643,11 +1645,11 @@
         left: 1.5rem;
     }
     .input-group-icon .input-icon i {
-        font-size: 1.5em;
-        padding-top: .6em;
+        font-size: 1.4em;
+        padding-top: .725em;
     }
     .input-group-icon input {
-        padding-left: 4em;
+        padding-left: 4.5em;
     }
     /* Footer
 ********************************************************************* */
