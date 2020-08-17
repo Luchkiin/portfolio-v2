@@ -149,6 +149,7 @@ h3 {
 .color-swatch {
     padding: 4em;
     border-bottom: 1px solid #E1E1E1;
+    border-radius: 8px 8px 0 0;
 }
 
 /*SCANA Color Palette*/
