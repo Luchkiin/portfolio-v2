@@ -1023,6 +1023,7 @@ span.icon-profile:hover {
 	border-style: solid;
 	border-color: #E1E1E1;
 	border-radius: 8px;
+	overflow: hidden;
 }
 
 .skill-container {
@@ -1400,6 +1401,8 @@ span.icon-github:hover {
 	justify-content: center;
 	padding: 4rem;
 	background: #e6e6e6;
+	overflow: hidden;
+	border-radius: 8px 8px 0 0;
 }
 
 .experience-icon-container {
@@ -1471,7 +1474,6 @@ span.icon-github:hover {
 	border-style: solid;
 	border-color: #E1E1E1;
 	border-radius: 8px;
-	overflow: hidden;
 }
 
 .timeline .timeline-ul .timeline-li .timeline-li-container::before {
