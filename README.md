@@ -5,7 +5,7 @@
   </a>
   <h1 align="center">Current Portfolio</h1>
   <p align="center">
-    :arrow_forward: <a href="https://lucasrosendahl.com" target="_blank"> Live Demo</a>
+    :arrow_forward: <a href="https://lucasrosendahl.com" target="_blank"> Live Portfolio</a>
   </p>
 </p>
 
