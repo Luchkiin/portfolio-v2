@@ -112,7 +112,6 @@ h4 {
 p {
 	font-size: 1.6rem;
 	font-weight: 400;
-	text-align: justify;
 	margin-top: 0;
 	color: var(--black-color);
 }
@@ -1396,6 +1395,11 @@ span.icon-github:hover {
 	background: var(--green-color);
 }
 
+.timeline-li-content a:hover {
+	color: var(--black-color);
+	text-decoration: underline;
+}
+
 .timeline-li-heading {
 	display: flex;
 	justify-content: center;
@@ -1435,13 +1439,24 @@ span.icon-github:hover {
 	font-size: 1.6rem !important;
 	font-weight: 400;
 	margin-bottom: .5rem;
+	margin-top: .25rem;
+	color: #357f82;
+}
+
+
+.timeline-h4 a{
+	color: #357f82;
+}
+
+.timeline-h4 a:hover {
 	color: #357f82;
 }
 
 .timeline-date {
 	display: block;
 	font-size: 1.2rem;
-	padding-bottom: 1.6em;
+	padding-bottom: 1em;
+	color: var(--dark-grey-color);
 }
 
 .experience-list {
@@ -1464,12 +1479,19 @@ span.icon-github:hover {
 
 .experience-list li {
 	font-size: 1.4rem;
+	margin-bottom: .5rem;
+}
+.experience-list li:first-child {
+	margin-top: .5rem;
+}
+.experience-list li:last-child {
+	margin-bottom: 0;
 }
 
 .timeline .timeline-ul .timeline-li .timeline-li-container {
 	position: relative;
 	bottom: 0;
-	width: 400px;
+	width: 350px;
 	border-width: 1px;
 	border-style: solid;
 	border-color: #E1E1E1;

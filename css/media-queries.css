@@ -759,6 +759,9 @@
         font-size: 1.2rem;
         text-align: left;
     }
+    .timeline-date {
+        font-size: 1rem;
+    }
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 392px;
     }
@@ -1178,6 +1181,9 @@
         border-width: 8px 16px 8px 0;
         border-color: transparent var(--green-color) transparent transparent;
     }
+    .timeline-date {
+        font-size: 1rem;
+    }
     .experience-list {
         font-size: 1.2rem;
         padding-left: 2.5em !important;
@@ -1588,6 +1594,9 @@
     }
     .experience-icon-container i {
         font-size: 2rem;
+    }
+    .timeline-date {
+        font-size: 1rem;
     }
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 250px;
