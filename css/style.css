@@ -535,11 +535,47 @@ p, ul, form {
 	align-items: center;
 }
 
+.mouse {
+	width: 25px;
+	height: 50px;
+	border: 1px solid var(--white-color);
+	border-radius: 16px;
+	display: flex;
+	margin-bottom: 0.25rem;
+}
+
+.mouse span {
+	width: 5px;
+	height: 10px;
+	background-color: var(--white-color);
+	display: block;
+	border-radius: 8px;
+	margin: auto;
+	animation: move-wheel 1s linear infinite;
+}
+
+.arrow {
+	display: flex;
+	justify-content: center;
+	margin-top: .5rem;
+}
+
 .arrow i {
 	-webkit-animation: arrow-down 1s alternate infinite;
 	animation: arrow-down 1s alternate infinite;
 	color: var(--white-color);
-	font-size: 2em;
+	font-size: 1.2em;
+}
+
+@keyframes move-wheel {
+	0% {
+		opacity: 0;
+		transform: translateY(-0.85rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0.05rem);
+	}
 }
 
 @-webkit-keyframes arrow-down {
@@ -1443,8 +1479,7 @@ span.icon-github:hover {
 	color: #357f82;
 }
 
-
-.timeline-h4 a{
+.timeline-h4 a {
 	color: #357f82;
 }
 
@@ -1481,9 +1516,11 @@ span.icon-github:hover {
 	font-size: 1.4rem;
 	margin-bottom: .5rem;
 }
+
 .experience-list li:first-child {
 	margin-top: .5rem;
 }
+
 .experience-list li:last-child {
 	margin-bottom: 0;
 }
@@ -1610,9 +1647,10 @@ select {
 	-moz-appearance: none;
 	appearance: none;
 	background-position: right center;
-	background-image: url(//cdn.shopify.com/s/files/1/0267/6640/9779/t/1/assets/ico-select.svg?v=4099852412562495854);
+	background-size: 16px;
+	background-image: url(../images/icons/chevron-down.svg);
 	background-repeat: no-repeat;
-	background-position: right 10px center;
+	background-position: right 16px center;
 	text-overflow: '';
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif !important;

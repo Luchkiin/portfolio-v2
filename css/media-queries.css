@@ -1227,6 +1227,9 @@
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.4rem;
     }
+    select {
+        background-size: 12px;
+    }
     textarea {
         min-height: 200px;
         margin-bottom: 0;
@@ -1643,6 +1646,9 @@
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 1.4rem;
+    }
+    select {
+        background-size: 12px;
     }
     textarea {
         min-height: 200px;
