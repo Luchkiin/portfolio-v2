@@ -154,6 +154,12 @@
     .title h2 {
         font-size: 2rem;
     }
+    .mouse {
+        display: none;
+    }
+    .arrow i {
+        font-size: 1.6em;
+    }
     /* Navigation
 **************************/
     /*Top Navigation*/
@@ -504,6 +510,12 @@
     }
     .title h2 {
         font-size: 2rem;
+    }
+    .mouse {
+        display: none;
+    }
+    .arrow i {
+        font-size: 1.6em;
     }
     /* Navigation
 **************************/
@@ -879,6 +891,12 @@
     }
     .title h2 {
         font-size: 1.5rem;
+    }
+    .mouse {
+        display: none;
+    }
+    .arrow i {
+        font-size: 1.6em;
     }
     /* Navigation
 **************************/
@@ -1317,6 +1335,12 @@
     }
     .title h2 {
         font-size: 1.5rem;
+    }
+    .mouse {
+        display: none;
+    }
+    .arrow i {
+        font-size: 1.6em;
     }
     /* Navigation
 **************************/
