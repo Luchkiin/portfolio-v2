@@ -366,6 +366,9 @@
     .service-grid-item:last-child {
         margin-bottom: 0;
     }
+    .progressBar:last-child {
+        margin-bottom: 2em;
+    }
     /* Work Section
 ********************************************************************* */
     .work-grid {
@@ -758,6 +761,9 @@
         margin-bottom: 2em;
     }
     .service-grid-item:last-child {
+        margin-bottom: 0;
+    }
+    .progressBar:last-child {
         margin-bottom: 0;
     }
     /* Work Section
@@ -1168,6 +1174,9 @@
     }
     .progressBar h4 {
         font-size: 1.4rem !important;
+    }
+    .progressBar:last-child {
+        margin-bottom: 2em;
     }
     /* Work Section
 ********************************************************************* */
@@ -1612,6 +1621,9 @@
     }
     .progressBar h4 {
         font-size: 1.4rem !important;
+    }
+    .progressBar:last-child {
+        margin-bottom: 2em;
     }
     /* Work Section
 ********************************************************************* */

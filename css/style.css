@@ -1121,6 +1121,9 @@ span.icon-profile:hover {
 .progressBar {
 	margin-bottom: 2em;
 }
+.progressBar:last-child {
+	margin-bottom: 0;
+}
 
 .progressBar h4 {
 	font-size: 1.6rem !important;
