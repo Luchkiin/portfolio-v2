@@ -162,7 +162,7 @@ input, textarea {
 	font-family: 'Open Sans', sans-serif;
 }
 
-p, ul, form {
+p, ul {
 	margin-bottom: 2.5rem;
 }
 
@@ -800,7 +800,7 @@ nav ul a {
 #back-to-top-btn {
 	display: inline-block;
 	position: fixed;
-	bottom: 12rem;
+	bottom: 18rem;
 	right: 5rem;
 	z-index: 1000;
 	outline: none;
