@@ -149,16 +149,23 @@
         height: 150px;
     }
     .title h1 {
-        font-size: 6rem;
+        font-size: 6.5rem;
     }
     .title h2 {
         font-size: 2rem;
+    }
+    .title h2 span{
+        display: block;
     }
     .mouse {
         display: none;
     }
     .arrow i {
         font-size: 1.6em;
+        padding: .75em;
+        border-radius: 50%;
+        background-color: #FCFCFC;
+        color: #256265;
     }
     /* Navigation
 **************************/
@@ -324,8 +331,11 @@
     /* Services Section
 ********************************************************************* */
     .service-grid-container {
+        width: 65%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .skill-icon-container {
         width: 10rem;
@@ -351,7 +361,7 @@
         font-size: 1.6rem;
     }
     .service-grid-item {
-        margin-bottom: 2em;
+        margin-bottom: 2.5em;
     }
     .service-grid-item:last-child {
         margin-bottom: 0;
@@ -506,16 +516,23 @@
         height: 150px;
     }
     .title h1 {
-        font-size: 6rem;
+        font-size: 6.5rem;
     }
     .title h2 {
         font-size: 2rem;
+    }
+    .title h2 span{
+        display: block;
     }
     .mouse {
         display: none;
     }
     .arrow i {
         font-size: 1.6em;
+        padding: .75em;
+        border-radius: 50%;
+        background-color: #FCFCFC;
+        color: #256265;
     }
     /* Navigation
 **************************/
@@ -705,8 +722,11 @@
     /* Services Section
 ********************************************************************* */
     .service-grid-container {
+        width: 50%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
     .skill-icon-container {
         width: 10rem;
@@ -892,11 +912,18 @@
     .title h2 {
         font-size: 1.5rem;
     }
+    .title h2 span{
+        display: block;
+    }
     .mouse {
         display: none;
     }
     .arrow i {
         font-size: 1.6em;
+        padding: .75em;
+        border-radius: 50%;
+        background-color: #FCFCFC;
+        color: #256265;
     }
     /* Navigation
 **************************/
@@ -1331,16 +1358,23 @@
         height: 100px;
     }
     .title h1 {
-        font-size: 4rem;
+        font-size: 4.25rem;
     }
     .title h2 {
         font-size: 1.5rem;
+    }
+    .title h2 span{
+        display: block;
     }
     .mouse {
         display: none;
     }
     .arrow i {
         font-size: 1.6em;
+        padding: .75em;
+        border-radius: 50%;
+        background-color: #FCFCFC;
+        color: #256265;
     }
     /* Navigation
 **************************/

@@ -500,6 +500,7 @@ p, ul, form {
 	font-size: 7.5rem;
 	color: var(--white-color);
 	margin: 2rem 0;
+	margin-bottom: 2.6rem;
 	letter-spacing: 2.5px;
 	font-family: 'Arimo', sans-serif;
 }
@@ -579,24 +580,6 @@ p, ul, form {
 }
 
 @-webkit-keyframes arrow-down {
-	0% {
-		opacity: 0;
-	}
-	25% {
-		opacity: .25;
-	}
-	50% {
-		opacity: .5;
-	}
-	75% {
-		opacity: .75;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
-@keyframes arrow-down {
 	0% {
 		opacity: 0;
 	}
@@ -1321,7 +1304,7 @@ span.icon-profile:hover {
 	opacity: 0;
 	border-radius: 8px;
 	transition: opacity .5s;
-	background-color: rgba(34, 34, 34, .6);
+	background-color: rgba(34, 34, 34, .8);
 }
 
 .work-container:hover .work-overlay {
@@ -1329,6 +1312,21 @@ span.icon-profile:hover {
 	-webkit-transition: all 0.5s ease-out;
 	transition: all 0.5s ease-out;
 	cursor: pointer;
+}
+
+.overlay-text {
+	padding: 2rem;
+	font-size: 2rem;
+}
+
+.overlay-title {
+	color: var(--white-color);
+	font-weight: 700;
+}
+
+.overlay-subtitle {	
+	color: var(--grey-color);
+	display: block;
 }
 
 .overlay-icon {
@@ -1341,6 +1339,11 @@ span.icon-profile:hover {
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+.overlay-icon span {
+	font-size: 1.6rem;
+	display: block;
 }
 
 .fa-eye:hover {
