@@ -164,8 +164,9 @@
         font-size: 1.6em;
         padding: .75em;
         border-radius: 50%;
-        background-color: #FCFCFC;
+        background-color: #fcfcfc;
         color: #256265;
+        animation: none;
     }
     /* Navigation
 **************************/
@@ -536,6 +537,7 @@
         border-radius: 50%;
         background-color: #FCFCFC;
         color: #256265;
+        animation: none;
     }
     /* Navigation
 **************************/
@@ -930,6 +932,7 @@
         border-radius: 50%;
         background-color: #FCFCFC;
         color: #256265;
+        animation: none;
     }
     /* Navigation
 **************************/
@@ -1384,6 +1387,7 @@
         border-radius: 50%;
         background-color: #FCFCFC;
         color: #256265;
+        animation: none;
     }
     /* Navigation
 **************************/
