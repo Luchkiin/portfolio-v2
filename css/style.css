@@ -445,36 +445,6 @@ p, ul {
 	transform: translate(40px, 40px);
 }
 
-/* Old Top Menu Icon
-.top-menu-bar {
-	position: relative;
-	background-color: var(--white-color);
-	width: 40px;
-	height: 2px;
-	border-radius: .8rem;
-	margin: .9rem auto;
-}
-
-.top-menu-toggle .top-menu-bar {
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
-.open-top-nav .top-menu-bar:nth-child(1) {
-	-webkit-transform: translateY(10.8px) rotate(45deg);
-	transform: translateY(10.8px) rotate(45deg);
-}
-
-.open-top-nav .top-menu-bar:nth-child(2) {
-	opacity: 0;
-}
-
-.open-top-nav .top-menu-bar:nth-child(3) {
-	-webkit-transform: translateY(-11.5px) rotate(-45deg);
-	transform: translateY(-11.5px) rotate(-45deg);
-}
-*/
-
 /*Title Section*/
 
 .logo-img {
@@ -497,7 +467,7 @@ p, ul {
 	line-height: 0.85;
 	font-weight: 700;
 	color: #fcfcfc;
-	font-size: 7.5rem;
+	font-size: 7.6rem;
 	color: var(--white-color);
 	margin: 2rem 0;
 	margin-bottom: 2.6rem;

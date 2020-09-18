@@ -133,54 +133,52 @@ jQuery(document).ready(function ($) {
     /* Contact Form
     ------------------------------------------------------ */
 
-    $(document).ready(function () {
-        $('.submit-btn').click(function (event) {
-            var name = $('.name-input').val();
-            var statusName = $('.status-name');
-            var email = $('.email-input').val();
-            var statusEmail = $('.status-email');
-            var message = $('.message-input').val();
-            var statusMessage = $('.status-message');
-            statusName.empty();
-            statusEmail.empty();
-            statusMessage.empty();
+    $('.submit-btn').click(function (event) {
+        var name = $('.name-input').val();
+        var statusName = $('.status-name');
+        var email = $('.email-input').val();
+        var statusEmail = $('.status-email');
+        var message = $('.message-input').val();
+        var statusMessage = $('.status-message');
+        statusName.empty();
+        statusEmail.empty();
+        statusMessage.empty();
 
-            if (name.length < 2) {
-                event.preventDefault();
-                statusName.append('<div>Name is not valid</div>');
+        if (name.length < 2) {
+            event.preventDefault();
+            statusName.append('<div>Name is not valid</div>');
+        }
+
+        if (email.length < 1) {
+            event.preventDefault();
+            statusEmail.append('<div>Email is not valid</div>');
+        }
+
+        function validateEmail(email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
+
+        function validate() {
+            var $result = $("#status-email");
+            var email = $("#email").val();
+            $result.text("");
+
+            if (validateEmail(email)) {
+                return true;
+            } else {
+                $result.text("Email is not valid");
             }
+            return false;
+        }
 
-            if (email.length < 1) {
-                event.preventDefault();
-                statusEmail.append('<div>Email is not valid</div>');
-            }
+        $("#validate").on("click", validate);
 
-            function validateEmail(email) {
-                var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                return re.test(email);
-            }
+        if (message.length < 10) {
+            event.preventDefault();
+            statusMessage.append('<div>Message is not valid</div>');
+        }
 
-            function validate() {
-                var $result = $("#status-email");
-                var email = $("#email").val();
-                $result.text("");
-
-                if (validateEmail(email)) {
-                    return true;
-                } else {
-                    $result.text("Email is not valid");
-                }
-                return false;
-            }
-
-            $("#validate").on("click", validate);
-
-            if (message.length < 10) {
-                event.preventDefault();
-                statusMessage.append('<div>Message is not valid</div>');
-            }
-
-        });
     });
 
     /*----------------------------------------------------*/
