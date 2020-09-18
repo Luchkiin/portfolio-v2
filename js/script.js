@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
     // Sticky Navigation Landing Page
     $(window).scroll(function () {
 
-        if ($(window).scrollTop() > 750) {
+        if ($(window).scrollTop() > 600) {
             $('.main_nav').addClass('sticky');
         } else {
             $('.main_nav').removeClass('sticky');
@@ -92,6 +92,32 @@ jQuery(document).ready(function ($) {
     ------------------------------------------------------ */
 
     TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 0.1 }, 0.5);
+
+    /*----------------------------------------------------*/
+    /* Highlight the current section in the navigation bar
+    ------------------------------------------------------*/
+
+    var sections = $("section");
+    var navigation_links = $("#nav-container a");
+
+    sections.waypoint({
+
+        handler: function (event, direction) {
+
+            var active_section;
+
+            active_section = $(this);
+            if (direction === "up") active_section = active_section.prev();
+
+            var active_link = $('#nav-container a[href="#' + active_section.attr("id") + '"]');
+
+            navigation_links.parent().removeClass("active-nav");
+            active_link.parent().addClass("active-nav");
+
+        },
+        offset: '25%'
+
+    });
 
     /*----------------------------------------------------*/
     /* Experience Timeline effect

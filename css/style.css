@@ -39,7 +39,6 @@ body {
 	height: 100%;
 	font-family: 'Open Sans', sans-serif;
 	color: var(--black-color);
-	line-height: 1.5;
 }
 
 /*Image*/
@@ -113,6 +112,7 @@ p {
 	font-size: 1.6rem;
 	font-weight: 400;
 	margin-top: 0;
+	line-height: 1.6;
 	color: var(--black-color);
 }
 
@@ -234,7 +234,7 @@ p, ul {
 }
 
 .top-nav-link {
-	font-size: 1.6rem;
+	font-size: 2rem;
 	color: var(--white-color);
 	letter-spacing: 1.5px;
 }

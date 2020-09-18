@@ -1179,7 +1179,7 @@
         font-size: 1.4rem !important;
     }
     .progressBar:last-child {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     /* Work Section
 ********************************************************************* */
@@ -1483,10 +1483,10 @@
         align-items: center;
     }
     .top-nav-list li {
-        margin: 1.5em 0;
+        margin: 1.5em 0 !important;
     }
     .top-nav-link {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .open-top-nav .top-menu-bar:nth-child(1) {
         -webkit-transform: translateY(10px) rotate(45deg);
@@ -1627,7 +1627,7 @@
         font-size: 1.4rem !important;
     }
     .progressBar:last-child {
-        margin-bottom: 2em;
+        margin-bottom: 1em;
     }
     /* Work Section
 ********************************************************************* */
@@ -1808,7 +1808,7 @@
         align-items: center;
     }
     .top-nav-list li {
-        margin: 0 .5em !important;
+        margin: 0 2em !important;
     }
     .top-nav-link {
         font-size: 1.2rem;
