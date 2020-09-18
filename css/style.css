@@ -239,9 +239,11 @@ p, ul {
 	letter-spacing: 1.5px;
 }
 
-.top-nav-link:hover, .top-nav-link:focus {
-	text-decoration: line-through;
+.top-nav-link:hover {
 	color: var(--white-color);
+	border-bottom: 2px solid var(--white-color);
+	padding-bottom: 12px;
+	padding-top: 14px;
 }
 
 .top-nav-link i:hover, .top-nav-link i:focus {
@@ -684,9 +686,11 @@ nav ul a {
 	color: var(--white-color);
 }
 
-.active-nav, .nav-link:focus {
-	text-decoration: line-through;
+.active-nav {
 	color: var(--white-color);
+	border-bottom: 2px solid var(--white-color);
+	padding-bottom: 12px;
+	padding-top: 14px;
 }
 
 .nav-link i:hover, .nav-link i:focus {

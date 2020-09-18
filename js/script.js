@@ -45,8 +45,8 @@ jQuery(document).ready(function ($) {
     });
 
     // Adds class active-nav on clicked nav link
-    $('.nav-list li a, .back-to-top-btn').click(function (e) {
-        $('a, .back-to-top-btn').removeClass('active-nav');
+    $('.nav-list li, .back-to-top-btn').click(function (e) {
+        $('.nav-list li, .back-to-top-btn').removeClass('active-nav');
         $(this).addClass('active-nav');
     });
 
@@ -76,15 +76,18 @@ jQuery(document).ready(function ($) {
     $('.smoothscroll').on('click', function (e) {
         e.preventDefault();
 
+        
+
         var target = this.hash,
             $target = $(target);
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 800, 'swing', function () {
+        }, 500, 'swing', function () {
             window.location.hash = target;
         });
     });
+
 
 
     /*----------------------------------------------------*/
@@ -129,8 +132,6 @@ jQuery(document).ready(function ($) {
 
         var items = document.querySelectorAll(".timeline li,  .project-paragraph-img, .profile-img");
 
-        // check if an element is in viewport
-        // http://stackoverflow.com/questions/123999/how-to-tell-if-a-dom-element-is-visible-in-the-current-viewport
         function isElementInViewport(el) {
             var rect = el.getBoundingClientRect();
             return (
