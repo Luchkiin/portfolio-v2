@@ -666,6 +666,11 @@ nav ul a {
 .nav-list li:first-child {
 	margin-left: 0;
 }
+.nav-list li:first-child.active-nav{
+	border-bottom: none;
+	padding-bottom: 0;
+	padding-top: 0;
+}
 
 .nav-list li:last-child {
 	margin-right: 0;
