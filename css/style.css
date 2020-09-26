@@ -1530,7 +1530,7 @@ span.icon-github:hover {
 }
 
 .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
-	left: 45px;
+	left: 75px;
 }
 
 .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container::before {
@@ -1540,7 +1540,7 @@ span.icon-github:hover {
 }
 
 .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
-	left: -439px;
+	left: -415px;
 }
 
 .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {

@@ -402,6 +402,9 @@
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 280px;
     }
+    .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
+        left: 45px;
+    }
     .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
         left: -319px;
         /*280+45-6*/
@@ -814,6 +817,12 @@
     }
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 392px;
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
+        left: 45px;
+    }
+    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
+        left: -433px;
     }
     .experience-list {
         font-size: 1.2rem;
@@ -1265,6 +1274,7 @@
     }
     .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
         transform: translate3d(0, 0, 0);
+        left: 45px;
     }
     .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
         transform: translate3d(0, 0, 0);
@@ -1707,15 +1717,14 @@
     }
     .timeline .timeline-ul .timeline-li:nth-child(odd) .timeline-li-container {
         transform: translate3d(0, 0, 0);
+        left: 45px;
     }
     .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
         transform: translate3d(0, 0, 0);
+        left: 45px;
     }
     .timeline .timeline-ul .timeline-li {
         margin-left: 12px;
-    }
-    .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container {
-        left: 45px;
     }
     .timeline .timeline-ul .timeline-li:nth-child(even) .timeline-li-container::before {
         left: -15px;
