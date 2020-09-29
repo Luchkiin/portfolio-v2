@@ -17,7 +17,7 @@
 **************************/
 
 h3 {
-    margin-bottom: .5em;
+    margin-bottom: 6px;
 }
 
 p:last-child {
@@ -43,7 +43,7 @@ p:last-child {
 /*Main Navigation*/
 
 .sticky {
-    height: 42% !important;
+    height: 35% !important;
 }
 
 .nav-list-container.work {
@@ -62,7 +62,7 @@ p:last-child {
     -webkit-box-pack: start;
     justify-content: flex-start;
     padding: 0;
-    margin: 1rem 0 1rem 0;
+    margin: 12px 0;
     list-style: none;
 }
 
@@ -89,14 +89,14 @@ p:last-child {
 .breadcrumb-item:first-child::before {
     content: none;
     display: inline-block;
-    padding: 0 0.5rem;
+    padding: 0 0.6px;
     color: #888;
 }
 
 .breadcrumb-item::before {
     content: '/';
     display: inline-block;
-    padding: 0 1.5rem;
+    padding: 0 16px;
     color: #888;
 }
 
@@ -108,12 +108,12 @@ p:last-child {
 }
 
 .section-heading h3 {
-    margin-bottom: 5rem;
+    margin-bottom: 54px;
 }
 
 .project-page-img {
     border-radius: 8px;
-    margin-bottom: 2em;
+    margin-bottom: 24px;
 }
 
 .link-to-page {
@@ -128,11 +128,11 @@ p:last-child {
 }
 
 .fonts-used-paragraph {
-    margin-top: 2.5rem;
+    margin-top: 24px;
 }
 
 .design-goals-first-paragraph {
-    margin-bottom: .5em;
+    margin-bottom: 12px;
 }
 
 /*Color Swatches*/
@@ -140,7 +140,7 @@ p:last-child {
 .color-swatch-grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 2.5em;
+    grid-gap: 24px;
 }
 
 .color-swatch-grid-item {
@@ -151,7 +151,7 @@ p:last-child {
 }
 
 .color-swatch {
-    padding: 4em;
+    padding: 46px;
     border-bottom: 1px solid #E1E1E1;
     border-radius: 8px 8px 0 0;
 }
@@ -241,7 +241,11 @@ p:last-child {
 }
 
 .design-goals-h3 {
-    margin: 1.5em 0 .5em 0;
+    margin: 36px 0 12px 0;
+}
+.design-goals-h3 i {
+    color: var(--green-color);
+    margin-right: 6px;
 }
 
 .color-details {
@@ -260,7 +264,7 @@ p:last-child {
 .color-details li {
     display: flex;
     justify-content: space-between;
-    font-size: 1.4rem;
+    font-size: 0.875rem;
 }
 
 .color-details li:last-child {
@@ -299,7 +303,7 @@ p:last-child {
 }
 
 .apis-heading {
-    margin-top: 1em;
+    margin-top: 36px;
 }
 
 /* Mockups Section
@@ -315,9 +319,9 @@ p:last-child {
     display: grid;
     width: 100%;
     margin: auto;
-    grid-gap: 5em;
+    grid-gap: 48px;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1em 0;
+    padding: 12px 0;
 }
 
 .gallery img {
@@ -347,7 +351,7 @@ p:last-child {
 
 .mockup-caption-text {
     text-align: center;
-    padding: 1em 0;
+    padding: 12px 0;
     margin: 0;
     color: #222222;
     font-weight: 700;
@@ -383,19 +387,19 @@ p:last-child {
 
 .back-to-home-container {
     text-align: center;
-    margin-top: 3em;
+    margin-top: 36px;
 }
 
 .back-to-home {
     position: relative;
     display: inline-block;
     text-decoration: none;
-    padding: 1rem 0 0 5rem;
+    padding: 11px 0 0 48px;
 }
 
 .back-to-home h4 {
     color: #222222;
-    font-size: 16px;
+    font-size: 1rem;
     transform: translateY(8px);
     transition: transform 500ms 0s cubic-bezier(0.2, 0, 0, 1);
 }
@@ -403,7 +407,7 @@ p:last-child {
 .back-to-home span {
     opacity: 0;
     color: #888888;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
     display: inline-block;
     transform: translateY(10px);
@@ -458,8 +462,9 @@ p:last-child {
 
 @media (max-width: 1280px) {
     .nav-container.work ul li {
-        padding-bottom: 1.5em;
-        font-size: 1.8rem !important;
+        padding-bottom: 16px;
+        padding-top: 16px;
+        font-size: 1.125rem !important;
         margin: 0 !important;
     }
 }
@@ -471,22 +476,25 @@ p:last-child {
         grid-template-columns: repeat(2, 1fr);
     }
     .color-details li {
-        font-size: 1.4rem !important;
+        font-size: 0.875rem !important;
     }
     .back-to-home h4 {
         display: none;
     }
     .back-to-home span {
         opacity: 1;
-        font-size: 1.6rem;
+        font-size: 1rem;
         color: #222222;
-        transform: translateY(7px);
+        transform: translateY(6px);
     }
     .back-to-home:hover span {
-        transform: translateY(7px);
+        transform: translateY(6px);
     }
     .back-to-home {
-        padding: 1rem 1rem 1.5rem 5rem;
+        padding: 12px 12px 16px 48px;
+    }
+    .gallery {
+        grid-gap: 24px;
     }
 }
 
@@ -497,22 +505,25 @@ p:last-child {
         grid-template-columns: repeat(2, 1fr);
     }
     .color-details li {
-        font-size: 1.4rem !important;
+        font-size: 0.875rem !important;
     }
     .back-to-home h4 {
         display: none;
     }
     .back-to-home span {
         opacity: 1;
-        font-size: 1.6rem;
+        font-size: 1rem;
         color: #222222;
-        transform: translateY(7px);
+        transform: translateY(6px);
     }
     .back-to-home:hover span {
-        transform: translateY(7px);
+        transform: translateY(6px);
     }
     .back-to-home {
-        padding: 1rem 1rem 1.5rem 5rem;
+        padding: 12px 12px 16px 48px;
+    }
+    .gallery {
+        grid-gap: 24px;
     }
 }
 
@@ -521,14 +532,14 @@ p:last-child {
         height: 50% !important;
     }
     .nav-container ul li {
-        font-size: 1rem;
+        font-size: 0.625rem;
     }
     /* Built With Section
 **********************************************************************/
     .project-paragraph-grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-row-gap: 2.5em;
+        grid-row-gap: 24px;
     }
     .project-paragraph-img {
         display: none;
@@ -536,13 +547,13 @@ p:last-child {
     /* Mockups Section
 **********************************************************************/
     .gallery {
-        grid-template-columns: repeat(1, 1fr 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
     li {
-        font-size: 1.4rem !important;
+        font-size: 0.875rem !important;
     }
     h3 {
-        font-size: 2rem !important;
+        font-size: 1.25rem !important;
     }
     /* Design Goals Section
 **********************************************************************/
@@ -550,25 +561,25 @@ p:last-child {
         grid-template-columns: repeat(1, 1fr);
     }
     .color-details li {
-        font-size: 1.2rem !important;
+        font-size: 0.75rem !important;
     }
     .color-details h4 {
-        font-size: 1.6rem !important;
+        font-size: 1rem !important;
     }
     .back-to-home h4 {
         display: none;
     }
     .back-to-home span {
         opacity: 1;
-        font-size: 1.4rem;
+        font-size: 0.875rem;
         color: #222222;
-        transform: translateY(8px);
+        transform: translateY(6px);
     }
     .back-to-home:hover span {
         transform: translateY(7px);
     }
     .back-to-home {
-        padding: 1rem 1rem 1.5rem 5rem;
+        padding: 12px 12px 16px 48px;
     }
 }
 
@@ -578,7 +589,7 @@ p:last-child {
     .project-paragraph-grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-row-gap: 5em;
+        grid-row-gap: 48px;
     }
     .project-paragraph-img {
         display: none;
@@ -589,10 +600,10 @@ p:last-child {
         grid-template-columns: repeat(1, 1fr);
     }
     li {
-        font-size: 1.4rem !important;
+        font-size: 0.875rem !important;
     }
     h3 {
-        font-size: 2rem !important;
+        font-size: 1.25rem !important;
     }
     /* Design Goals Section
 **********************************************************************/
@@ -600,24 +611,24 @@ p:last-child {
         grid-template-columns: repeat(1, 1fr);
     }
     .color-details li {
-        font-size: 1.2rem !important;
+        font-size: 0.75rem !important;
     }
     .color-details h4 {
-        font-size: 1.6rem !important;
+        font-size: 1rem !important;
     }
     .back-to-home h4 {
         display: none;
     }
     .back-to-home span {
         opacity: 1;
-        font-size: 1.4rem;
+        font-size: 0.875rem;
         color: #222222;
-        transform: translateY(8px);
+        transform: translateY(6px);
     }
     .back-to-home:hover span {
         transform: translateY(7px);
     }
     .back-to-home {
-        padding: 1rem 1rem 1.5rem 5rem;
+        padding: 12px 12px 16px 48px;
     }
 }
