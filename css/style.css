@@ -75,27 +75,28 @@ section {
 
 /*Typography*/
 
-h1, h2 {
+h1 {
 	margin-bottom: 24px;
 }
 
 h1 {
 	font-size: 4.75rem;
-	line-height: 1.2;
+	line-height: 1.5;
 	font-family: 'Arimo', sans-serif;
 }
 
 h2 {
 	font-size: 3.6rem;
-	line-height: 1.25;
+	line-height: 1.5;
 	font-weight: 400;
 	font-family: 'Arimo', sans-serif;
+	margin-bottom: 12px;
 }
 
 h3 {
 	font-size: 1.5rem !important;
 	font-weight: 700 !important;
-	line-height: 1.25;
+	line-height: 1.5;
 	color: var(--black-color);
 	font-family: 'Arimo', sans-serif;
 }
@@ -103,7 +104,7 @@ h3 {
 h4 {
 	font-size: 1.125rem !important;
 	font-weight: 700;
-	line-height: 1.25;
+	line-height: 1.5;
 	color: var(--black-color);
 	font-family: 'Arimo', sans-serif;
 }
@@ -142,7 +143,7 @@ ul {
 }
 
 li {
-	margin-bottom: 12px;
+	margin-bottom: 16px;
 	font-weight: 400;
 	font-size: 1rem;
 	color: var(--black-color);
@@ -769,8 +770,8 @@ nav ul a {
 	height: 25vh;
 	margin-bottom: -5px;
 	/*Fix for safari gap*/
-	min-height: 200px;
-	max-height: 300px;
+	min-height: 150px;
+	max-height: 250px;
 }
 
 .parallax>use {
@@ -810,7 +811,7 @@ nav ul a {
 ********************************************************************* */
 
 .section-heading {
-	font-size: 54px;
+	font-size: 3.375rem;
 	font-weight: 700;
 	letter-spacing: 1.5px;
 	font-family: 'Arimo', sans-serif;
@@ -821,7 +822,7 @@ nav ul a {
 	height: 4px;
 	background: -webkit-gradient(linear, left top, right top, color-stop(25%, #357f82), color-stop(50%, #357f82), color-stop(50%, #256265), to(#256265));
 	background: linear-gradient(to right, #357f82 25%, #357f82 50%, #256265 50%, #256265 100%);
-	margin-bottom: 50px;
+	margin-bottom: 48px;
 	border-radius: 8px;
 }
 
@@ -1148,7 +1149,7 @@ span.icon-profile:hover {
 }
 
 .progressBar {
-	margin-bottom: 24px;
+	margin-bottom: 16px;
 }
 
 .progressBar:last-child {
@@ -1283,7 +1284,7 @@ span.icon-profile:hover {
 }
 
 .tools-knowledge-heading {
-	margin-bottom: 6px;
+	margin-bottom: 12px;
 }
 
 .tools-wrapper {
@@ -1303,7 +1304,7 @@ span.icon-profile:hover {
 }
 
 .work-sub-heading {
-	margin-bottom: 12px;
+	margin-bottom: 16px;
 }
 
 .work-sub-heading:nth-of-type(2) {
@@ -1401,10 +1402,6 @@ span.icon-profile:hover {
 .work-paragraph-2 {
 	margin-bottom: 12px;
 	color: #666666
-}
-
-.work-info h3 {
-	padding-bottom: 6px;
 }
 
 .live-icon span {
@@ -1710,7 +1707,7 @@ select {
 
 .contact-label {
 	font-size: 1em;
-	line-height: 27px;
+	line-height: 24px;
 }
 
 input, select:focus {

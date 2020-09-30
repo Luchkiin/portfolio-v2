@@ -94,7 +94,8 @@ jQuery(document).ready(function ($) {
     /* Animation Fade In Top
     ------------------------------------------------------ */
 
-    TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 0.1 }, 0.5);
+    TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 0.2 }, 0.5);
+    TweenMax.staggerFrom(".heading-effect-2", 1, { opacity: 0, delay: 0.5 }, 0.5);
 
     /*----------------------------------------------------*/
     /* Highlight the current section in the navigation bar
