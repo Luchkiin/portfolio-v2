@@ -1015,10 +1015,11 @@ nav ul a {
 	color: var(--green-color);
 	font-size: 1rem;
 	position: absolute;
-	bottom: -8.5px;
+	bottom: -7.5px;
 	left: 0;
 	font-family: 'Open Sans', sans-serif !important;
 }
+
 
 .contact-icon span {
 	position: absolute;
