@@ -989,7 +989,7 @@ nav ul a {
 }
 
 .icon-btn-container.contact:hover {
-	width: 146px;
+	width: 150px;
 	border: 2px solid var(--green-color);
 }
 
@@ -1435,12 +1435,12 @@ span.icon-github:hover {
 }
 
 .icon-btn-container.github:hover {
-	width: 110px;
+	width: 115px;
 	border: 2px solid var(--green-color);
 }
 
 .icon-btn-container.demo:hover {
-	width: 140px;
+	width: 143px;
 	border: 2px solid var(--green-color);
 }
 
