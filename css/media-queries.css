@@ -1288,6 +1288,9 @@
     .icon-btn-container.demo:hover {
         width: 142px;
     }
+    .icon-text span {
+        bottom: -6.75px;
+    }
     /* Experience Section
 ********************************************************************* */
     .timeline h3 {
@@ -1739,7 +1742,7 @@
         border: 2px solid #256265;
     }
     .icon-text span {
-        bottom: -6px;
+        bottom: -7px;
     }
     /*Lightbox Styles*/
     .lb-data .lb-caption {
