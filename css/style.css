@@ -769,8 +769,8 @@ nav ul a {
 	height: 25vh;
 	margin-bottom: -5px;
 	/*Fix for safari gap*/
-	min-height: 250px;
-	max-height: 350px;
+	min-height: 200px;
+	max-height: 300px;
 }
 
 .parallax>use {
