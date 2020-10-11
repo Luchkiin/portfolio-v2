@@ -1016,7 +1016,7 @@ nav ul a {
 	font-size: 1rem;
 	position: absolute;
 	bottom: -7.5px;
-	left: 0;
+	left: -2px;
 	font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -1422,8 +1422,8 @@ span.icon-play-circle:hover {
 
 .github-icon span {
 	position: absolute;
-	bottom: 10px;
-	left: 11.5px;
+	bottom: 11px;
+	left: 11px;
 }
 
 span.icon-github {
