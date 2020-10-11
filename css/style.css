@@ -1024,7 +1024,7 @@ nav ul a {
 .contact-icon span {
 	position: absolute;
 	bottom: 12px;
-	left: 12.25px;
+	left: 12px;
 }
 
 span.icon-envelope {
@@ -1407,8 +1407,8 @@ span.icon-profile:hover {
 
 .live-icon span {
 	position: absolute;
-	bottom: 10px;
-	left: 11.5px;
+	bottom: 11px;
+	left: 11px;
 }
 
 span.icon-play-circle {
