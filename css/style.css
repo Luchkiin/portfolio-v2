@@ -525,7 +525,7 @@ p, ul {
 	display: block;
 	border-radius: 8px;
 	margin: auto;
-	animation: move-wheel 1s linear infinite;
+	animation: move-wheel 1.5s linear infinite;
 }
 
 .arrow {
