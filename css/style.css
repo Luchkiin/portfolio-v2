@@ -1536,7 +1536,7 @@ span.icon-github:hover {
 .timeline-date {
 	display: block;
 	font-size: 0.75rem;
-	padding-bottom: 12px;
+	padding-bottom: 8px;
 	color: var(--dark-grey-color);
 }
 
