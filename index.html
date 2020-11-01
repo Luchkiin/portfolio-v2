@@ -1,840 +1,1094 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="author" content="Lucas Rosendahl" />
+    <meta
+      name="description"
+      content="Design portfolio of Lucas Rosendahl - UI/UX designer and Front-End Developer based in Stockholm that creates user-friendly products and experiences"
+    />
+    <!-- og:image -->
+    <meta
+      property="og:image"
+      content="https://lucasrosendahl.com/images/og-images/index.png"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="200" />
+    <meta property="og:image:height" content="200" />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="images/favicons/safari-pinned-tab.svg"
+      color="#256265"
+    />
+    <meta name="msapplication-TileColor" content="#256265" />
+    <meta name="theme-color" content="#256265" />
+    <!-- CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icomoon/style.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <title>Lucas Rosendahl | Portfolio</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-154166578-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="author" content="Lucas Rosendahl">
-  <meta name="description"
-    content="Design portfolio of Lucas Rosendahl - UI/UX designer and Front-End Developer based in Stockholm that creates user-friendly products and experiences">
-  <!-- og:image -->
-  <meta property="og:image" content="https://lucasrosendahl.com/images/og-images/index.png" />
-  <meta property="og:image:type" content="image/png">
-  <meta property="og:image:width" content="200">
-  <meta property="og:image:height" content="200">
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
-  <link rel="manifest" href="images/favicons/site.webmanifest">
-  <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#256265">
-  <meta name="msapplication-TileColor" content="#256265">
-  <meta name="theme-color" content="#256265">
-  <!-- CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/icomoon/style.css">
-  <link rel="stylesheet" href="css/media-queries.css">
-  <title>Lucas Rosendahl | Portfolio (Designer & Developer)</title>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-154166578-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-154166578-1");
+    </script>
+  </head>
 
-    gtag('config', 'UA-154166578-1');
-  </script>
-</head>
-
-<body>
-
-  <!-- Header
+  <body>
+    <!-- Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <header id="home">
-    <div class="container-nav">
-      <div class="top-menu-toggle heading-effect-2">
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-        <div class="pix"></div>
-      </div>
-    </div>
-    <nav class="top-nav">
-      <ul class="top-nav-list">
-        <li>
-          <a href="#work" class="smoothscroll top-nav-link">Work</a>
-        </li>
-        <li>
-          <a href="#services" class="smoothscroll top-nav-link">Services</a>
-        </li>
-        <li>
-          <a href="#about" class="smoothscroll top-nav-link">About</a>
-        </li>
-        <li>
-          <a href="#experience" class="smoothscroll top-nav-link">Experience</a>
-        </li>
-        <li>
-          <a href="#contact" class="smoothscroll top-nav-link">Contact </a>
-        </li>
-        <li>
-          <a href="resume" class="top-nav-link" target="_blank">Résumé</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="main_nav">
-      <div class="container">
-        <div class="mobile-toggle">
-          <div class="menu-bar"></div>
-          <div class="menu-bar"></div>
-          <div class="menu-bar"></div>
-        </div>
-        <nav class="nav-container" id="nav-container">
-          <div class="logo-nav hidden-logo-full-width">
-            <a class="smoothscroll" href="#home">
-              <img src="images/logos/logo-header.svg" alt="Logo" class="logo-img-nav">
-            </a>
-          </div>
-          <div class="nav-list-container">
-            <ul class="nav-list">
-              <li class="hidden-logo-small-width">
-                <div class="logo-nav">
-                  <a class="smoothscroll" href="#home">
-                    <img src="images/logos/logo-header.svg" alt="Navigation LR Logo" class="logo-img-nav">
-                  </a>
-                </div>
-              </li>
-              <li>
-                <a class="smoothscroll nav-link" href="#work">Work</a>
-              </li>
-              <li>
-                <a class="smoothscroll nav-link" href="#services">Services</a>
-              </li>
-              <li>
-                <a class="smoothscroll nav-link" href="#about">About</a>
-              </li>
-              <li>
-                <a class="smoothscroll nav-link" href="#experience">Experience</a>
-              </li>
-              <li>
-                <a class="smoothscroll nav-link" href="#contact">Contact</a>
-              </li>
-              <li>
-                <a href="resume" class="nav-link" target="_blank">Résumé</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-    <div class="title">
-      <div class="container">
-        <div class="logo heading">
-          <img src="images/logos/logo.svg" alt="LR Header Logo" class="logo-img">
-        </div>
-        <h1 class="heading">Hi! I'm Lucas.</h1>
-      </div>
-      <div class="container">
-        <h2 class="heading">Stockholm-based designer <span>and developer.</span></h2>
-        <div class="cta-work heading"><a href="#work" class="smoothscroll">See my work</a></div>
-      </div>
-    </div>
-    <div class="scroll-down heading">
-      <a href="#work" class="smoothscroll" aria-label="Arrow Down Logo">
-        <div class="mouse">
-          <span></span>
-        </div>
-        <div class="arrow">
-          <span></span>
-          <i class="fas fa-chevron-down"></i>
-        </div>
-      </a>
-    </div>
-    <div class="waves-container">
-      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-      <defs>
-      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-      </defs>
-      <g class="parallax">
-      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(31, 80, 83, .6)" />
-      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(31, 80, 83, .5)" />
-      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(31, 80, 83, .3)" />
-      <use xlink:href="#gentle-wave" x="48" y="7" fill="#1f5053" />
-      </g>
-      </svg>
-    </div>
-  </header>
-
-  <!-- Work Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section id="work">
-    <div class="container">
-      <h2 class="section-heading">Work</h2>
-      <div class="border-heading"></div>
-      <h3 class="work-sub-heading"><i class="fas fa-mobile-alt"></i>Mobile Applications</h3>
-      <div class="work-grid">
-        <div class="work-grid-item">
-          <div class="work-container">
-            <a href="../work/scana">
-              <img src="images/work/scana/scana-project-img.png" class="work-image" alt="SCANA - Work" />
-              <div class="work-overlay">
-                <div class="overlay-text">
-                  <span class="overlay-title">SCANA</span>
-                  <span class="overlay-subtitle">Mobile Application</span>
-                </div>
-                <span class="overlay-icon" title="View More">
-                  <i class="fa fa-eye"></i>
-                  <span>View More</span>
-                </span>
-              </div>
-            </a>
-          </div>
-          <div class="work-info">
-            <h3>SCANA</h3>
-            <p class="work-paragraph">Barcode & QR Scanner</p>
-            <p class="work-paragraph-2">iOS / Android Application</p>
-            <div class="icon-btns" onclick="">
-              <a href="https://github.com/Luchkiin/Scana" target="_blank">
-                <div class='icon-btn-container github'>
-                  <div class='github-icon'>
-                    <span class="icon-github"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>GitHub</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="work-grid-item">
-          <div class="work-container">
-            <a href="../work/geosty">
-              <img src="images/work/geosty/geosty-project-img.png" class="work-image" alt="Geosty - Work" />
-              <div class="work-overlay">
-                <div class="overlay-text">
-                  <span class="overlay-title">Geosty</span>
-                  <span class="overlay-subtitle">Mobile Application</span>
-                </div>
-                <span class="overlay-icon" title="View More">
-                  <i class="fa fa-eye"></i>
-                  <span>View More</span>
-                </span>
-              </div>
-            </a>
-          </div>
-          <div class="work-info">
-            <h3>Geosty</h3>
-            <p class="work-paragraph">Weather Application</p>
-            <p class="work-paragraph-2">iOS / Android Application</p>
-            <div class="icon-btns" onclick="">
-              <a href="https://github.com/Luchkiin/geosty-weather-app" target="_blank">
-                <div class='icon-btn-container github'>
-                  <div class='github-icon'>
-                    <span class="icon-github"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>GitHub</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="work-grid-item">
-          <div class="work-container">
-            <a href="../work/listd">
-              <img src="images/work/listd/listd-project-img.png" class="work-image" alt="Listd - Work" />
-              <div class="work-overlay">
-                <div class="overlay-text">
-                  <span class="overlay-title">Listd</span>
-                  <span class="overlay-subtitle">Mobile Application</span>
-                </div>
-                <span class="overlay-icon" title="View More">
-                  <i class="fa fa-eye"></i>
-                  <span>View More</span>
-                </span>
-              </div>
-            </a>
-          </div>
-          <div class="work-info">
-            <h3>Listd</h3>
-            <p class="work-paragraph">To-Do List</p>
-            <p class="work-paragraph-2">Android Application</p>
-            <div class="icon-btns">
-              <a href="https://github.com/Luchkiin/listd_v2" target="_blank">
-                <div class='icon-btn-container github'>
-                  <div class='github-icon'>
-                    <span class="icon-github"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>GitHub</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
+    <header id="home">
+      <div class="container-nav">
+        <div class="top-menu-toggle heading-effect-2">
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
+          <div class="pix"></div>
         </div>
       </div>
-
-      <h3 class="work-sub-heading"><i class="fas fa-desktop"></i>Web Applications</h3>
-
-      <div class="work-grid">
-        <div class="work-grid-item">
-          <div class="work-container">
-            <a href="../work/techflake">
-              <img src="images/work/techflake/techflake-project-img.png" class="work-image" alt="Techflake - Work" />
-              <div class="work-overlay">
-                <div class="overlay-text">
-                  <span class="overlay-title">Techflake</span>
-                  <span class="overlay-subtitle">Web Application</span>
-                </div>
-                <span class="overlay-icon" title="View More">
-                  <i class="fa fa-eye"></i>
-                  <span>View More</span>
-                </span>
-              </div>
-            </a>
-          </div>
-          <div class="work-info">
-            <h3>Techflake</h3>
-            <p class="work-paragraph">Online Help Website</p>
-            <p class="work-paragraph-2">Web Application</p>
-            <div class="icon-btns">
-              <a href="https://luchkiin.github.io/techflake-online-help-page/" target="_blank">
-                <div class='icon-btn-container demo'>
-                  <div class='live-icon'>
-                    <span class="icon-play-circle"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>Live Demo</span>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/Luchkiin/techflake-online-help-page" target="_blank">
-                <div class='icon-btn-container github'>
-                  <div class='github-icon'>
-                    <span class="icon-github"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>GitHub</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="work-grid-item">
-          <div class="work-container">
-            <a href="../work/bevera">
-              <img src="images/work/bevera/bevera-project-img.png" class="work-image" alt="BEVERA -Work" />
-              <div class="work-overlay">
-                <div class="overlay-text">
-                  <span class="overlay-title">BEVERA</span>
-                  <span class="overlay-subtitle">Web Application</span>
-                </div>
-                <span class="overlay-icon" title="View More">
-                  <i class="fa fa-eye"></i>
-                  <span>View More</span>
-                </span>
-              </div>
-            </a>
-          </div>
-          <div class="work-info">
-            <h3>BEVERA</h3>
-            <p class="work-paragraph">eCommerce Website</p>
-            <p class="work-paragraph-2">Web Application</p>
-            <div class="icon-btns">
-              <a href="https://luchkiin.github.io/bevera-eCommerce-page/" target="_blank">
-                <div class='icon-btn-container demo'>
-                  <div class='live-icon'>
-                    <span class="icon-play-circle"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>Live Demo</span>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/Luchkiin/bevera-eCommerce-page" target="_blank">
-                <div class='icon-btn-container github'>
-                  <div class='github-icon'>
-                    <span class="icon-github"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>GitHub</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="work-grid-item">
-          <div class="work-container">
-            <a href="../work/ica-stores-locator">
-              <img src="images/work/ica-stores/ica-stores-project-img.png" class="work-image"
-                alt="ICA Stores Locator - Work" />
-              <div class="work-overlay">
-                <div class="overlay-text">
-                  <span class="overlay-title">ICA Stores Locator</span>
-                  <span class="overlay-subtitle">Map Application</span>
-                </div>
-                <span class="overlay-icon" title="View More">
-                  <i class="fa fa-eye"></i>
-                  <span>View More</span>
-                </span>
-              </div>
-            </a>
-          </div>
-          <div class="work-info">
-            <h3>ICA Stores Locator</h3>
-            <p class="work-paragraph">Store Locator</p>
-            <p class="work-paragraph-2">Map Application</p>
-            <div class="icon-btns">
-              <a href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/" target="_blank">
-                <div class='icon-btn-container demo'>
-                  <div class='live-icon'>
-                    <span class="icon-play-circle"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>Live Demo</span>
-                  </div>
-                </div>
-              </a>
-              <a href="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map" target="_blank">
-                <div class='icon-btn-container github'>
-                  <div class='github-icon'>
-                    <span class="icon-github"></span>
-                  </div>
-                  <div class='icon-text'>
-                    <span>GitHub</span>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section id="services">
-    <div class="container">
-      <h2 class="section-heading">Services</h2>
-      <div class="border-heading"></div>
-      <div class="service-grid-container">
-        <div class="service-grid-item">
-          <div class="skill-container">
-            <div class="skill-icon-container">
-              <i class="fas fa-pencil-ruler"></i>
-            </div>
-          </div>
-          <div class="skill-content">
-            <div class="skill-heading">
-              <h4>Web & Mobile Design</h4>
-            </div>
-            <p>I offer professional web and mobile design that includes page layout, content production and graphic
-              design with
-              an emphasis on the user experience.</p>
-          </div>
-        </div>
-        <div class="service-grid-item">
-          <div class="skill-container">
-            <div class="skill-icon-container">
-              <i class="fas fa-code"></i>
-            </div>
-          </div>
-          <div class="skill-content">
-            <div class="skill-heading">
-              <h4>Web & Mobile Development</h4>
-            </div>
-            <p>I specialize in front-end development by using good practices for building, creating, and maintaining
-              web and mobile applications.</p>
-          </div>
-        </div>
-        <div class="service-grid-item">
-          <div class="skill-container">
-            <div class="skill-icon-container">
-              <i class="fas fa-palette"></i>
-            </div>
-          </div>
-          <div class="skill-content">
-            <div class="skill-heading">
-              <h4>UX & UI Design</h4>
-            </div>
-            <p>With my meticulous approach, I ensure that my UX/UI design skills align themselves after your company
-              business needs and goals.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="service-grid-container-2">
-        <div class="progressBar-wrapper">
-          <div class="progressBar">
-            <div class="service-heading-container">
-              <div>
-                <h4>HTML</h4>
-              </div>
-              <div>
-                <img src="images/logos/html-logo.svg" alt="HTML Logo" class="html-icon">
-              </div>
-            </div>
-            <div class="progressBarContainer">
-              <div class="progressBarValue html value-85"></div>
-            </div>
-          </div>
-
-          <div class="progressBar">
-            <div class="service-heading-container">
-              <div>
-                <h4>CSS</h4>
-              </div>
-              <div>
-                <img src="images/logos/css-logo.svg" alt="CSS Logo" class="css-icon">
-              </div>
-            </div>
-            <div class="progressBarContainer">
-              <div class="progressBarValue css value-85"></div>
-            </div>
-          </div>
-
-          <div class="progressBar">
-            <div class="service-heading-container">
-              <div>
-                <h4>JavaScript</h4>
-              </div>
-              <div>
-                <img src="images/logos/javascript-logo.svg" alt="JavaScript Logo" class="javascript-icon">
-              </div>
-            </div>
-            <div class="progressBarContainer">
-              <div class="progressBarValue js value-70"></div>
-            </div>
-          </div>
-
-          <div class="progressBar">
-            <div class="service-heading-container">
-              <div>
-                <h4>UX/UI Design</h4>
-              </div>
-              <div>
-                <img src="images/logos/ux-ui-logo.svg" alt="UX/UI Design Logo" class="ux-ui-icon">
-              </div>
-            </div>
-            <div class="progressBarContainer">
-              <div class="progressBarValue ux-ui value-70"></div>
-            </div>
-          </div>
-
-          <div class="progressBar">
-            <div class="service-heading-container">
-              <div>
-                <h4>Wireframing/Protoyping</h4>
-              </div>
-              <div>
-                <img src="images/logos/figma-logo.svg" alt="Figma Logo" class="figma-icon">
-                <img src="images/logos/adobe-xd-logo.svg" alt="Adobe XD Logo" class="adobe-xd-icon">
-              </div>
-            </div>
-            <div class="progressBarContainer">
-              <div class="progressBarValue wireframing value-85"></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="tools-knowledge-wrapper">
-          <div class="tools-wrapper">
-            <h4 class="tools-knowledge-heading">Tools</h4>
-            <ul class="tools-knowledge-ul">
-              <li>Adobe XD</li>
-              <li>Android Studio</li>
-              <li>Figma</li>
-              <li>MS Visual Studio</li>
-            </ul>
-          </div>
-          <div class="knowledge-wrapper">
-            <h4 class="tools-knowledge-heading">Knowledge</h4>
-            <ul class="tools-knowledge-ul">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>UX/UI Design</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- About Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <h2 class="section-heading">About</h2>
-        <div class="border-heading"></div>
-      </div>
-      <div class="about-grid-container">
-        <div class="about-text-item">
-          <p>Hi, I'm Lucas, a Stockholm-based developer and designer with a genuine interest for front-end development
-            and UX/UI design.</p>
-          <p>I originally come from a more technical background but consider myself today as a versatile designer
-            and developer who uses different approaches in solving various problems that comes my way. My
-            expertise is based on a three-year bachelor's degree in systems science but also stems from personal
-            initiatives regarding different skills I have picked up along my learning career path in the field of IT and design.</p>
-          <p> Things that I am good at are front-end development and UX/UI design, where I have an eye for detail in
-            what I
-            create. I have in addition to this also a mind for design and usability where my goal as a developer and
-            designer is to create user-friendly and memorable products for the end-user to experience and use.</p>
-          <p>When I'm not working on creating things, I like to listen to my vinyl collection, workout and spend
-            quality time with family & friends. Please feel free to let me know if you have any questions.</p>
-        </div>
-        <div class="profile-img-item">
-          <div class="profile-img">
-            <img src="images/profile/profile-img.png" alt="Profile About Image">
-          </div>
-        </div>
-      </div>
-      <div class="icon-btns about-btns">
-        <a href="mailto:lucas.rosendahl95@gmail.com">
-          <div class='icon-btn-container contact'>
-            <div class='contact-icon'>
-              <span class="icon-envelope"></span>
-            </div>
-            <div class='icon-text'>
-              <span>Contact me</span>
-            </div>
-          </div>
-        </a>
-        <a href="resume.html" target="_blank">
-          <div class='icon-btn-container resume'>
-            <div class='resume-icon'>
-              <span class="icon-profile"></span>
-            </div>
-            <div class='icon-text'>
-              <span>Résumé</span>
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Experience Section
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-  <section class="experience" id="experience">
-    <div class="container">
-      <h2 class="section-heading">Experience</h2>
-      <div class="border-heading"></div>
-      <div class="timeline">
-        <ul class="timeline-ul">
-          <li class="timeline-li">
-            <div class="timeline-li-container">
-              <div class="timeline-li-heading">
-                <div class="experience-icon-container">
-                  <i class="fas fa-briefcase"></i>
-                </div>
-              </div>
-              <div class="timeline-li-content">
-                <h4><a href="https://www.proveglobal.com/" target="_blank">Prove Global</a></h4>
-                <h4 class="timeline-h4">Digital / UX & UI Designer (Contract)</h4>
-                <small class="timeline-date">September 2020 - Present &#8226; Stockholm</small>
-                <div class="timeline-info">
-                  <p>Responsibilites: </p>
-                  <ul class="experience-list">
-                    <li>Digital Design</li>
-                    <li>Front-End Development</li>
-                    <li>UX/UI Design</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+      <nav class="top-nav">
+        <ul class="top-nav-list">
+          <li>
+            <a href="#work" class="smoothscroll top-nav-link">Work</a>
           </li>
-          <li class="timeline-li">
-            <div class="timeline-li-container">
-              <div class="timeline-li-heading">
-                <div class="experience-icon-container">
-                  <i class="fas fa-briefcase"></i>
-                </div>
-              </div>
-              <div class="timeline-li-content">
-                <h4>Front-End Development / Digital Design / UX & UI Design</h4>
-                <h4 class="timeline-h4">Freelance</h4>
-                <small class="timeline-date">July 2020 - Present &#8226; Stockholm</small>
-                <div class="timeline-info">
-                  <p>Responsibilites: </p>
-                  <ul class="experience-list">
-                    <li>Mobile/Web Development</li>
-                    <li>Mobile/Web Design</li>
-                    <li>UX/UI Design</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <li>
+            <a href="#services" class="smoothscroll top-nav-link">Services</a>
           </li>
-          <li class="timeline-li">
-            <div class="timeline-li-container">
-              <div class="timeline-li-heading">
-                <div class="experience-icon-container">
-                  <i class="fas fa-graduation-cap"></i>
-                </div>
-              </div>
-              <div class="timeline-li-content">
-                <h4><a href="https://www.du.se/en/study-at-du/Program/programme-syllabus/?code=DSVPG"
-                    target="_blank">Systems Science</a></h4>
-                <h4 class="timeline-h4"><a href="https://www.du.se/en" target="_blank">Dalarna University</a></h4>
-                <small class="timeline-date">Aug 2017 - Jun 2020 &#8226; Borlänge</small>
-                <div class="timeline-info">
-                  <p>Bachelor of Science degree in Systems Science from Dalarna University.</p>
-                </div>
-              </div>
-            </div>
+          <li>
+            <a href="#about" class="smoothscroll top-nav-link">About</a>
           </li>
-          <li class="timeline-li">
-            <div class="timeline-li-container">
-              <div class="timeline-li-heading">
-                <div class="experience-icon-container">
-                  <i class="fas fa-briefcase"></i>
-                </div>
-              </div>
-              <div class="timeline-li-content">
-                <h4><a href="https://www.opuscapita.com/" target="_blank">OpusCapita</a></h4>
-                <h4 class="timeline-h4">Summer internship</h4>
-                <small class="timeline-date">Jun 2019 - Aug 2019 &#8226; Stockholm</small>
-                <div class="timeline-info">
-                  <p>Responsibilites: </p>
-                  <ul class="experience-list">
-                    <li>Front-End development</li>
-                    <li>Product documentation</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+          <li>
+            <a href="#experience" class="smoothscroll top-nav-link"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="smoothscroll top-nav-link">Contact </a>
+          </li>
+          <li>
+            <a href="resume" class="top-nav-link" target="_blank">Resume</a>
           </li>
         </ul>
+      </nav>
+      <div class="main_nav">
+        <div class="container">
+          <div class="mobile-toggle">
+            <div class="menu-bar"></div>
+            <div class="menu-bar"></div>
+            <div class="menu-bar"></div>
+          </div>
+          <nav class="nav-container" id="nav-container">
+            <div class="logo-nav hidden-logo-full-width">
+              <a class="smoothscroll" href="#home">
+                <img
+                  src="images/logos/logo-header.svg"
+                  alt="Logo"
+                  class="logo-img-nav"
+                />
+              </a>
+            </div>
+            <div class="nav-list-container">
+              <ul class="nav-list">
+                <li class="hidden-logo-small-width">
+                  <div class="logo-nav">
+                    <a class="smoothscroll" href="#home">
+                      <img
+                        src="images/logos/logo-header.svg"
+                        alt="Navigation LR Logo"
+                        class="logo-img-nav"
+                      />
+                    </a>
+                  </div>
+                </li>
+                <li>
+                  <a class="smoothscroll nav-link" href="#work">Work</a>
+                </li>
+                <li>
+                  <a class="smoothscroll nav-link" href="#services">Services</a>
+                </li>
+                <li>
+                  <a class="smoothscroll nav-link" href="#about">About</a>
+                </li>
+                <li>
+                  <a class="smoothscroll nav-link" href="#experience"
+                    >Experience</a
+                  >
+                </li>
+                <li>
+                  <a class="smoothscroll nav-link" href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="resume" class="nav-link" target="_blank">Resume</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
       </div>
-    </div>
-  </section>
 
+      <div class="title">
+        <div class="container">
+          <div class="logo heading">
+            <img
+              src="images/logos/logo.svg"
+              alt="LR Header Logo"
+              class="logo-img"
+            />
+          </div>
+          <h1 class="heading">Hi! I'm Lucas.</h1>
+        </div>
+        <div class="container">
+          <h2 class="heading">
+            Stockholm-based designer <span>and developer.</span>
+          </h2>
+          <a href="#work" class="smoothscroll">
+            <div class="cta-work heading">See my work</div>
+          </a>
+        </div>
+      </div>
+      <div class="scroll-down heading">
+        <a href="#work" class="smoothscroll" aria-label="Arrow Down Logo">
+          <div class="mouse">
+            <span></span>
+          </div>
+          <div class="arrow">
+            <span></span>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+        </a>
+      </div>
+      <div class="waves-container">
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="0"
+              fill="rgba(31, 80, 83, .6)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="3"
+              fill="rgba(31, 80, 83, .5)"
+            />
+            <use
+              xlink:href="#gentle-wave"
+              x="48"
+              y="5"
+              fill="rgba(31, 80, 83, .3)"
+            />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#1f5053" />
+          </g>
+        </svg>
+      </div>
+    </header>
 
-
-  <!-- Contact Section
+    <!-- Work Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-heading">Contact</h2>
-      <div class="border-heading"></div>
-      <form action="https://formspree.io/mqkdzqkb" method="POST">
-        <div class="contact-grid-container-1">
-          <div class="contact-grid-item-1">
-            <div class="contact-label-wrapper">
-              <label for="name-input" class="contact-label">Name *</label>
+    <section id="work">
+      <div class="container">
+        <h2 class="section-heading">Work</h2>
+        <div class="border-heading"></div>
+        <h3 class="work-sub-heading">
+          <i class="fas fa-mobile-alt"></i>Mobile Applications
+        </h3>
+        <div class="work-grid">
+          <div class="work-grid-item">
+            <div class="work-container">
+              <a href="../work/scana">
+                <img
+                  src="images/work/scana/scana-project-img.png"
+                  class="work-image"
+                  alt="SCANA - Work"
+                />
+                <div class="work-overlay">
+                  <div class="overlay-text">
+                    <span class="overlay-title">SCANA</span>
+                    <span class="overlay-subtitle">Mobile Application</span>
+                  </div>
+                  <span class="overlay-icon" title="View More">
+                    <i class="fa fa-eye"></i>
+                    <span>View More</span>
+                  </span>
+                </div>
+              </a>
             </div>
-            <div class="status-name"></div>
-            <div class="input-group input-group-icon">
-              <input class="input-effect name-input" id="name-input" placeholder="Name" name="name" type="text"
-                autocomplete="off" required>
-              <div class="input-icon"><i class="fa fa-user"></i></div>
-            </div>
-          </div>
-          <div class="contact-grid-item-1">
-            <div class="contact-label-wrapper">
-              <label for="email" class="contact-label">Email *</label>
-            </div>
-            <div class="status-email" id="status-email"></div>
-            <div class="input-group input-group-icon">
-              <input class="input-effect email-input" id="email" name="email" placeholder="Email" type="email"
-                autocomplete="off" required>
-              <div class="input-icon"><i class="fas fa-envelope"></i></div>
-            </div>
-          </div>
-        </div>
-        <div class="contact-grid-container-2">
-          <div class="contact-grid-item-1">
-            <div class="contact-label-wrapper">
-              <label for="contact-concern" class="contact-label">What is your concern? *</label>
-            </div>
-            <select id="contact-concern" name="concern" class="select-option" required>
-              <option value="" selected disabled hidden>Choose here</option>
-              <option value="Web Design">Web Design</option>
-              <option value="Web Development">Web Development</option>
-              <option value="Mobile Development">Mobile Development</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
-        </div>
-        <div class="contact-grid-container-2">
-          <div class="contact-grid-item-2 input-effect">
-            <div class="contact-label-wrapper">
-              <label for="message-input" class="contact-label">Message *</label>
-            </div>
-            <div class="status-message"></div>
-            <textarea class="input-effect message-input" id="message-input" placeholder="Your Message..." name="message"
-              autocomplete="off" required></textarea>
-          </div>
-        </div>
-        <div class="contact-grid-container-3">
-          <div class="contact-grid-item-3">
-            <div class="send-btn">
-              <button class="submit-btn" id="validate" type="submit"><span class="icon-paper-plane"></span><span
-                  class="send-btn-text">Send</span></button>
+            <div class="work-info">
+              <h3>SCANA</h3>
+              <p class="work-paragraph">Barcode & QR Scanner</p>
+              <p class="work-paragraph-2">iOS / Android Application</p>
+              <div class="icon-btns" onclick="">
+                <a href="https://github.com/Luchkiin/Scana" target="_blank">
+                  <div class="icon-btn-container github">
+                    <div class="github-icon">
+                      <span class="icon-github"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>GitHub</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </form>
-    </div>
-  </section>
 
-  <div class="back-to-top-btn-container">
-    <div id="back-to-top-btn" class="back-to-top-btn" title="Back to Top"><span class="icon-angle-up"></span></div>
-  </div>
+          <div class="work-grid-item">
+            <div class="work-container">
+              <a href="../work/geosty">
+                <img
+                  src="images/work/geosty/geosty-project-img.png"
+                  class="work-image"
+                  alt="Geosty - Work"
+                />
+                <div class="work-overlay">
+                  <div class="overlay-text">
+                    <span class="overlay-title">Geosty</span>
+                    <span class="overlay-subtitle">Mobile Application</span>
+                  </div>
+                  <span class="overlay-icon" title="View More">
+                    <i class="fa fa-eye"></i>
+                    <span>View More</span>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <div class="work-info">
+              <h3>Geosty</h3>
+              <p class="work-paragraph">Weather Application</p>
+              <p class="work-paragraph-2">iOS / Android Application</p>
+              <div class="icon-btns" onclick="">
+                <a
+                  href="https://github.com/Luchkiin/geosty-weather-app"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container github">
+                    <div class="github-icon">
+                      <span class="icon-github"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>GitHub</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
 
-  <!-- Footer
+          <div class="work-grid-item">
+            <div class="work-container">
+              <a href="../work/listd">
+                <img
+                  src="images/work/listd/listd-project-img.png"
+                  class="work-image"
+                  alt="Listd - Work"
+                />
+                <div class="work-overlay">
+                  <div class="overlay-text">
+                    <span class="overlay-title">Listd</span>
+                    <span class="overlay-subtitle">Mobile Application</span>
+                  </div>
+                  <span class="overlay-icon" title="View More">
+                    <i class="fa fa-eye"></i>
+                    <span>View More</span>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <div class="work-info">
+              <h3>Listd</h3>
+              <p class="work-paragraph">To-Do List</p>
+              <p class="work-paragraph-2">Android Application</p>
+              <div class="icon-btns">
+                <a href="https://github.com/Luchkiin/listd_v2" target="_blank">
+                  <div class="icon-btn-container github">
+                    <div class="github-icon">
+                      <span class="icon-github"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>GitHub</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="work-sub-heading">
+          <i class="fas fa-desktop"></i>Web Applications
+        </h3>
+
+        <div class="work-grid">
+          <div class="work-grid-item">
+            <div class="work-container">
+              <a href="../work/techflake">
+                <img
+                  src="images/work/techflake/techflake-project-img.png"
+                  class="work-image"
+                  alt="Techflake - Work"
+                />
+                <div class="work-overlay">
+                  <div class="overlay-text">
+                    <span class="overlay-title">Techflake</span>
+                    <span class="overlay-subtitle">Web Application</span>
+                  </div>
+                  <span class="overlay-icon" title="View More">
+                    <i class="fa fa-eye"></i>
+                    <span>View More</span>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <div class="work-info">
+              <h3>Techflake</h3>
+              <p class="work-paragraph">Online Help Website</p>
+              <p class="work-paragraph-2">Web Application</p>
+              <div class="icon-btns">
+                <a
+                  href="https://luchkiin.github.io/techflake-online-help-page/"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container demo">
+                    <div class="live-icon">
+                      <span class="icon-play-circle"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/Luchkiin/techflake-online-help-page"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container github">
+                    <div class="github-icon">
+                      <span class="icon-github"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>GitHub</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-grid-item">
+            <div class="work-container">
+              <a href="../work/bevera">
+                <img
+                  src="images/work/bevera/bevera-project-img.png"
+                  class="work-image"
+                  alt="BEVERA -Work"
+                />
+                <div class="work-overlay">
+                  <div class="overlay-text">
+                    <span class="overlay-title">BEVERA</span>
+                    <span class="overlay-subtitle">Web Application</span>
+                  </div>
+                  <span class="overlay-icon" title="View More">
+                    <i class="fa fa-eye"></i>
+                    <span>View More</span>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <div class="work-info">
+              <h3>BEVERA</h3>
+              <p class="work-paragraph">eCommerce Website</p>
+              <p class="work-paragraph-2">Web Application</p>
+              <div class="icon-btns">
+                <a
+                  href="https://luchkiin.github.io/bevera-eCommerce-page/"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container demo">
+                    <div class="live-icon">
+                      <span class="icon-play-circle"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/Luchkiin/bevera-eCommerce-page"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container github">
+                    <div class="github-icon">
+                      <span class="icon-github"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>GitHub</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="work-grid-item">
+            <div class="work-container">
+              <a href="../work/ica-stores-locator">
+                <img
+                  src="images/work/ica-stores/ica-stores-project-img.png"
+                  class="work-image"
+                  alt="ICA Stores Locator - Work"
+                />
+                <div class="work-overlay">
+                  <div class="overlay-text">
+                    <span class="overlay-title">ICA Stores Locator</span>
+                    <span class="overlay-subtitle">Map Application</span>
+                  </div>
+                  <span class="overlay-icon" title="View More">
+                    <i class="fa fa-eye"></i>
+                    <span>View More</span>
+                  </span>
+                </div>
+              </a>
+            </div>
+            <div class="work-info">
+              <h3>ICA Stores Locator</h3>
+              <p class="work-paragraph">Store Locator</p>
+              <p class="work-paragraph-2">Map Application</p>
+              <div class="icon-btns">
+                <a
+                  href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container demo">
+                    <div class="live-icon">
+                      <span class="icon-play-circle"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map"
+                  target="_blank"
+                >
+                  <div class="icon-btn-container github">
+                    <div class="github-icon">
+                      <span class="icon-github"></span>
+                    </div>
+                    <div class="icon-text">
+                      <span>GitHub</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <footer>
-    <div class="container">
-      <div class="footer-container">
-        <div class="social-media-icons">
-          <ul>
-            <li>
-              <a href="https://www.linkedin.com/in/lucas-rosendahl/" target="_blank" aria-label="LinkedIn Logo"><span
-                  class="icon-linkedin"></span></a>
+    <section id="services">
+      <div class="container">
+        <h2 class="section-heading">Services</h2>
+        <div class="border-heading"></div>
+        <div class="service-grid-container">
+          <div class="service-grid-item">
+            <div class="skill-container">
+              <div class="skill-icon-container">
+                <i class="fas fa-pencil-ruler"></i>
+              </div>
+            </div>
+            <div class="skill-content">
+              <div class="skill-heading">
+                <h4>Web & Mobile Design</h4>
+              </div>
+              <p>
+                I offer professional web and mobile design that includes page
+                layout, content production and graphic design with an emphasis
+                on the user experience.
+              </p>
+            </div>
+          </div>
+          <div class="service-grid-item">
+            <div class="skill-container">
+              <div class="skill-icon-container">
+                <i class="fas fa-code"></i>
+              </div>
+            </div>
+            <div class="skill-content">
+              <div class="skill-heading">
+                <h4>Web & Mobile Development</h4>
+              </div>
+              <p>
+                I specialize in front-end development by using good practices
+                for building, creating, and maintaining web and mobile
+                applications.
+              </p>
+            </div>
+          </div>
+          <div class="service-grid-item">
+            <div class="skill-container">
+              <div class="skill-icon-container">
+                <i class="fas fa-palette"></i>
+              </div>
+            </div>
+            <div class="skill-content">
+              <div class="skill-heading">
+                <h4>UX & UI Design</h4>
+              </div>
+              <p>
+                With my meticulous approach, I ensure that my UX/UI design
+                skills align themselves after your company business needs and
+                goals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-grid-container-2">
+          <div class="progressBar-wrapper">
+            <div class="progressBar">
+              <div class="service-heading-container">
+                <div>
+                  <h4>HTML</h4>
+                </div>
+                <div>
+                  <img
+                    src="images/logos/html-logo.svg"
+                    alt="HTML Logo"
+                    class="html-icon"
+                  />
+                </div>
+              </div>
+              <div class="progressBarContainer">
+                <div class="progressBarValue html value-85"></div>
+              </div>
+            </div>
+
+            <div class="progressBar">
+              <div class="service-heading-container">
+                <div>
+                  <h4>CSS</h4>
+                </div>
+                <div>
+                  <img
+                    src="images/logos/css-logo.svg"
+                    alt="CSS Logo"
+                    class="css-icon"
+                  />
+                </div>
+              </div>
+              <div class="progressBarContainer">
+                <div class="progressBarValue css value-85"></div>
+              </div>
+            </div>
+
+            <div class="progressBar">
+              <div class="service-heading-container">
+                <div>
+                  <h4>JavaScript</h4>
+                </div>
+                <div>
+                  <img
+                    src="images/logos/javascript-logo.svg"
+                    alt="JavaScript Logo"
+                    class="javascript-icon"
+                  />
+                </div>
+              </div>
+              <div class="progressBarContainer">
+                <div class="progressBarValue js value-70"></div>
+              </div>
+            </div>
+
+            <div class="progressBar">
+              <div class="service-heading-container">
+                <div>
+                  <h4>UX/UI Design</h4>
+                </div>
+                <div>
+                  <img
+                    src="images/logos/ux-ui-logo.svg"
+                    alt="UX/UI Design Logo"
+                    class="ux-ui-icon"
+                  />
+                </div>
+              </div>
+              <div class="progressBarContainer">
+                <div class="progressBarValue ux-ui value-70"></div>
+              </div>
+            </div>
+
+            <div class="progressBar">
+              <div class="service-heading-container">
+                <div>
+                  <h4>Wireframing/Protoyping</h4>
+                </div>
+                <div>
+                  <img
+                    src="images/logos/figma-logo.svg"
+                    alt="Figma Logo"
+                    class="figma-icon"
+                  />
+                  <img
+                    src="images/logos/adobe-xd-logo.svg"
+                    alt="Adobe XD Logo"
+                    class="adobe-xd-icon"
+                  />
+                </div>
+              </div>
+              <div class="progressBarContainer">
+                <div class="progressBarValue wireframing value-85"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tools-knowledge-wrapper">
+            <div class="tools-wrapper">
+              <h4 class="tools-knowledge-heading">Tools</h4>
+              <ul class="tools-knowledge-ul">
+                <li>Adobe XD</li>
+                <li>Android Studio</li>
+                <li>Figma</li>
+                <li>MS Visual Studio</li>
+              </ul>
+            </div>
+            <div class="knowledge-wrapper">
+              <h4 class="tools-knowledge-heading">Knowledge</h4>
+              <ul class="tools-knowledge-ul">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>UX/UI Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <h2 class="section-heading">About</h2>
+          <div class="border-heading"></div>
+        </div>
+        <div class="about-grid-container">
+          <div class="about-text-item">
+            <p>
+              Hi, I'm Lucas, a Stockholm-based developer and designer with a
+              genuine interest for front-end development and UX/UI design.
+            </p>
+            <p>
+              I originally come from a more technical background but consider
+              myself today as a versatile designer and developer who uses
+              different approaches in solving various problems that comes my
+              way. My expertise is based on a three-year bachelor's degree in
+              systems science but also stems from personal initiatives regarding
+              different skills I have picked up along my learning career path in
+              the field of IT and design.
+            </p>
+            <p>
+              Things that I am good at are front-end development and UX/UI
+              design, where I have an eye for detail in what I create. I have in
+              addition to this also a mind for design and usability where my
+              goal as a developer and designer is to create user-friendly and
+              memorable products for the end-user to experience and use.
+            </p>
+            <p>
+              When I'm not working on creating things, I like to listen to my
+              vinyl collection, workout and spend quality time with family &
+              friends. Please feel free to let me know if you have any
+              questions.
+            </p>
+          </div>
+          <div class="profile-img-item">
+            <div class="profile-img">
+              <img
+                src="images/profile/profile-img.png"
+                alt="Profile About Image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="icon-btns about-btns">
+          <a href="mailto:lucas.rosendahl95@gmail.com">
+            <div class="icon-btn-container contact">
+              <div class="contact-icon">
+                <span class="icon-envelope"></span>
+              </div>
+              <div class="icon-text">
+                <span>Contact me</span>
+              </div>
+            </div>
+          </a>
+          <a href="resume.html" target="_blank">
+            <div class="icon-btn-container resume">
+              <div class="resume-icon">
+                <span class="icon-profile"></span>
+              </div>
+              <div class="icon-text">
+                <span>Resume</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <section class="experience" id="experience">
+      <div class="container">
+        <h2 class="section-heading">Experience</h2>
+        <div class="border-heading"></div>
+        <div class="timeline">
+          <ul class="timeline-ul">
+            <li class="timeline-li">
+              <div class="timeline-li-container">
+                <div class="timeline-li-heading">
+                  <div class="experience-icon-container">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                </div>
+                <div class="timeline-li-content">
+                  <h4>
+                    <a href="https://www.proveglobal.com/" target="_blank"
+                      >Prove Global</a
+                    >
+                  </h4>
+                  <h4 class="timeline-h4">
+                    Digital / UX & UI Designer (Contract)
+                  </h4>
+                  <small class="timeline-date"
+                    >September 2020 - Present &#8226; Stockholm</small
+                  >
+                  <div class="timeline-info">
+                    <p>Responsibilites:</p>
+                    <ul class="experience-list">
+                      <li>Digital Design</li>
+                      <li>Front-End Development</li>
+                      <li>UX/UI Design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li>
-              <a href="https://github.com/Luchkiin" target="_blank" aria-label="GitHub Logo"><span
-                  class="icon-github footer"></span></a>
+            <li class="timeline-li">
+              <div class="timeline-li-container">
+                <div class="timeline-li-heading">
+                  <div class="experience-icon-container">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                </div>
+                <div class="timeline-li-content">
+                  <h4>
+                    Front-End Development / Digital Design / UX & UI Design
+                  </h4>
+                  <h4 class="timeline-h4">Freelance</h4>
+                  <small class="timeline-date"
+                    >July 2020 - Present &#8226; Stockholm</small
+                  >
+                  <div class="timeline-info">
+                    <p>Responsibilites:</p>
+                    <ul class="experience-list">
+                      <li>Mobile/Web Development</li>
+                      <li>Mobile/Web Design</li>
+                      <li>UX/UI Design</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li>
-              <a href="https://twitter.com/lucas_rosendahl" target="_blank" aria-label="Twitter Logo"><span
-                  class="icon-twitter"></span></a>
+            <li class="timeline-li">
+              <div class="timeline-li-container">
+                <div class="timeline-li-heading">
+                  <div class="experience-icon-container">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                </div>
+                <div class="timeline-li-content">
+                  <h4>
+                    <a
+                      href="https://www.du.se/en/study-at-du/Program/programme-syllabus/?code=DSVPG"
+                      target="_blank"
+                      >Systems Science</a
+                    >
+                  </h4>
+                  <h4 class="timeline-h4">
+                    <a href="https://www.du.se/en" target="_blank"
+                      >Dalarna University</a
+                    >
+                  </h4>
+                  <small class="timeline-date"
+                    >Aug 2017 - Jun 2020 &#8226; Borlänge</small
+                  >
+                  <div class="timeline-info">
+                    <p>
+                      Bachelor of Science degree in Systems Science from Dalarna
+                      University.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </li>
-            <li>
-              <a href="https://www.instagram.com/lucas_rosendahl/" target="_blank" aria-label="Instagram Logo"><span
-                  class="icon-instagram"></span></a>
+            <li class="timeline-li">
+              <div class="timeline-li-container">
+                <div class="timeline-li-heading">
+                  <div class="experience-icon-container">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                </div>
+                <div class="timeline-li-content">
+                  <h4>
+                    <a href="https://www.opuscapita.com/" target="_blank"
+                      >OpusCapita</a
+                    >
+                  </h4>
+                  <h4 class="timeline-h4">Summer internship</h4>
+                  <small class="timeline-date"
+                    >Jun 2019 - Aug 2019 &#8226; Stockholm</small
+                  >
+                  <div class="timeline-info">
+                    <p>Responsibilites:</p>
+                    <ul class="experience-list">
+                      <li>Front-End development</li>
+                      <li>Product documentation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
 
-  <!-- JavaScript Imports
+    <!-- Contact Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.1/jquery-migrate.min.js"></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
 
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-heading">Contact</h2>
+        <div class="border-heading"></div>
+        <form action="https://formspree.io/mqkdzqkb" method="POST">
+          <div class="contact-grid-container-1">
+            <div class="contact-grid-item-1">
+              <div class="contact-label-wrapper">
+                <label for="name-input" class="contact-label">Name *</label>
+              </div>
+              <div class="status-name"></div>
+              <div class="input-group input-group-icon">
+                <input
+                  class="input-effect name-input"
+                  id="name-input"
+                  placeholder="Name"
+                  name="name"
+                  type="text"
+                  autocomplete="off"
+                  required
+                />
+                <div class="input-icon"><i class="fa fa-user"></i></div>
+              </div>
+            </div>
+            <div class="contact-grid-item-1">
+              <div class="contact-label-wrapper">
+                <label for="email" class="contact-label">Email *</label>
+              </div>
+              <div class="status-email" id="status-email"></div>
+              <div class="input-group input-group-icon">
+                <input
+                  class="input-effect email-input"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                  autocomplete="off"
+                  required
+                />
+                <div class="input-icon"><i class="fas fa-envelope"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="contact-grid-container-2">
+            <div class="contact-grid-item-1">
+              <div class="contact-label-wrapper">
+                <label for="contact-concern" class="contact-label"
+                  >What is your concern? *</label
+                >
+              </div>
+              <select
+                id="contact-concern"
+                name="concern"
+                class="select-option"
+                required
+              >
+                <option value="" selected disabled hidden>Choose here</option>
+                <option value="Web Design">Web Design</option>
+                <option value="Web Development">Web Development</option>
+                <option value="Mobile Development">Mobile Development</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="contact-grid-container-2">
+            <div class="contact-grid-item-2 input-effect">
+              <div class="contact-label-wrapper">
+                <label for="message-input" class="contact-label"
+                  >Message *</label
+                >
+              </div>
+              <div class="status-message"></div>
+              <textarea
+                class="input-effect message-input"
+                id="message-input"
+                placeholder="Your Message..."
+                name="message"
+                autocomplete="off"
+                required
+              ></textarea>
+            </div>
+          </div>
+          <div class="contact-grid-container-3">
+            <div class="contact-grid-item-3">
+              <div class="send-btn">
+                <button class="submit-btn" id="validate" type="submit">
+                  <span class="icon-paper-plane"></span
+                  ><span class="send-btn-text">Send</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="back-to-top-btn-container">
+      <div id="back-to-top-btn" class="back-to-top-btn" title="Back to Top">
+        <span class="icon-angle-up"></span>
+      </div>
+    </div>
+
+    <!-- Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-container">
+          <div class="social-media-icons">
+            <ul>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/lucas-rosendahl/"
+                  target="_blank"
+                  aria-label="LinkedIn Logo"
+                  ><span class="icon-linkedin"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/Luchkiin"
+                  target="_blank"
+                  aria-label="GitHub Logo"
+                  ><span class="icon-github footer"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/lucas_rosendahl"
+                  target="_blank"
+                  aria-label="Twitter Logo"
+                  ><span class="icon-twitter"></span
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/lucas_rosendahl/"
+                  target="_blank"
+                  aria-label="Instagram Logo"
+                  ><span class="icon-instagram"></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JavaScript Imports
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.1/jquery-migrate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
