@@ -1536,6 +1536,19 @@ span.icon-github:hover {
 	margin: auto;
 }
 
+.experience-icon-container img {
+	width: 40px;
+	height: auto;
+	margin: auto;
+}
+
+.dalarna-university-image {
+	width: 60px !important;
+}
+.opus-capita-image {
+	width: 50px !important;
+}
+
 .timeline-li-content {
 	padding: 16px;
 }

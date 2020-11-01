@@ -1314,6 +1314,18 @@
     .experience-icon-container i {
         font-size: 1.25rem;
     }
+    .experience-icon-container img {
+        width: 35px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .dalarna-university-image {
+        width: 50px !important;
+    }
+    .opus-capita-image {
+        width: 40px !important;
+    }
     .timeline .timeline-ul .timeline-li .timeline-li-container {
         width: 350px;
     }
@@ -1776,6 +1788,21 @@
     }
     .experience-icon-container i {
         font-size: 1.25rem;
+    }
+    .experience-icon-container i {
+        font-size: 1.25rem;
+    }
+    .experience-icon-container img {
+        width: 35px;
+        height: auto;
+        margin: auto;
+    }
+    
+    .dalarna-university-image {
+        width: 50px !important;
+    }
+    .opus-capita-image {
+        width: 40px !important;
     }
     .timeline-date {
         font-size: 0.625rem;
