@@ -459,8 +459,8 @@ p, ul {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	-webkit-transform: translate(-50%, -84%);
-	transform: translate(-50%, -84%);
+	-webkit-transform: translate(-50%, -70%);
+	transform: translate(-50%, -70%);
 	width: 100%;
 	text-align: center;
 	z-index: 1;
@@ -492,6 +492,33 @@ p, ul {
 	margin-bottom: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+
+.cta-work {
+	padding: 12px 16px;
+	margin-top: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 24px;
+	border: 1px solid var(--white-color);
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+
+.cta-work:hover {
+	background-color: var(--menu-green-color) !important;
+	border: 1px solid var(--menu-green-color);
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+
+.cta-work a {
+	color: var(--white-color) !important;
+}
+
 
 .scroll-down {
 	position: absolute;
@@ -842,6 +869,8 @@ nav ul a {
 	transition: background-color .5s, opacity .5s, visibility .5s;
 	opacity: 0;
 	visibility: hidden;
+	overflow: hidden;
+	outline: 0;
 	-webkit-animation: pulse 2s infinite;
 	animation: pulse 2s infinite;
 }
@@ -1805,7 +1834,7 @@ textarea {
 button[type="submit"] {
 	position: relative;
 	height: 48px;
-	width: 125px;
+	width: 150px;
 	text-align: center;
 	font-size: 1rem;
 	color: var(--white-color);
@@ -1816,7 +1845,7 @@ button[type="submit"] {
 	text-decoration: none;
 	white-space: nowrap;
 	background: var(--green-color);
-	border-radius: 8px;
+	border-radius: 24px;
 	border: 0;
 	cursor: pointer;
 	font-family: 'Open Sans', sans-serif !important;
@@ -1878,7 +1907,7 @@ footer {
 }
 
 .social-media-icons li {
-	margin-left: 1.5em;
+	margin: 0 12px;
 	list-style: none;
 	margin-bottom: 0;
 }

@@ -196,8 +196,8 @@
         font-size: 1em;
         padding: 8px;
         border-radius: 50%;
-        background-color: #fcfcfc;
-        color: #256265;
+        color: var(--white-color);
+        border: 1px solid var(--white-color);
         animation: none;
     }
     .waves {
@@ -522,7 +522,7 @@
         order: 2;
     }
     .social-media-icons li {
-        margin: 6px;
+        margin: 0 12px;
         list-style: none;
         margin-bottom: 0;
     }
@@ -585,8 +585,8 @@
         font-size: 1em;
         padding: 8px;
         border-radius: 50%;
-        background-color: #FCFCFC;
-        color: #256265;
+        color: var(--white-color);
+        border: 1px solid var(--white-color);
         animation: none;
     }
     .waves {
@@ -933,7 +933,7 @@
         order: 2;
     }
     .social-media-icons li {
-        margin: 6px;
+        margin: 0 12px;
         list-style: none;
         margin-bottom: 0;
     }
@@ -984,10 +984,13 @@
         font-size: 2.875rem;
     }
     .title h2 {
-        font-size: 0.9375rem;
+        font-size: 1rem;
     }
     .title h2 span {
         display: block;
+    }
+    .cta-work {
+        font-size: 1rem;
     }
     .mouse {
         display: none;
@@ -996,8 +999,8 @@
         font-size: 0.875rem;
         padding: 8px;
         border-radius: 50%;
-        background-color: #FCFCFC;
-        color: #256265;
+        color: var(--white-color);
+        border: 1px solid var(--white-color);
         animation: none;
     }
     .scroll-down {
@@ -1405,7 +1408,7 @@
         justify-content: center;
     }
     .social-media-icons li {
-        margin: 6px;
+        margin: 0 8px;
         list-style: none;
         margin-bottom: 0;
     }
@@ -1456,10 +1459,13 @@
         font-size: 2.625rem;
     }
     .title h2 {
-        font-size: 0.9375rem;
+        font-size: 1rem;
     }
     .title h2 span {
         display: block;
+    }
+    .cta-work {
+        font-size: 1rem;
     }
     .mouse {
         display: none;
@@ -1468,8 +1474,8 @@
         font-size: 0.875rem;
         padding: 8px;
         border-radius: 50%;
-        background-color: #FCFCFC;
-        color: #256265;
+        color: var(--white-color);
+        border: 1px solid var(--white-color);
         animation: none;
     }
     .scroll-down {
@@ -1852,7 +1858,7 @@
         justify-content: center;
     }
     .social-media-icons li {
-        margin: 6px;
+        margin: 0 8px;
         list-style: none;
         margin-bottom: 0;
     }
