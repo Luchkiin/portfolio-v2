@@ -2,6 +2,7 @@
 	--black-color: #222222;
 	--white-color: #FCFCFC;
 	--green-color: #256265;
+	--red-color: #ff4c4c;
 	--dark-green-color: #357f82;
 	--menu-green-color: #1f5053;
 	--grey-color: #E1E1E1;
@@ -16,8 +17,8 @@
 /* Font Import
 **************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 /* Global Styles
 **************************/
 
@@ -81,15 +82,15 @@ h1 {
 
 h1 {
 	font-size: 4.75rem;
-	line-height: 1.5;
-	font-family: 'Arimo', sans-serif;
+	line-height: 1.4;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 h2 {
 	font-size: 3.6rem;
-	line-height: 1.5;
+	line-height: 1.4;
 	font-weight: 400;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	margin-bottom: 12px;
 }
 
@@ -98,7 +99,7 @@ h3 {
 	font-weight: 700 !important;
 	line-height: 1.5;
 	color: var(--black-color);
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 h4 {
@@ -106,7 +107,7 @@ h4 {
 	font-weight: 700;
 	line-height: 1.5;
 	color: var(--black-color);
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 p {
@@ -452,7 +453,6 @@ p, ul {
 .logo-img {
 	width: 175px;
 	height: 175px;
-	margin-bottom: 24px;
 }
 
 .title {
@@ -467,25 +467,17 @@ p, ul {
 }
 
 .title h1 {
-	line-height: 0.85;
 	font-weight: 700;
-	color: #fcfcfc;
-	font-size: 5.375rem;
+	margin-bottom: 0;
+	font-size: 5rem;
 	color: var(--white-color);
-	margin-bottom: 24px;
 	letter-spacing: 2.5px;
-	font-family: 'Arimo', sans-serif;
-}
-
-.divide-border {
-	width: 100%;
-	height: 1px;
-	background-color: var(--top-menu-color);
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .title h2 {
 	color: var(--white-color);
-	font-size: 1.125rem;
+	font-size: 1.5rem;
 	font-weight: 400;
 	letter-spacing: 2.5px;
 	line-height: 27px;
@@ -515,11 +507,9 @@ p, ul {
 	transition: all 0.3s;
 }
 
-
 .cta-work a {
 	color: var(--white-color) !important;
 }
-
 
 .scroll-down {
 	position: absolute;
@@ -842,7 +832,7 @@ nav ul a {
 	font-size: 3.375rem;
 	font-weight: 700;
 	letter-spacing: 1.5px;
-	font-family: 'Arimo', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 }
 
 .border-heading {
@@ -1049,7 +1039,6 @@ nav ul a {
 	left: -2px;
 	font-family: 'Open Sans', sans-serif !important;
 }
-
 
 .contact-icon span {
 	position: absolute;
@@ -1545,6 +1534,7 @@ span.icon-github:hover {
 .dalarna-university-image {
 	width: 60px !important;
 }
+
 .opus-capita-image {
 	width: 50px !important;
 }
@@ -1683,6 +1673,11 @@ span.icon-github:hover {
 	opacity: 1;
 }
 
+.responsibilities-title {
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
 /* Contact Section
 ********************************************************************* */
 
@@ -1750,8 +1745,11 @@ select {
 }
 
 .contact-label {
-	font-size: 1em;
+	font-size: .85rem;
 	line-height: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--green-color);
 }
 
 input, select:focus {
@@ -1890,7 +1888,12 @@ button[type="submit"]:hover {
 
 .status-name, .status-email, .status-message {
 	font-size: 1.125rem;
-	color: var(--green-color);
+	color: var(--red-color);
+	margin-top: -6px;
+}
+
+.status-message {
+	margin-top: 6px;
 }
 
 /* Footer 

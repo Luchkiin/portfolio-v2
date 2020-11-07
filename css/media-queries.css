@@ -177,13 +177,10 @@
         height: 150px;
     }
     .title h1 {
-        font-size: 4.75rem;
+        font-size: 4.5rem;
     }
     .title h2 {
         font-size: 1.25rem;
-    }
-    .title h2 span {
-        display: block;
     }
     .scroll-down {
         bottom: 36px;
@@ -507,6 +504,10 @@
     .input-group-icon input {
         padding-left: 62px;
     }
+    .status-name, .status-email, .status-message {
+        font-size: 1rem;
+        margin-top: 6px;
+    }
     /* Footer 
 ********************************************************************* */
     .footer-container {
@@ -566,13 +567,10 @@
         height: 150px;
     }
     .title h1 {
-        font-size: 4.75rem;
+        font-size: 4.5rem;
     }
     .title h2 {
         font-size: 1.25rem;
-    }
-    .title h2 span {
-        display: block;
     }
     .scroll-down {
         bottom: 36px;
@@ -917,6 +915,10 @@
     }
     .input-group-icon input {
         padding-left: 62px;
+    }
+    .status-name, .status-email, .status-message {
+        font-size: 1rem;
+        margin-top: 6px;
     }
     /* Footer 
 ********************************************************************* */
@@ -1406,6 +1408,10 @@
     .input-group-icon input {
         padding-left: 62px;
     }
+    .status-name, .status-email, .status-message {
+        font-size: .875rem;
+        margin-top: 6px;
+    }
     /* Footer
 ********************************************************************* */
     .footer-container {
@@ -1870,6 +1876,10 @@
     }
     .input-group-icon input {
         padding-left: 60px;
+    }
+    .status-name, .status-email, .status-message {
+        font-size: .875rem;
+        margin-top: 6px;
     }
     /* Footer
 ********************************************************************* */

@@ -76,19 +76,15 @@ jQuery(document).ready(function ($) {
     $('.smoothscroll').on('click', function (e) {
         e.preventDefault();
 
-        
-
         var target = this.hash,
             $target = $(target);
 
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top
-        }, 500, 'swing', function () {
+        }, 600, 'swing', function () {
             window.location.hash = target;
         });
     });
-
-
 
     /*----------------------------------------------------*/
     /* Animation Fade In Top
@@ -172,7 +168,7 @@ jQuery(document).ready(function ($) {
         statusEmail.empty();
         statusMessage.empty();
 
-        if (name.length < 2) {
+        if (name.length < 4) {
             event.preventDefault();
             statusName.append('<div>Name is not valid</div>');
         }
@@ -201,7 +197,7 @@ jQuery(document).ready(function ($) {
         }
 
         $("#validate").on("click", validate);
-
+        
         if (message.length < 10) {
             event.preventDefault();
             statusMessage.append('<div>Message is not valid</div>');
