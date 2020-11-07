@@ -494,6 +494,7 @@ p, ul {
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
+	margin-bottom: 1px;
 }
 
 .cta-work:hover {
