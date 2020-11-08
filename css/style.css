@@ -1748,7 +1748,7 @@ select {
 	line-height: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: var(--green-color);
+	color: var(--black-color);
 }
 
 input, select:focus {
