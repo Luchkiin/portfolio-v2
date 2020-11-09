@@ -1754,23 +1754,28 @@ select {
 input:focus {
 	outline: 0;
 	border-color: var(--dark-green-color);
+	transition: all 0.35s ease-in-out;
 }
 select:focus {
 	outline: 0;
 	border-color: var(--dark-green-color);
+	transition: all 0.35s ease-in-out;
 }
 
 textarea:focus {
 	outline: 0;
 	border-color: var(--dark-green-color);
+	transition: all 0.35s ease-in-out;
 }
 
 input:focus+.input-icon i {
 	color: var(--dark-green-color);
+	transition: all 0.35s ease-in-out;
 }
 
 input:focus+.input-icon:after {
 	border-right-color: var(--dark-green-color);
+	transition: all 0.35s ease-in-out;
 }
 
 .input-group {
