@@ -1751,7 +1751,11 @@ select {
 	color: var(--black-color);
 }
 
-input, select:focus {
+input:focus {
+	outline: 0;
+	border-color: var(--dark-green-color);
+}
+select:focus {
 	outline: 0;
 	border-color: var(--dark-green-color);
 }
