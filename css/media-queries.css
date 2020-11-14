@@ -108,11 +108,10 @@
         display: none;
     }
     .arrow i {
-        font-size: 1rem;
+        font-size: 1.125rem;
         padding: 8px;
         border-radius: 50%;
-        background-color: #fcfcfc;
-        color: #256265;
+        color: #ffffff;
         animation: none;
     }
     /* Services Section
@@ -141,8 +140,20 @@
     .work-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    /* Experience Section
+    /* Cookie Consent Popup
 ********************************************************************* */
+    .consent-popup-inner-wrapper {
+        padding: 24px 30px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .cta-consent-accept {
+        justify-self: end;
+    }
+    #cta-consent-accept {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 }
 
 /* 
@@ -186,17 +197,16 @@
         display: none;
     }
     .arrow i {
-        font-size: 1em;
+        font-size: 1.25em;
         padding: 8px;
         border-radius: 50%;
         color: var(--white-color);
-        border: 1px solid var(--white-color);
         animation: none;
     }
     .waves {
         height: 150px;
         min-height: 150px;
-      }
+    }
     /* Navigation
 **************************/
     /*Top Navigation*/
@@ -504,6 +514,20 @@
         font-size: 1rem;
         margin-top: 6px;
     }
+    /* Cookie Consent Popup
+********************************************************************* */
+    .consent-popup-inner-wrapper {
+        padding: 24px 56px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .cta-consent-accept {
+        justify-self: end;
+    }
+    #cta-consent-accept {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     /* Footer 
 ********************************************************************* */
     .footer-container {
@@ -572,17 +596,16 @@
         display: none;
     }
     .arrow i {
-        font-size: 1em;
+        font-size: 1.125rem;
         padding: 8px;
         border-radius: 50%;
         color: var(--white-color);
-        border: 1px solid var(--white-color);
         animation: none;
     }
     .waves {
         height: 150px;
         min-height: 150px;
-      }
+    }
     /* Navigation
 **************************/
     /*Top Navigation*/
@@ -912,6 +935,20 @@
         font-size: 1rem;
         margin-top: 6px;
     }
+    /* Cookie Consent Popup
+********************************************************************* */
+    .consent-popup-inner-wrapper {
+        padding: 24px 75px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    .cta-consent-accept {
+        justify-self: end;
+    }
+    #cta-consent-accept {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     /* Footer 
 ********************************************************************* */
     .footer-container {
@@ -990,11 +1027,10 @@
         display: none;
     }
     .arrow i {
-        font-size: 0.875rem;
+        font-size: 1rem;
         padding: 8px;
         border-radius: 50%;
         color: var(--white-color);
-        border: 1px solid var(--white-color);
         animation: none;
     }
     .scroll-down {
@@ -1004,7 +1040,7 @@
     .waves {
         height: 125px;
         min-height: 125px;
-      }
+    }
     /* Navigation
 **************************/
     .nav-link {
@@ -1313,7 +1349,6 @@
         height: auto;
         margin: auto;
     }
-    
     .dalarna-university-image {
         width: 50px !important;
     }
@@ -1404,6 +1439,17 @@
         font-size: .875rem;
         margin-top: 6px;
     }
+    /* Cookie Consent Popup
+********************************************************************* */
+    .consent-popup-inner-wrapper {
+        padding: 24px 45px;
+        flex-direction: column;
+        display: flex;
+    }
+    #cta-consent-accept {
+        margin-top: 30px;
+        margin-bottom: 16px;
+    }
     /* Footer
 ********************************************************************* */
     .footer-container {
@@ -1483,11 +1529,10 @@
         display: none;
     }
     .arrow i {
-        font-size: 0.875rem;
+        font-size: 1rem;
         padding: 8px;
         border-radius: 50%;
         color: var(--white-color);
-        border: 1px solid var(--white-color);
         animation: none;
     }
     .scroll-down {
@@ -1497,7 +1542,7 @@
     .waves {
         height: 125px;
         min-height: 125px;
-      }
+    }
     /* Navigation
 **************************/
     /*Top Navigation*/
@@ -1797,7 +1842,6 @@
         height: auto;
         margin: auto;
     }
-    
     .dalarna-university-image {
         width: 50px !important;
     }
@@ -1874,6 +1918,17 @@
     .status-name, .status-email, .status-message {
         font-size: .875rem;
         margin-top: 6px;
+    }
+    /* Cookie Consent Popup
+********************************************************************* */
+    .consent-popup-inner-wrapper {
+        padding: 24px 28px;
+        display: flex;
+        flex-direction: column;
+    }
+    #cta-consent-accept {
+        margin-top: 30px;
+        margin-bottom: 16px;
     }
     /* Footer
 ********************************************************************* */

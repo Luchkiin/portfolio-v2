@@ -68,7 +68,9 @@
       }
       gtag("js", new Date());
 
-      gtag("config", "UA-154166578-1", {cookie_flags: 'SameSite=None;Secure'});
+      gtag("config", "UA-154166578-1", {
+        cookie_flags: "SameSite=None;Secure",
+      });
     </script>
   </head>
 
@@ -989,7 +991,9 @@
           <div class="contact-grid-container-1">
             <div class="contact-grid-item-1">
               <div class="contact-label-wrapper">
-                <label for="name-input" class="contact-label">Full Name *</label>
+                <label for="name-input" class="contact-label"
+                  >Full Name *</label
+                >
               </div>
               <div class="input-group input-group-icon">
                 <input
@@ -1031,11 +1035,7 @@
                   >What is your concern?</label
                 >
               </div>
-              <select
-                id="contact-concern"
-                name="concern"
-                class="select-option"
-              >
+              <select id="contact-concern" name="concern" class="select-option">
                 <option value="" selected disabled hidden>Choose here</option>
                 <option value="Web Design">Web Design</option>
                 <option value="Web Development">Web Development</option>
@@ -1079,6 +1079,22 @@
     <div class="back-to-top-btn-container">
       <div id="back-to-top-btn" class="back-to-top-btn" title="Back to Top">
         <span class="icon-angle-up"></span>
+      </div>
+    </div>
+
+    <div id="consent-popup" class="consent-popup-hidden">
+      <div class="consent-popup-inner-wrapper">
+        <div class="consent-text">
+          <p>
+            The following website use cookies to give you the most relevant
+            experience by remembering your preferences and repeat visits. By
+            clicking <span class="accept-cookie-span">“Accept”</span>, you consent to the use of all
+            the cookies.
+          </p>
+        </div>
+        <div id="cta-consent-accept" class="cta-consent-accept">
+          <a href="#">Accept</a>
+        </div>
       </div>
     </div>
 
