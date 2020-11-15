@@ -1925,6 +1925,7 @@ button[type="submit"]:hover {
 
 #consent-popup.consent-popup-hidden {
 	opacity: 0;
+	display: none;
 }
 
 .consent-popup-inner-wrapper {
