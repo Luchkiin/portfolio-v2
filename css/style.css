@@ -713,9 +713,9 @@ nav ul a {
 
 .active-nav {
 	color: var(--white-color);
-	border-bottom: 2px solid var(--white-color);
-	padding-bottom: 12px;
-	padding-top: 14px;
+	border-bottom: 1px solid var(--white-color);
+	padding-bottom: 8px;
+	padding-top: 8px;
 }
 
 .nav-link i:hover, .nav-link i:focus {
