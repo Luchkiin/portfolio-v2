@@ -1912,7 +1912,7 @@ button[type="submit"]:hover {
 ********************************************************************* */
 
 #consent-popup {
-	background-color: var(--white-color);
+	background-color: rgba(255, 255, 255, .95);
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -1925,11 +1925,12 @@ button[type="submit"]:hover {
 
 #consent-popup.consent-popup-hidden {
 	opacity: 0;
-	display: none;
+	z-index: 1;
 }
 
 .consent-popup-inner-wrapper {
-	padding: 36px 50px;
+	padding: 0 50px;
+	height: 87.5px;
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 	justify-content: space-between;
@@ -1951,14 +1952,15 @@ button[type="submit"]:hover {
 	font-weight: 700;
 }
 
-#cta-consent-accept a {
+#cta-consent-accept span {
 	color: var(--green-color);
 	border: 1px solid var(--green-color);
 	padding: 12px 24px;
 	border-radius: 24px;
+	cursor: pointer;
 }
 
-#cta-consent-accept a:hover {
+#cta-consent-accept span:hover {
 	color: var(--white-color);
 	background-color: var(--green-color);
 	-webkit-transition: all 0.3s;
@@ -1969,7 +1971,7 @@ button[type="submit"]:hover {
 ********************************************************************* */
 
 footer {
-	height: 80px;
+	height: 87.5px;
 	display: -webkit-box;
 	display: flex;
 	-webkit-box-align: center;

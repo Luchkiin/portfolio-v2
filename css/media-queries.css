@@ -520,6 +520,7 @@
         padding: 24px 56px;
         display: grid;
         grid-template-columns: 3fr 1fr;
+        height: auto;
     }
     .cta-consent-accept {
         justify-self: end;
@@ -941,6 +942,7 @@
         padding: 24px 75px;
         display: grid;
         grid-template-columns: 3fr 1fr;
+        height: auto;
     }
     .cta-consent-accept {
         justify-self: end;
@@ -1445,6 +1447,7 @@
         padding: 24px 45px;
         flex-direction: column;
         display: flex;
+        height: auto;
     }
     #cta-consent-accept {
         margin-top: 30px;
@@ -1925,6 +1928,7 @@
         padding: 24px 28px;
         display: flex;
         flex-direction: column;
+        height: auto;
     }
     #cta-consent-accept {
         margin-top: 30px;
