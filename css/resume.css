@@ -193,10 +193,11 @@ object {
 .resume-btn {
     background-color: var(--green-color);
     color: var(--white-color) !important;
-    padding: 16px;
+    padding: 15px 24px;
     border-radius: 24px;
     font-size: 1rem;
     text-decoration: none !important;
+    height: 48px;
 }
 
 .resume-btn i {

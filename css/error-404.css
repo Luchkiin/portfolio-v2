@@ -59,11 +59,12 @@
 .home-btn-404 {
     background-color: var(--green-color);
     color: var(--white-color);
-    padding: 16px;
-    border-radius: 24px;
+    padding: 15px 24px;
+    border-radius: 100px;
     font-size: 1rem;
     position: relative;
     text-align: center;
+    height: 48px;
 }
 
 .home-btn-404 i {
