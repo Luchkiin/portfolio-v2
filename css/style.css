@@ -2009,10 +2009,12 @@ footer {
 .social-media-icons span {
 	color: var(--white-color);
 	font-size: 1rem;
-	border: 1px solid var(--white-color);
+	border: 2px solid var(--white-color);
 	border-radius: 100%;
-	padding: 8px;
+	padding: 8px 9px;
 	z-index: 2;
+	height: 36px;
+	width: 36px;
 }
 
 .icon-linkedin:hover {
