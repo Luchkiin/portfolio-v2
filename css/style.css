@@ -1,5 +1,5 @@
 :root {
-	--black-color: #222222;
+	--black-color: #2c2c2c;
 	--white-color: #FCFCFC;
 	--green-color: #256265;
 	--red-color: #ff4c4c;
@@ -881,7 +881,6 @@ nav ul a {
 
 #back-to-top-btn:active {
 	background: var(--green-color);
-	;
 }
 
 #back-to-top-btn.show {
@@ -1686,6 +1685,10 @@ span.icon-github:hover {
 	background-color: var(--white-color);
 }
 
+.contact__message {
+	margin-top: -12px;
+}
+
 .contact-grid-container-1 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -1833,6 +1836,18 @@ input:focus+.input-icon:after {
 	-o-transition: 0.35s ease-in-out;
 	transition: 0.35s ease-in-out;
 	transition: all 0.35s ease-in-out;
+}
+
+select {
+	color: var(--dark-grey-color);
+}
+
+option {
+	color: var(--black-color);
+}
+
+.selected-option {
+	color: var(--black-color);
 }
 
 .contact-grid-container-1 {
