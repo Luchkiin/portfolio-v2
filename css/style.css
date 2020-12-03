@@ -1539,6 +1539,10 @@ span.icon-github:hover {
 	width: 50px !important;
 }
 
+.nf-logo {
+	border-radius: 50%;
+}
+
 .timeline-li-content {
 	padding: 16px;
 }
