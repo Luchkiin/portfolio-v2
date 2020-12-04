@@ -1416,6 +1416,24 @@ span.icon-profile:hover {
 	display: block;
 }
 
+.tech-tags-list {
+	display: flex;
+	padding-top: 4px;
+}
+
+.tech-tags-list span {
+	font-size: .75rem;
+	display: block;
+	border: 1px solid var(--white-color);
+	color: var(--white-color);
+	padding: 4px 8px;
+	border-radius: 100px;
+	margin-right: 8px;
+}
+.tech-tags-list span:last-child {
+	margin-right: 0;
+}
+
 .fa-eye:hover {
 	color: var(--white-color);
 }
