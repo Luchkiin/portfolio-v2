@@ -1018,6 +1018,7 @@
     }
     .title h2 {
         font-size: 1rem;
+        display: none;
     }
     .title h2 span {
         display: block;
@@ -1516,6 +1517,7 @@
     }
     .title h1 {
         font-size: 2.625rem;
+        display: none;
     }
     .title h2 {
         font-size: 1rem;

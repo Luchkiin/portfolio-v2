@@ -1199,8 +1199,7 @@ span.icon-profile:hover {
 }
 
 .html-icon {
-	width: 26%;
-	margin-bottom: 2px;
+	width: 28%;
 }
 
 .progressBarValue.css {
@@ -1208,8 +1207,15 @@ span.icon-profile:hover {
 }
 
 .css-icon {
-	width: 26%;
-	margin-bottom: 2px;
+	width: 28%;
+}
+
+.progressBarValue.sass {
+	background: #c76494;
+}
+
+.sass-icon {
+	width: 28%;
 }
 
 .progressBarValue.js {
@@ -1225,7 +1231,7 @@ span.icon-profile:hover {
 }
 
 .ux-ui-icon {
-	width: 60%;
+	width: 30%;
 }
 
 .progressBarValue.wireframing {
@@ -1233,12 +1239,12 @@ span.icon-profile:hover {
 }
 
 .figma-icon {
-	width: 12.5%;
+	width: 13%;
 	margin-right: 6px;
 }
 
 .adobe-xd-icon {
-	width: 14%;
+	width: 15%;
 }
 
 .value-00 {
