@@ -1,5 +1,5 @@
 :root {
-    --black-color: #222222;
+    --black-color: #2c2c2c;
     --white-color: #FCFCFC;
     --green-color: #256265;
     --dark-green-color: #357f82;
@@ -15,7 +15,7 @@
 
 /* Font Import
 **************************/
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 .error-404-container {
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 .error-404-title {
-    color: #222222;
+    color: var(--black-color);
     padding-right: 16px;
     animation: type .75s alternate infinite;
     font-size: 4.75rem;
@@ -49,7 +49,7 @@
 
 @keyframes type {
     from {
-        box-shadow: inset -3px 0px 0px #222222;
+        box-shadow: inset -3px 0px 0px var(--black-color);
     }
     to {
         box-shadow: inset -3px 0px 0px transparent;

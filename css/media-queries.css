@@ -1141,7 +1141,7 @@
         margin: 16px 0;
     }
     .top-nav-link {
-        font-size: 0.875rem;
+        font-size: 1rem;
     }
     .open-top-nav .top-menu-bar:nth-child(1) {
         -webkit-transform: translateY(10px) rotate(45deg);
@@ -1517,7 +1517,6 @@
     }
     .title h1 {
         font-size: 2.625rem;
-        display: none;
     }
     .title h2 {
         font-size: 1rem;

@@ -1,5 +1,5 @@
 :root {
-    --black-color: #222222;
+    --black-color: #2c2c2c;
     --white-color: #FCFCFC;
     --green-color: #256265;
     --dark-green-color: #357f82;
@@ -162,7 +162,7 @@ object {
 
 .object-fallback-text p {
     text-align: center;
-    color: #222222;
+    color: var(--black-color);
 }
 
 .resume-container {
@@ -175,7 +175,7 @@ object {
 }
 
 .broken-file-title {
-    color: #222222;
+    color: var(--black-color);
     padding-right: 16px;
     font-size: 4.75rem;
     animation: type .75s alternate infinite;
@@ -183,7 +183,7 @@ object {
 
 @keyframes type {
     from {
-        box-shadow: inset -3px 0px 0px #222222;
+        box-shadow: inset -3px 0px 0px var(--black-color);
     }
     to {
         box-shadow: inset -3px 0px 0px transparent;

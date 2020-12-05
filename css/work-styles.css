@@ -1,5 +1,5 @@
 :root {
-    --black-color: #222222;
+    --black-color: #2C2C2C;
     --white-color: #FCFCFC;
     --green-color: #256265;
     --dark-green-color: #357f82;
@@ -99,6 +99,7 @@ p:last-child {
     display: inline-block;
     padding: 0 16px;
     color: #888;
+    font-weight: 400;
 }
 
 /* Project Overview Section
@@ -354,7 +355,7 @@ p:last-child {
     text-align: center;
     padding: 12px 0;
     margin: 0;
-    color: #222222;
+    color: var(--black-color);
     font-weight: 700;
     font-size: 1.6rem;
 }
@@ -399,7 +400,7 @@ p:last-child {
 }
 
 .back-to-home h4 {
-    color: #222222;
+    color: var(--black-color);
     font-size: 1rem;
     transform: translateY(8px);
     transition: transform 500ms 0s cubic-bezier(0.2, 0, 0, 1);
@@ -485,7 +486,7 @@ p:last-child {
     .back-to-home span {
         opacity: 1;
         font-size: 1rem;
-        color: #222222;
+        color: var(--black-color);
         transform: translateY(6px);
     }
     .back-to-home:hover span {
@@ -514,7 +515,7 @@ p:last-child {
     .back-to-home span {
         opacity: 1;
         font-size: 1rem;
-        color: #222222;
+        color: var(--black-color);
         transform: translateY(6px);
     }
     .back-to-home:hover span {
@@ -573,7 +574,7 @@ p:last-child {
     .back-to-home span {
         opacity: 1;
         font-size: 0.875rem;
-        color: #222222;
+        color: var(--black-color);
         transform: translateY(6px);
     }
     .back-to-home:hover span {
@@ -623,7 +624,7 @@ p:last-child {
     .back-to-home span {
         opacity: 1;
         font-size: 0.875rem;
-        color: #222222;
+        color: var(--black-color);
         transform: translateY(6px);
     }
     .back-to-home:hover span {
