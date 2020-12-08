@@ -450,6 +450,7 @@ p, ul {
 .logo-img {
 	width: 175px;
 	height: 175px;
+	color: var(--white-color);
 }
 
 .title {
