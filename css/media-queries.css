@@ -104,10 +104,10 @@
         bottom: 36px;
         left: 50%;
     }
-    .mouse {
+    .scroll-down__mouse {
         display: none;
     }
-    .arrow i {
+    .scroll-down__arrow i {
         font-size: 1.125rem;
         padding: 8px;
         border-radius: 50%;
@@ -183,20 +183,20 @@
     /* Header Section
 **********************************************************************/
     /*Title Section*/
-    .title h1 {
+    .header__title h1 {
         font-size: 4.5rem;
     }
-    .title h2 {
+    .header__title h2 {
         font-size: 1.25rem;
     }
     .scroll-down {
         bottom: 36px;
         left: 50%;
     }
-    .mouse {
+    .scroll-down__mouse {
         display: none;
     }
-    .arrow i {
+    .scroll-down__arrow i {
         font-size: 1.25em;
         padding: 8px;
         border-radius: 50%;
@@ -583,20 +583,20 @@
     /* Header Section
 **********************************************************************/
     /*Title Section*/
-    .title h1 {
+    .header__title h1 {
         font-size: 4.5rem;
     }
-    .title h2 {
+    .header__title h2 {
         font-size: 1.25rem;
     }
     .scroll-down {
         bottom: 36px;
         left: 50%;
     }
-    .mouse {
+    .scroll-down__mouse {
         display: none;
     }
-    .arrow i {
+    .scroll-down__arrow i {
         font-size: 1.125rem;
         padding: 8px;
         border-radius: 50%;
@@ -1013,23 +1013,23 @@
         width: 150px;
         height: 150px;
     }
-    .title h1 {
+    .header__title h1 {
         font-size: 2.875rem;
     }
-    .title h2 {
+    .header__title h2 {
         font-size: 1rem;
         display: none;
     }
-    .title h2 span {
+    .header__title h2 span {
         display: block;
     }
     .cta-work {
         font-size: 1rem;
     }
-    .mouse {
+    .scroll-down__mouse {
         display: none;
     }
-    .arrow i {
+    .scroll-down__arrow i {
         font-size: 1rem;
         padding: 8px;
         border-radius: 50%;
@@ -1300,6 +1300,11 @@
     }
     /* Work Section
 ********************************************************************* */
+    .work__filters__menu li {
+        padding: 6px 12px;
+        margin-right: 4px;
+        font-size: 0.875rem;
+    }
     .work-grid {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -1515,24 +1520,24 @@
         width: 150px;
         height: 150px;
     }
-    .title h1 {
+    .header__title h1 {
         font-size: 2.625rem;
     }
-    .title h2 {
+    .header__title h2 {
         font-size: 1rem;
         display: none;
     }
-    .title h2 span {
+    .header__title h2 span {
         display: block;
     }
     .cta-work {
         font-size: 1rem;
         margin-top: 16px;
     }
-    .mouse {
+    .scroll-down__mouse {
         display: none;
     }
-    .arrow i {
+    .scroll-down__arrow i {
         font-size: 1rem;
         padding: 8px;
         border-radius: 50%;
@@ -1794,6 +1799,11 @@
     }
     /* Work Section
 ********************************************************************* */
+    .work__filters__menu li {
+        padding: 6px 12px;
+        margin-right: 4px;
+        font-size: 0.875rem;
+    }
     .work-grid {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -2197,10 +2207,10 @@
         width: 100px;
         height: 100px;
     }
-    .title h1 {
+    .header__title h1 {
         font-size: 2.875rem;
     }
-    .title h2 {
+    .header__title h2 {
         font-size: 0.9375rem;
     }
     .main_nav.work.sticky {
@@ -2577,10 +2587,10 @@
         width: 100px;
         height: 100px;
     }
-    .title h1 {
+    .header__title h1 {
         font-size: 4rem !important;
     }
-    .title h2 {
+    .header__title h2 {
         font-size: 1.5rem;
     }
     .sticky {

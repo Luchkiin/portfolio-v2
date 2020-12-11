@@ -265,8 +265,66 @@ jQuery(document).ready(function ($) {
     $("html, body").animate({ scrollTop: 0 }, "300");
   });
 
-  //Removes the ID # from URL when Nav link is being clicked
+    /*----------------------------------------------------*/
+  /*  Removes the ID # from URL when Nav link is being clicked
+    ------------------------------------------------------ */
   $(window).on("hashchange", function (e) {
     history.replaceState("", document.title, e.originalEvent.oldURL);
   });
 });
+
+/*----------------------------------------------------*/
+/*  Work Filters
+------------------------------------------------------ */
+class FilterWork {
+
+  constructor() {
+    this.$filtermenuList = $('.work__filters__menu li');
+    this.$container = $('.work__grid-wrapper');
+
+    this.updateMenu('all');
+    this.$filtermenuList.on('click', $.proxy(this.onClickFilterMenu, this));
+  }
+
+  onClickFilterMenu(event) {
+    const $target = $(event.target);
+    const targetFilter = $target.data('filter');
+
+    this.updateMenu(targetFilter);
+    this.updateGallery(targetFilter);
+  }
+
+  updateMenu(targetFilter) {
+    this.$filtermenuList.removeClass('active');
+    this.$filtermenuList.each((index, element) => {
+      const targetData = $(element).data('filter');
+
+      if (targetData === targetFilter) {
+        $(element).addClass('active');
+      }
+    });
+  }
+
+  updateGallery(targetFilter) {
+
+    if (targetFilter === 'all') {
+      this.$container.fadeOut(300, () => {
+        $('.work__filter-wrapper').show();
+        this.$container.fadeIn();
+      });
+    } else {
+      this.$container.find('.work__filter-wrapper').each((index, element) => {
+        this.$container.fadeOut(300, () => {
+          if ($(element).hasClass(targetFilter)) {
+            $(element).show();
+          } else {
+            $(element).hide();
+          }
+          this.$container.fadeIn();
+        });
+      });
+    }
+  }}
+
+
+const filterWork = new FilterWork();

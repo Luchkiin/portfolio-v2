@@ -19,6 +19,7 @@
 
 /* Font Import
 **************************/
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 /* Global Styles
 **************************/
@@ -230,6 +231,7 @@ p, ul {
 	margin: 32px 0;
 	transition: all 0.2s ease-in-out 0s;
 }
+
 .top-nav-list li:hover {
 	transform: translateY(-2px);
 	color: var(--white-color);
@@ -450,10 +452,10 @@ p, ul {
 .logo-img {
 	width: 175px;
 	height: 175px;
-	color: var(--white-color);
+	color: transparent;
 }
 
-.title {
+.header__title {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -464,7 +466,7 @@ p, ul {
 	z-index: 1;
 }
 
-.title h1 {
+.header__title h1 {
 	font-weight: 700;
 	margin-bottom: 0;
 	font-size: 5rem;
@@ -472,7 +474,7 @@ p, ul {
 	letter-spacing: 2.5px;
 }
 
-.title h2 {
+.header__title h2 {
 	color: var(--white-color);
 	font-size: 1.5rem;
 	font-weight: 400;
@@ -524,7 +526,7 @@ p, ul {
 	z-index: 10;
 }
 
-.mouse {
+.scroll-down__mouse {
 	width: 25px;
 	height: 50px;
 	border: 2px solid var(--white-color);
@@ -533,7 +535,7 @@ p, ul {
 	margin-bottom: 6px;
 }
 
-.mouse span {
+.scroll-down__mouse span {
 	width: 5px;
 	height: 10px;
 	background-color: var(--white-color);
@@ -543,12 +545,12 @@ p, ul {
 	animation: move-wheel 1.5s linear infinite;
 }
 
-.arrow {
+.scroll-down__arrow {
 	display: flex;
 	justify-content: center;
 }
 
-.arrow i {
+.scroll-down__arrow i {
 	-webkit-animation: arrow-down 1s alternate infinite;
 	animation: arrow-down 1s alternate infinite;
 	color: var(--white-color);
@@ -584,13 +586,13 @@ p, ul {
 	}
 }
 
-.title p {
+.header__title p {
 	max-width: 600px;
 	margin: 0 auto;
 	line-height: 150%;
 }
 
-.title .icon {
+.header__title .icon {
 	color: var(--white-color);
 	font-size: 50px;
 }
@@ -774,7 +776,7 @@ nav ul a {
 	display: none;
 }
 
-.waves-container {
+.waves__wrapper {
 	position: absolute;
 	width: 100%;
 	bottom: 0;
@@ -1325,15 +1327,45 @@ span.icon-profile:hover {
 	background-color: var(--white-color);
 }
 
+.work__filters__menu {
+	margin-bottom: 0;
+}
+
+.work__filters__menu  li {
+	border: 1px solid var(--grey-color);
+	padding: 8px 16px;
+	display: inline-block;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-right: 6px;
+	margin-bottom: 0;
+}
+
+.work__filters__menu  li:hover {
+	border-color: var(--green-color);
+	color: var(--green-color);
+	transition: all 250ms ease-out;
+
+}
+
+.work__filters__menu  li.active {
+	border-color: var(--green-color);
+	color: var(--green-color);
+	border: 1px solid var(--green-color);
+}
+
 .work-sub-heading {
+	margin-top: 36px;
 	margin-bottom: 16px;
 	text-transform: uppercase;
 	font-size: 1rem !important;
 }
 
+/*
 .work-sub-heading:nth-of-type(2) {
-	margin-top: 36px;
+	margin-top: 36px !important;
 }
+*/
 
 .work-sub-heading i {
 	color: var(--green-color);
@@ -1427,6 +1459,7 @@ span.icon-profile:hover {
 	border-radius: 100px;
 	margin-right: 8px;
 }
+
 .tech-tags-list span:last-child {
 	margin-right: 0;
 }

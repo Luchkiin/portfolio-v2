@@ -98,7 +98,7 @@
   <body>
     <!-- Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <header id="home">
+    <header id="home" class="header header__wrapper">
       <div class="container-nav">
         <div class="top-menu-toggle heading-effect-2">
           <div class="pix"></div>
@@ -200,9 +200,9 @@
         </div>
       </div>
 
-      <div class="title">
+      <div class="header header__title">
         <div class="container">
-          <div class="logo heading">
+          <div class="header__logo heading">
             <img
               src="images/logos/logo.svg"
               alt="LR Header Logo"
@@ -222,16 +222,16 @@
       </div>
       <div class="scroll-down heading">
         <a href="#work" class="smoothscroll" aria-label="Arrow Down Logo">
-          <div class="mouse">
+          <div class="scroll-down__mouse">
             <span></span>
           </div>
-          <div class="arrow">
+          <div class="scroll-down__arrow">
             <span></span>
             <i class="fas fa-chevron-down"></i>
           </div>
         </a>
       </div>
-      <div class="waves-container">
+      <div class="waves__wrapper">
         <svg
           class="waves"
           xmlns="http://www.w3.org/2000/svg"
@@ -274,340 +274,354 @@
     <!-- Work Section
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-    <section id="work">
+    <section id="work" class="work work__wrapper">
       <div class="container">
         <h2 class="section-heading">Work</h2>
         <div class="border-heading"></div>
-        <h3 class="work-sub-heading">
-          <i class="fas fa-mobile-alt"></i>Mobile Applications
-        </h3>
-        <div class="work-grid">
-          <div class="work-grid-item">
-            <div class="work-container">
-              <a href="../work/scana">
-                <img
-                  src="images/work/scana/scana-project-img.png"
-                  class="work-image"
-                  alt="SCANA - Work"
-                />
-                <div class="work-overlay">
-                  <div class="overlay-text">
-                    <h3 class="overlay-title">SCANA</h3>
-                    <div class="tech-tags-list">
-                      <span>C#</span>
-                      <span>XAML</span>
-                      <span>Xamarin Forms</span>
-                    </div>
-                  </div>
-                  <span class="overlay-icon" title="View More">
-                    <i class="fa fa-eye"></i>
-                    <span>View More</span>
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div class="work-info">
-              <h3>SCANA</h3>
-              <p class="work-paragraph">Barcode & QR Scanner</p>
-              <p class="work-paragraph-2">iOS / Android</p>
-              <div class="icon-btns" onclick="">
-                <a
-                  href="https://github.com/Luchkiin/Scana"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container github">
-                    <div class="github-icon">
-                      <span class="icon-github"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>GitHub</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="work-grid-item">
-            <div class="work-container">
-              <a href="../work/geosty">
-                <img
-                  src="images/work/geosty/geosty-project-img.png"
-                  class="work-image"
-                  alt="Geosty - Work"
-                />
-                <div class="work-overlay">
-                  <div class="overlay-text">
-                    <h3 class="overlay-title">Geosty</h3>
-                    <div class="tech-tags-list">
-                      <span>C#</span>
-                      <span>XAML</span>
-                      <span>Xamarin Forms</span>
-                    </div>
-                  </div>
-                  <span class="overlay-icon" title="View More">
-                    <i class="fa fa-eye"></i>
-                    <span>View More</span>
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div class="work-info">
-              <h3>Geosty</h3>
-              <p class="work-paragraph">Weather Application</p>
-              <p class="work-paragraph-2">iOS / Android</p>
-              <div class="icon-btns" onclick="">
-                <a
-                  href="https://github.com/Luchkiin/geosty-weather-app"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container github">
-                    <div class="github-icon">
-                      <span class="icon-github"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>GitHub</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="work-grid-item">
-            <div class="work-container">
-              <a href="../work/listd">
-                <img
-                  src="images/work/listd/listd-project-img.png"
-                  class="work-image"
-                  alt="Listd - Work"
-                />
-                <div class="work-overlay">
-                  <div class="overlay-text">
-                    <h3 class="overlay-title">Listd</h3>
-                    <div class="tech-tags-list">
-                      <span>Java</span>
-                      <span>XAML</span>
-                      <span>Android Studio</span>
-                    </div>
-                  </div>
-                  <span class="overlay-icon" title="View More">
-                    <i class="fa fa-eye"></i>
-                    <span>View More</span>
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div class="work-info">
-              <h3>Listd</h3>
-              <p class="work-paragraph">To-Do List</p>
-              <p class="work-paragraph-2">Android</p>
-              <div class="icon-btns">
-                <a
-                  href="https://github.com/Luchkiin/listd_v2"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container github">
-                    <div class="github-icon">
-                      <span class="icon-github"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>GitHub</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="work__filters">
+          <ul class="work__filters__menu">
+            <li class="active" data-filter="all">All</li>
+            <li data-filter="mobile-applications">Mobile</li>
+            <li data-filter="web-applications">Web</li>
+          </ul>
         </div>
 
-        <h3 class="work-sub-heading">
-          <i class="fas fa-desktop"></i>Web Applications
-        </h3>
-
-        <div class="work-grid">
-          <div class="work-grid-item">
-            <div class="work-container">
-              <a href="../work/techflake">
-                <img
-                  src="images/work/techflake/techflake-project-img.png"
-                  class="work-image"
-                  alt="Techflake - Work"
-                />
-                <div class="work-overlay">
-                  <div class="overlay-text">
-                    <h3 class="overlay-title">Techflake</h3>
-                    <div class="tech-tags-list">
-                      <span>HTML</span>
-                      <span>CSS</span>
-                      <span>JavaScript</span>
+        <div class="work__grid-wrapper">
+          <div class="work__filter-wrapper mobile-applications">
+            <h3 class="work-sub-heading">
+              <i class="fas fa-mobile-alt"></i>Mobile Applications
+            </h3>
+            <div class="work-grid">
+              <div class="work-grid-item">
+                <div class="work-container">
+                  <a href="../work/scana">
+                    <img
+                      src="images/work/scana/scana-project-img.png"
+                      class="work-image"
+                      alt="SCANA - Work"
+                    />
+                    <div class="work-overlay">
+                      <div class="overlay-text">
+                        <h3 class="overlay-title">SCANA</h3>
+                        <div class="tech-tags-list">
+                          <span>C#</span>
+                          <span>XAML</span>
+                          <span>Xamarin Forms</span>
+                        </div>
+                      </div>
+                      <span class="overlay-icon" title="View More">
+                        <i class="fa fa-eye"></i>
+                        <span>View More</span>
+                      </span>
                     </div>
-                  </div>
-                  <span class="overlay-icon" title="View More">
-                    <i class="fa fa-eye"></i>
-                    <span>View More</span>
-                  </span>
+                  </a>
                 </div>
-              </a>
-            </div>
-            <div class="work-info">
-              <h3>Techflake</h3>
-              <p class="work-paragraph">Help Wikipedia</p>
-              <p class="work-paragraph-2">Web Application</p>
-              <div class="icon-btns">
-                <a
-                  href="https://luchkiin.github.io/techflake-online-help-page/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container demo">
-                    <div class="live-icon">
-                      <span class="icon-play-circle"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>Live Demo</span>
-                    </div>
+                <div class="work-info">
+                  <h3>SCANA</h3>
+                  <p class="work-paragraph">Barcode & QR Scanner</p>
+                  <p class="work-paragraph-2">iOS / Android</p>
+                  <div class="icon-btns" onclick="">
+                    <a
+                      href="https://github.com/Luchkiin/Scana"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container github">
+                        <div class="github-icon">
+                          <span class="icon-github"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>GitHub</span>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
-                <a
-                  href="https://github.com/Luchkiin/techflake-online-help-page"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container github">
-                    <div class="github-icon">
-                      <span class="icon-github"></span>
+                </div>
+              </div>
+
+              <div class="work-grid-item mobile-applications">
+                <div class="work-container">
+                  <a href="../work/geosty">
+                    <img
+                      src="images/work/geosty/geosty-project-img.png"
+                      class="work-image"
+                      alt="Geosty - Work"
+                    />
+                    <div class="work-overlay">
+                      <div class="overlay-text">
+                        <h3 class="overlay-title">Geosty</h3>
+                        <div class="tech-tags-list">
+                          <span>C#</span>
+                          <span>XAML</span>
+                          <span>Xamarin Forms</span>
+                        </div>
+                      </div>
+                      <span class="overlay-icon" title="View More">
+                        <i class="fa fa-eye"></i>
+                        <span>View More</span>
+                      </span>
                     </div>
-                    <div class="icon-text">
-                      <span>GitHub</span>
-                    </div>
+                  </a>
+                </div>
+                <div class="work-info">
+                  <h3>Geosty</h3>
+                  <p class="work-paragraph">Weather Application</p>
+                  <p class="work-paragraph-2">iOS / Android</p>
+                  <div class="icon-btns" onclick="">
+                    <a
+                      href="https://github.com/Luchkiin/geosty-weather-app"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container github">
+                        <div class="github-icon">
+                          <span class="icon-github"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>GitHub</span>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
+                </div>
+              </div>
+
+              <div class="work-grid-item mobile-applications">
+                <div class="work-container">
+                  <a href="../work/listd">
+                    <img
+                      src="images/work/listd/listd-project-img.png"
+                      class="work-image"
+                      alt="Listd - Work"
+                    />
+                    <div class="work-overlay">
+                      <div class="overlay-text">
+                        <h3 class="overlay-title">Listd</h3>
+                        <div class="tech-tags-list">
+                          <span>Java</span>
+                          <span>XAML</span>
+                          <span>Android Studio</span>
+                        </div>
+                      </div>
+                      <span class="overlay-icon" title="View More">
+                        <i class="fa fa-eye"></i>
+                        <span>View More</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="work-info">
+                  <h3>Listd</h3>
+                  <p class="work-paragraph">To-Do List</p>
+                  <p class="work-paragraph-2">Android</p>
+                  <div class="icon-btns">
+                    <a
+                      href="https://github.com/Luchkiin/listd_v2"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container github">
+                        <div class="github-icon">
+                          <span class="icon-github"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>GitHub</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="work-grid-item">
-            <div class="work-container">
-              <a href="../work/bevera">
-                <img
-                  src="images/work/bevera/bevera-project-img.png"
-                  class="work-image"
-                  alt="BEVERA -Work"
-                />
-                <div class="work-overlay">
-                  <div class="overlay-text">
-                    <h3 class="overlay-title">BEVERA</h3>
-                    <div class="tech-tags-list">
-                      <span>HTML</span>
-                      <span>CSS</span>
-                      <span>JavaScript</span>
-                    </div>
-                  </div>
-                  <span class="overlay-icon" title="View More">
-                    <i class="fa fa-eye"></i>
-                    <span>View More</span>
-                  </span>
-                </div>
-              </a>
-            </div>
-            <div class="work-info">
-              <h3>BEVERA</h3>
-              <p class="work-paragraph">eCommerce</p>
-              <p class="work-paragraph-2">Web Application</p>
-              <div class="icon-btns">
-                <a
-                  href="https://luchkiin.github.io/bevera-eCommerce-page/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container demo">
-                    <div class="live-icon">
-                      <span class="icon-play-circle"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>Live Demo</span>
-                    </div>
-                  </div>
-                </a>
-                <a
-                  href="https://github.com/Luchkiin/bevera-eCommerce-page"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container github">
-                    <div class="github-icon">
-                      <span class="icon-github"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>GitHub</span>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+          <div class="work__filter-wrapper web-applications">
+            <h3 class="work-sub-heading">
+              <i class="fas fa-desktop"></i>Web Applications
+            </h3>
 
-          <div class="work-grid-item">
-            <div class="work-container">
-              <a href="../work/ica-stores-locator">
-                <img
-                  src="images/work/ica-stores/ica-stores-project-img.png"
-                  class="work-image"
-                  alt="ICA Stores Locator - Work"
-                />
-                <div class="work-overlay">
-                  <div class="overlay-text">
-                    <h3 class="overlay-title">ICA Stores Locator</h3>
-                    <div class="tech-tags-list">
-                      <span>HTML</span>
-                      <span>CSS</span>
-                      <span>JavaScript</span>
+            <div class="work-grid">
+              <div class="work-grid-item">
+                <div class="work-container">
+                  <a href="../work/techflake">
+                    <img
+                      src="images/work/techflake/techflake-project-img.png"
+                      class="work-image"
+                      alt="Techflake - Work"
+                    />
+                    <div class="work-overlay">
+                      <div class="overlay-text">
+                        <h3 class="overlay-title">Techflake</h3>
+                        <div class="tech-tags-list">
+                          <span>HTML</span>
+                          <span>CSS</span>
+                          <span>JavaScript</span>
+                        </div>
+                      </div>
+                      <span class="overlay-icon" title="View More">
+                        <i class="fa fa-eye"></i>
+                        <span>View More</span>
+                      </span>
                     </div>
-                  </div>
-                  <span class="overlay-icon" title="View More">
-                    <i class="fa fa-eye"></i>
-                    <span>View More</span>
-                  </span>
+                  </a>
                 </div>
-              </a>
-            </div>
-            <div class="work-info">
-              <h3>ICA Stores Locator</h3>
-              <p class="work-paragraph">Stores Locator</p>
-              <p class="work-paragraph-2">Map Application</p>
-              <div class="icon-btns">
-                <a
-                  href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container demo">
-                    <div class="live-icon">
-                      <span class="icon-play-circle"></span>
-                    </div>
-                    <div class="icon-text">
-                      <span>Live Demo</span>
-                    </div>
+                <div class="work-info">
+                  <h3>Techflake</h3>
+                  <p class="work-paragraph">Help Wikipedia</p>
+                  <p class="work-paragraph-2">Web Application</p>
+                  <div class="icon-btns">
+                    <a
+                      href="https://luchkiin.github.io/techflake-online-help-page/"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container demo">
+                        <div class="live-icon">
+                          <span class="icon-play-circle"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>Live Demo</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/Luchkiin/techflake-online-help-page"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container github">
+                        <div class="github-icon">
+                          <span class="icon-github"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>GitHub</span>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
-                <a
-                  href="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map"
-                  target="_blank"
-                  rel="noopener"
-                >
-                  <div class="icon-btn-container github">
-                    <div class="github-icon">
-                      <span class="icon-github"></span>
+                </div>
+              </div>
+
+              <div class="work-grid-item web-applications">
+                <div class="work-container">
+                  <a href="../work/bevera">
+                    <img
+                      src="images/work/bevera/bevera-project-img.png"
+                      class="work-image"
+                      alt="BEVERA -Work"
+                    />
+                    <div class="work-overlay">
+                      <div class="overlay-text">
+                        <h3 class="overlay-title">BEVERA</h3>
+                        <div class="tech-tags-list">
+                          <span>HTML</span>
+                          <span>CSS</span>
+                          <span>JavaScript</span>
+                        </div>
+                      </div>
+                      <span class="overlay-icon" title="View More">
+                        <i class="fa fa-eye"></i>
+                        <span>View More</span>
+                      </span>
                     </div>
-                    <div class="icon-text">
-                      <span>GitHub</span>
-                    </div>
+                  </a>
+                </div>
+                <div class="work-info">
+                  <h3>BEVERA</h3>
+                  <p class="work-paragraph">eCommerce</p>
+                  <p class="work-paragraph-2">Web Application</p>
+                  <div class="icon-btns">
+                    <a
+                      href="https://luchkiin.github.io/bevera-eCommerce-page/"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container demo">
+                        <div class="live-icon">
+                          <span class="icon-play-circle"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>Live Demo</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/Luchkiin/bevera-eCommerce-page"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container github">
+                        <div class="github-icon">
+                          <span class="icon-github"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>GitHub</span>
+                        </div>
+                      </div>
+                    </a>
                   </div>
-                </a>
+                </div>
+              </div>
+
+              <div class="work-grid-item web-applications">
+                <div class="work-container">
+                  <a href="../work/ica-stores-locator">
+                    <img
+                      src="images/work/ica-stores/ica-stores-project-img.png"
+                      class="work-image"
+                      alt="ICA Stores Locator - Work"
+                    />
+                    <div class="work-overlay">
+                      <div class="overlay-text">
+                        <h3 class="overlay-title">ICA Stores Locator</h3>
+                        <div class="tech-tags-list">
+                          <span>HTML</span>
+                          <span>CSS</span>
+                          <span>JavaScript</span>
+                        </div>
+                      </div>
+                      <span class="overlay-icon" title="View More">
+                        <i class="fa fa-eye"></i>
+                        <span>View More</span>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <div class="work-info">
+                  <h3>ICA Stores Locator</h3>
+                  <p class="work-paragraph">Stores Locator</p>
+                  <p class="work-paragraph-2">Map Application</p>
+                  <div class="icon-btns">
+                    <a
+                      href="https://luchkiin.github.io/ICA-Stores-Leaflet-Map/"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container demo">
+                        <div class="live-icon">
+                          <span class="icon-play-circle"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>Live Demo</span>
+                        </div>
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/Luchkiin/ICA-Stores-Leaflet-Map"
+                      target="_blank"
+                      rel="noopener"
+                    >
+                      <div class="icon-btn-container github">
+                        <div class="github-icon">
+                          <span class="icon-github"></span>
+                        </div>
+                        <div class="icon-text">
+                          <span>GitHub</span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
