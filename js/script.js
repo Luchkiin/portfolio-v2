@@ -326,5 +326,4 @@ class FilterWork {
     }
   }}
 
-
 const filterWork = new FilterWork();
