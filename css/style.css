@@ -494,18 +494,17 @@ p, ul {
 	justify-content: center;
 	align-items: center;
 	border-radius: 100px;
-	border: 2px solid var(--white-color);
 	color: var(--white-color);
 	width: 175px;
 	margin-left: auto;
 	margin-right: auto;
 	cursor: pointer;
 	height: 49px;
+	background: #478184;
 }
 
 .cta-work:hover {
 	background-color: var(--menu-green-color) !important;
-	border: 1px solid var(--menu-green-color);
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
