@@ -479,8 +479,12 @@ p, ul {
 	font-size: 1.5rem;
 	font-weight: 400;
 	letter-spacing: 2.5px;
-	line-height: 27px;
+	line-height: 32px;
 	margin-bottom: 0;
+}
+
+.header__title h2 span {
+	display: block;
 }
 
 .cta-work {
