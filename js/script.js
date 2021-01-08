@@ -143,6 +143,7 @@ jQuery(document).ready(function ($) {
 
   TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 2.5 }, 1);
   TweenMax.staggerFrom(".heading-effect-2", 1, { opacity: 0, delay: 2.7 }, 1);
+  TweenMax.staggerFrom(".waves-effect", 1, { opacity: 0, delay: 3 }, 1);
 
   /*----------------------------------------------------*/
   /* Highlight the current section in the navigation bar

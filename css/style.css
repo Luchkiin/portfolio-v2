@@ -2047,7 +2047,7 @@ button[type="submit"]:hover {
 ********************************************************************* */
 
 #consent-popup {
-	background-color: rgba(255, 255, 255, .95);
+	background-color: var(--white-color);
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -2070,6 +2070,15 @@ button[type="submit"]:hover {
 	grid-template-columns: 3fr 1fr;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.consent-text {
+	display: flex;
+	align-items: center;
+}
+
+.cookie-icon {
+	margin-right: 16px;
 }
 
 .cta-consent-accept {

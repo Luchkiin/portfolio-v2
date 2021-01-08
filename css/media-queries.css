@@ -1454,10 +1454,13 @@
     /* Cookie Consent Popup
 ********************************************************************* */
     .consent-popup-inner-wrapper {
-        padding: 24px 45px;
+        padding: 16px 45px;
         flex-direction: column;
         display: flex;
         height: auto;
+    }
+    .cookie-icon {
+        display: none;
     }
     #cta-consent-accept {
         margin-top: 30px;
@@ -1944,10 +1947,13 @@
     /* Cookie Consent Popup
 ********************************************************************* */
     .consent-popup-inner-wrapper {
-        padding: 24px 28px;
+        padding: 16px 28px;
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+    .cookie-icon {
+        display: none;
     }
     #cta-consent-accept {
         margin-top: 30px;
