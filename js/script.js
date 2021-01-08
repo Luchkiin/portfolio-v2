@@ -1,42 +1,51 @@
-  /*----------------------------------------------------*/
-  /* Cookie Consent Banner
+/*----------------------------------------------------*/
+/* Cookie Consent Banner
     ------------------------------------------------------ */
-    const cookieStorage = {
-        getItem: (key) => {
-            const cookies = document.cookie
-                .split(';')
-                .map(cookie => cookie.split('='))
-                .reduce((acc, [key, value]) =>({...acc, [key.trim()]: value }), {});
-                return cookies[key];
-        },
-        setItem: (key, value) => {
-            document.cookie = `${key}=${value}`;
-        },
-    };
-    
-    const storageType = cookieStorage;
-    const consentPropertyName = 'lrCookieConsent';
+const cookieStorage = {
+  getItem: (key) => {
+    const cookies = document.cookie
+      .split(";")
+      .map((cookie) => cookie.split("="))
+      .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
+    return cookies[key];
+  },
+  setItem: (key, value) => {
+    document.cookie = `${key}=${value}`;
+  },
+};
 
-    const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
-    const saveToStorage = () => storageType.setItem(consentPropertyName, true);
-  
-    window.onload = () => {
-          const consentPopup = document.getElementById('consent-popup');
-          const acceptBtn = document.getElementById('cta-consent-accept');
+const storageType = cookieStorage;
+const consentPropertyName = "lrCookieConsent";
 
-          const acceptFn = event => {
-            saveToStorage(storageType)
-            consentPopup.classList.add('consent-popup-hidden')
-          };
+const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
+const saveToStorage = () => storageType.setItem(consentPropertyName, true);
 
-          acceptBtn.addEventListener('click', acceptFn);
+window.onload = () => {
+  const consentPopup = document.getElementById("consent-popup");
+  const acceptBtn = document.getElementById("cta-consent-accept");
 
-          if (shouldShowPopup()) {
-              setTimeout(() => {
-              consentPopup.classList.remove('consent-popup-hidden');
-            }, 3000);
-          }   
-    };
+  const acceptFn = (event) => {
+    saveToStorage(storageType);
+    consentPopup.classList.add("consent-popup-hidden");
+  };
+
+  acceptBtn.addEventListener("click", acceptFn);
+
+  if (shouldShowPopup()) {
+    setTimeout(() => {
+      consentPopup.classList.remove("consent-popup-hidden");
+    }, 3000);
+  }
+};
+
+/*----------------------------------------------------*/
+/* Preloader
+    ------------------------------------------------------ */
+
+$('.preloader-container').fadeOut(3000).promise().done(function() {
+  $('.header').fadeIn(3000);
+});
+
 
 jQuery(document).ready(function ($) {
   /*----------------------------------------------------*/
@@ -132,8 +141,8 @@ jQuery(document).ready(function ($) {
   /* Animation Fade In Top
     ------------------------------------------------------ */
 
-  TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 0.2 }, 0.5);
-  TweenMax.staggerFrom(".heading-effect-2", 1, { opacity: 0, delay: 0.5 }, 0.5);
+  TweenMax.staggerFrom(".heading", 1, { opacity: 0, y: -20, delay: 2.5 }, 1);
+  TweenMax.staggerFrom(".heading-effect-2", 1, { opacity: 0, delay: 2.7 }, 1);
 
   /*----------------------------------------------------*/
   /* Highlight the current section in the navigation bar
@@ -265,7 +274,7 @@ jQuery(document).ready(function ($) {
     $("html, body").animate({ scrollTop: 0 }, "300");
   });
 
-    /*----------------------------------------------------*/
+  /*----------------------------------------------------*/
   /*  Removes the ID # from URL when Nav link is being clicked
     ------------------------------------------------------ */
   $(window).on("hashchange", function (e) {
@@ -277,43 +286,41 @@ jQuery(document).ready(function ($) {
 /*  Work Filters
 ------------------------------------------------------ */
 class FilterWork {
-
   constructor() {
-    this.$filtermenuList = $('.work__filters__menu li');
-    this.$container = $('.work__grid-wrapper');
+    this.$filtermenuList = $(".work__filters__menu li");
+    this.$container = $(".work__grid-wrapper");
 
-    this.updateMenu('all');
-    this.$filtermenuList.on('click', $.proxy(this.onClickFilterMenu, this));
+    this.updateMenu("all");
+    this.$filtermenuList.on("click", $.proxy(this.onClickFilterMenu, this));
   }
 
   onClickFilterMenu(event) {
     const $target = $(event.target);
-    const targetFilter = $target.data('filter');
+    const targetFilter = $target.data("filter");
 
     this.updateMenu(targetFilter);
     this.updateGallery(targetFilter);
   }
 
   updateMenu(targetFilter) {
-    this.$filtermenuList.removeClass('active');
+    this.$filtermenuList.removeClass("active");
     this.$filtermenuList.each((index, element) => {
-      const targetData = $(element).data('filter');
+      const targetData = $(element).data("filter");
 
       if (targetData === targetFilter) {
-        $(element).addClass('active');
+        $(element).addClass("active");
       }
     });
   }
 
   updateGallery(targetFilter) {
-
-    if (targetFilter === 'all') {
+    if (targetFilter === "all") {
       this.$container.fadeOut(300, () => {
-        $('.work__filter-wrapper').show();
+        $(".work__filter-wrapper").show();
         this.$container.fadeIn();
       });
     } else {
-      this.$container.find('.work__filter-wrapper').each((index, element) => {
+      this.$container.find(".work__filter-wrapper").each((index, element) => {
         this.$container.fadeOut(300, () => {
           if ($(element).hasClass(targetFilter)) {
             $(element).show();
@@ -324,6 +331,7 @@ class FilterWork {
         });
       });
     }
-  }}
+  }
+}
 
 const filterWork = new FilterWork();
