@@ -34,7 +34,7 @@ window.onload = () => {
   if (shouldShowPopup()) {
     setTimeout(() => {
       consentPopup.classList.remove("consent-popup-hidden");
-    }, 3000);
+    }, 7500);
   }
 };
 
