@@ -907,7 +907,7 @@ nav ul a {
 	border-radius: 8px;
 }
 
-#back-to-top-btn {
+.back-to-top-btn{
 	display: inline-block;
 	position: fixed;
 	bottom: 180px;
@@ -929,26 +929,31 @@ nav ul a {
 	animation: pulse 2s infinite;
 }
 
-#back-to-top-btn span {
+.back-to-top-btn span {
 	position: absolute;
 	top: 6px;
 	left: 15px;
 	font-size: 2rem;
 }
 
-#back-to-top-btn:hover {
+.back-to-top-btn:hover {
 	background: var(--dark-green-color);
 	-webkit-transition: all 250ms ease-out;
 	transition: all 250ms ease-out;
 }
 
-#back-to-top-btn:active {
+.back-to-top-btn:active {
 	background: var(--green-color);
 }
 
-#back-to-top-btn.show {
+.back-to-top-btn.show {
 	opacity: 1;
 	visibility: visible;
+}
+
+.back-to-top-btn .back-to-top-text  {
+	display: none;
+	font-weight: 400;
 }
 
 @-webkit-keyframes pulse {

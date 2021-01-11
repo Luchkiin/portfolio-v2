@@ -347,13 +347,13 @@
     .border-heading {
         width: 75px;
     }
-    #back-to-top-btn {
+    .back-to-top-btn {
         right: 16px;
         font-size: 0.9375rem;
         width: 40px;
         height: 40px;
     }
-    #back-to-top-btn span {
+    .back-to-top-btn span {
         position: absolute;
         top: 6px;
         left: 12px;
@@ -770,13 +770,13 @@
     .border-heading {
         width: 75px;
     }
-    #back-to-top-btn {
+    .back-to-top-btn {
         right: 12px;
         font-size: 0.9375rem;
         width: 40px;
         height: 40px;
     }
-    #back-to-top-btn span {
+    .back-to-top-btn span {
         position: absolute;
         top: 6px;
         left: 12px;
@@ -1210,17 +1210,47 @@
     .border-heading {
         width: 65px;
     }
-    #back-to-top-btn {
-        right: 3px;
-        font-size: 0.9375rem;
-        width: 40px;
-        height: 40px;
+    .back-to-top-btn-container {
+        display: flex;
+        background: #478184;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
     }
-    #back-to-top-btn span {
-        position: absolute;
-        top: 6px;
-        left: 12px;
-        font-size: 1.5625rem;
+    .back-to-top-btn {
+        font-size: 0.9375rem;
+        width: 100%;
+        height: initial;
+        position: static;
+        border-radius: 0;
+        animation: none;
+        background: #478184;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-decoration: none !important;
+        padding-bottom: 3px;
+    }
+    .back-to-top-btn:hover {
+        background: #478184;
+        transition: none;
+    }
+    .back-to-top-btn span {
+        position: static;
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .back-to-top-btn .icon-angle-up {
+        font-size: 14px;
+    }
+    .back-to-top-btn .back-to-top-text  {
+        font-size: 10px;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
     }
     /* About Section
 ********************************************************************* */
@@ -1716,17 +1746,47 @@
     .border-heading {
         width: 65px;
     }
-    #back-to-top-btn {
-        right: 10px;
-        font-size: 0.9375rem;
-        width: 40px;
-        height: 40px;
+    .back-to-top-btn-container {
+        display: flex;
+        background: #478184;
+        justify-content: center;
+        align-items: center;
+        padding: 6px;
     }
-    #back-to-top-btn span {
-        position: absolute;
-        top: 6px;
-        left: 12px;
-        font-size: 24px;
+    .back-to-top-btn {
+        font-size: 0.9375rem;
+        width: 100%;
+        height: initial;
+        position: static;
+        border-radius: 0;
+        animation: none;
+        background: #478184;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        text-decoration: none !important;
+        padding-bottom: 3px;
+    }
+    .back-to-top-btn:hover {
+        background: #478184;
+        transition: none;
+    }
+    .back-to-top-btn span {
+        position: static;
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .back-to-top-btn .icon-angle-up {
+        font-size: 14px;
+    }
+    .back-to-top-btn .back-to-top-text  {
+        font-size: 10px;
+        text-transform: uppercase;
+        display: block;
+        margin: 0 auto;
     }
     /* About Section
 ********************************************************************* */
