@@ -1177,7 +1177,7 @@ span.icon-profile:hover {
 .skill-icon-container {
 	width: 100px;
 	height: 100px;
-	border: var(--dark-green-color) 2px solid;
+	border: var(--dark-green-color) 3px solid;
 	border-radius: 100%;
 	display: -webkit-box;
 	display: flex;
