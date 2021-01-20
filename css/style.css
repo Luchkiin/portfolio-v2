@@ -1524,7 +1524,7 @@ span.icon-profile:hover {
 	border: 1px solid var(--white-color);
 	color: var(--white-color);
 	padding: 4px 8px;
-	border-radius: 8px;
+	border-radius: 24px;
 	margin-right: 8px;
 }
 
