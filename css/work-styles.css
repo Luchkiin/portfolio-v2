@@ -32,7 +32,7 @@ p:last-child {
     background-color: none !important;
     margin: 0 !important;
     position: relative;
-    padding: 0 0 0 4rem !important;
+    padding: 0 0 0 2.4rem !important;
     list-style: circle !important;
     text-align: left;
 }
