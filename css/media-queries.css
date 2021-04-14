@@ -1264,6 +1264,9 @@
         height: 200px;
         grid-area: profile-img;
     }
+    .profile-img img {
+        box-shadow: -50px 0px 2px 0px rgba(37, 98, 101, .1);
+    }
     .profile-img-item {
         margin: auto;
     }
@@ -1457,6 +1460,9 @@
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 0.875rem;
+    }
+    button[type="submit"] {
+        width: 100%;
     }
     select {
         background-size: 12px;
@@ -1800,6 +1806,9 @@
         height: 200px;
         grid-area: profile-img;
     }
+    .profile-img img {
+        box-shadow: -50px 0px 2px 0px rgba(37, 98, 101, .1);
+    }
     .profile-img-item {
         margin: auto;
     }
@@ -1980,6 +1989,9 @@
     }
     input[type="email"], input[type="text"], button[type="submit"], textarea, select {
         font-size: 0.875rem;
+    }
+    button[type="submit"] {
+        width: 100%;
     }
     select {
         background-size: 12px;

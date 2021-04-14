@@ -115,7 +115,7 @@ object {
 
 .breadcrumb-item.active {
     color: #256265;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .breadcrumb-item:first-child::before {
@@ -198,6 +198,8 @@ object {
     font-size: 1rem;
     text-decoration: none !important;
     height: 48px;
+    font-weight: 600;
+    width: 200px;
 }
 
 .resume-btn i {

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-
 .lb-loader, .lightbox {
     text-align: center;
     line-height: 0;
@@ -8,8 +7,8 @@
 }
 
 body.lb-disable-scrolling {
-    overflow: hidden;
-	font-family: 'Open Sans', sans-serif !important;
+    overflow: hidden !important;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
 .lightboxOverlay {
@@ -180,9 +179,9 @@ body.lb-disable-scrolling {
 .lb-data .lb-close {
     display: block;
     float: right;
-    width: 30px;
-    height: 30px;
-    background: url(../images/work/lightbox/close.svg) top right no-repeat;
+    width: 40px;
+    height: 40px;
+    background: url(../images/work/lightbox/close-circle.svg) top right no-repeat;
     text-align: right;
     outline: 0;
     margin-top: .1em;
@@ -191,10 +190,37 @@ body.lb-disable-scrolling {
     -webkit-transition: opacity .2s;
     transition: opacity .2s;
     color: #fcfcfc;
+    position: absolute;
+    right: 24px;
+    top: -24px;
 }
 
 .lb-data .lb-close:hover {
     cursor: pointer;
     filter: alpha(Opacity=700);
     opacity: .7;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .lb-data .lb-close {
+        right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .lb-data .lb-close {
+        right: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .lb-data .lb-close {
+        right: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .lb-data .lb-close {
+        right: 0;
+    }
 }

@@ -84,7 +84,7 @@ p:last-child {
 
 .breadcrumb-item.active {
     color: #256265;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .breadcrumb-item:first-child::before {

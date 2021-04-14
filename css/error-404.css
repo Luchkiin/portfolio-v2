@@ -65,6 +65,8 @@
     position: relative;
     text-align: center;
     height: 48px;
+    width: 200px;
+    font-weight: 600;
 }
 
 .home-btn-404 i {
