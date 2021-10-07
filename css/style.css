@@ -1631,7 +1631,7 @@ span.icon-github:hover {
 }
 
 .timeline-li-content a:hover {
-	color: var(--green-color);
+	color: var(--black-color);
 	text-decoration: underline;
 }
 
@@ -1647,7 +1647,9 @@ span.icon-github:hover {
 .experience-icon-container {
 	width: 100px;
 	height: 100px;
+	/*
 	border: var(--dark-green-color) 3px solid;
+	*/
 	border-radius: 100%;
 	display: -webkit-box;
 	display: flex;
@@ -1660,21 +1662,17 @@ span.icon-github:hover {
 }
 
 .experience-icon-container img {
-	width: 40px;
+	width: 60px;
 	height: auto;
 	margin: auto;
 }
 
-.dalarna-university-image {
+.opus-capita-image {
 	width: 60px !important;
 }
 
-.opus-capita-image {
-	width: 50px !important;
-}
-
-.nf-logo {
-	border-radius: 50%;
+.onetwoid-logo {
+	width: 56px !important;
 }
 
 .timeline-li-content {
@@ -1691,8 +1689,7 @@ span.icon-github:hover {
 .timeline-h4 {
 	font-size: 1rem !important;
 	font-weight: 400;
-	margin-bottom: 6px;
-	margin-top: 2px;
+	margin-bottom: 2px;
 	color: #357f82;
 }
 
