@@ -6,7 +6,7 @@
 
 ## About the Project
 
-<a href="https://lucasrosendahl.com" target="_blank"> Live Portfolio</a>
+<a href="luchkiin.github.io/portfolio-v2/" target="_blank"> Live Portfolio</a>
 
 ## Built With
 * HTML
