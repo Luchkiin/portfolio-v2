@@ -6,7 +6,7 @@
 
 ## About the Project
 
-<a href="luchkiin.github.io/portfolio-v2/" target="_blank"> Live Portfolio</a>
+<a href="https://luchkiin.github.io/portfolio-v2/" target="_blank"> Live Portfolio</a>
 
 ## Built With
 * HTML
