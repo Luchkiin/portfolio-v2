@@ -1,17 +1,12 @@
 <br />
-<p align="center">
-  <a href="#">
-    <img src="https://github.com/Luchkiin/portfolio-v2/blob/master/images/logos/logo.svg" alt="Logo" width="150" height="150">
-  </a>
-  <h1 align="center">Current Portfolio</h1>
-  <p align="center">
-    :arrow_forward: <a href="https://lucasrosendahl.com" target="_blank"> Live Portfolio</a>
-  </p>
+  <h1 align="left">Portfolio V2</h1>
 </p>
+
+<img src="https://github.com/Luchkiin/portfolio-v2/blob/master/images/og-images/index.png" alt="Logo" width="Auto" height="Auto">
 
 ## About the Project
 
-<img src="https://github.com/Luchkiin/portfolio-v2/blob/master/images/og-images/index.png" alt="Logo" width="Auto" height="Auto">
+<a href="https://lucasrosendahl.com" target="_blank"> Live Portfolio</a>
 
 ## Built With
 * HTML
@@ -19,4 +14,5 @@
 * JavaScript
 
 ## Contact
-* :email: <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
+* <a href="mailto:lr@lucasrosendahl.com">lr@lucasrosendahl.com</a>
+* <a href="https://lucasrosendahl.com" target="_blank">New Portfolio</a>
